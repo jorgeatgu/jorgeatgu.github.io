@@ -1,0 +1,32 @@
+html, body {
+background-color: khaki;
+}
+
+/*.texto-mi {
+width: 100%;
+display: inline-block;
+text-align: center;
+font-family: "alternate-gothic-no-2-d",sans-serif;
+font-size: 1.5em;
+}*/
+
+.primero {
+width: 50%;
+height:800px;
+background-color: gold;
+float: left;
+}
+
+.segundo {
+width: 50%;
+height: 250px;
+background-color: olive;
+float: left;
+}
+
+.tercero {
+width: 50%;
+height: 250px;
+background-color: snow;
+float: left;
+}
