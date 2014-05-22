@@ -1,4 +1,4 @@
 jorgeatgu.github.io
 ===================
 
-Subiendo cosicas!
+Charla sobre animaciones CSS3 vectoresIO
