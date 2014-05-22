@@ -1,0 +1,75 @@
+@keyframes translate {
+  0%  {
+  transform:translate(0px, 0px);
+  }
+
+  100% {
+  transform:translate(200px, 0px);
+  }
+}
+
+@keyframes translate3d {
+  0%  {
+  transform:translate3d(0px, 0px, 0px);
+  }
+
+  100% {
+  transform:translate3d(140px, 120px, 200px);
+  }
+}
+
+@keyframes rotar {
+  0%  {
+  transform:rotate(0deg);
+  }
+
+  100% {
+  transform:rotate(180deg);
+  }
+}
+
+@keyframes skew {
+  0%  {
+  transform:skew(0deg,0deg);
+  }
+
+  100% {
+  transform:skew(50deg,190deg);
+  }
+}
+
+@keyframes scale {
+  0%  {
+  transform:scale(0, 0);
+  }
+
+  100% {
+  transform:scale(20, 20);
+  }
+}
+
+.primero {
+animation: translate 5s ease-in 1s 3 forwards;
+}
+
+.segundo {
+animation: translate3d 5s ease-in 1s 3 forwards;
+}
+
+.tercero {
+animation: rotar 5s ease-in 1s 3 forwards;
+}
+
+.cuarto {
+animation: skew 5s ease-in 1s 3 forwards;
+}
+
+.quinto {
+animation: scale 5s ease-in 1s 3 forwards;
+}
+
+
+text {
+font-size: 18px;
+font-family: Arial;
+}

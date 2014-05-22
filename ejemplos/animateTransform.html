@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Animate SVG</title>
+        <meta name="keywords" content="diseño gráfico, diseño web, responsive web design, ebooks" >
+        <meta name="description" content="Diseñador gráfico y web en Zaragoza. Maquetación y diseño web con HTML5, CSS3, SVG, Responsive Web Design y Mobile-First.">
+        <meta name="author" content="jorgeATGU" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="author" href="humans.txt"/>
+        <style type="text/css">
+            text {
+            font-size: 30px;
+            letter-spacing: 2px;
+            }
+        </style>
+    </head>
+  <body>
+
+    <svg viewBox="0 0 1400 800">
+
+        <rect width="100%" height="100%" fill="crimson"/>
+
+
+           <rect x="400" y="0" width="100" height="100" fill="darkcyan">
+
+                <animateTransform attributeName="transform" type="translate" begin="1s" dur="5s" values="0,0; -200,20; 0;0" fill="freeze"/>
+
+           </rect>
+
+           <rect x="400" y="200" width="100" height="100" fill="cornsilk">
+
+                <animateTransform attributeName="transform" type="rotate" begin="6s" dur="5s" values="0 400 200; 360 400 200" fill="freeze"/>
+
+           </rect>
+
+           <rect x="400" y="400" width="100" height="100" fill="darksalmon">
+
+                <animateTransform attributeName="transform" type="scale" begin="11s" dur="5s" values="1 1; .1 .1; .5 .5; 1 1" fill="freeze"/>
+
+           </rect>
+
+           <rect x="400" y="600" width="100" height="100" fill="indigo">
+
+                <animateTransform attributeName="transform" type="skewX" begin="16s" dur="5s" values="1 1; 0 0; .1 .1; .5 .5; -1 -1; 20 20; 1 1" fill="freeze"/>
+
+           </rect>
+
+
+
+
+
+<text x="550" y="40" font-size="18px" font-family="Arial">TRANSFORM</text>
+<text x="550" y="240" font-size="18px" font-family="Arial">ROTATE</text>
+<text x="550" y="440" font-size="18px" font-family="Arial">SCALE</text>
+<text x="550" y="640" font-size="18px" font-family="Arial">SKEWX</text>
+
+
+    </svg>
+
+  </body>
+</html>
