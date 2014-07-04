@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Animaciones SVG con CSS3/</title>
+
+
+		<meta name="author" content="jorgeatgu">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section >
+				    <h1>Animaciones SVG con CSS3</h1>
+				    <h3></h3>
+				    <p>
+						<small>Presentación para la charla en #vectoresIO, una iniciativa de <a href="http://desarrolloweb.com">DesarrolloWeb</a></br>
+						04/07/2014
+						</small>
+					</p>
+				</section>
+
+				<section>
+				    <h2>Sobre mi</h2>
+				    <p>
+						!Buenas!</br> Me llamo Jorge, y trabajo como diseñador gráfico&web.<br><br>
+						<a href="http://twitter.com/jorgeatgu" target="_blank">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32">
+							<g id="twitter">
+									<circle fill="#00ACEE" cx="16" cy="16" r="16"/>
+									<path fill="#FFF" d="M24.7,13.8c0,0-3.6-10-8.9-1.2c-0.5,0-8.3-3-8.3-3s5,8.9,5.3,9.2c0.4,2.1-8.2,1.3-8.2,1.3s7,5.4,13.8,3.6 c3.3,0,7.3-8,7.3-8l2.3-0.8L24.7,13.8z"/>
+							</g>
+						</svg>
+						twitter.com/jorgeatgu
+						</a>
+						</br>
+						</br>
+						<a href="http://codepen.io/jorgeatgu" target="_blank">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32">
+							<g id="codepen">
+								<circle fill="#000" cx="16" cy="16" r="16"/>
+								<polygon fill="none" stroke="#FFF" stroke-width="2" stroke-linejoin="round" points="16.2,6.2 6.2,12.8 16.2,19.6 26.4,12.8"/>
+								<polygon fill="none" stroke="#FFF" stroke-width="2" stroke-linejoin="round" points="16.2,12.4 6.2,18.9 16.2,25.7 26.4,18.9"/>
+								<line stroke="#FFF" stroke-width="2" x1="16.2" y1="6.2" x2="16.2" y2="13.3"/>
+								<line stroke="#FFF" stroke-width="2" x1="16.2" y1="19.6" x2="16.2" y2="24.8"/>
+								<line stroke="#FFF" stroke-width="2" x1="6.2" y1="12.8" x2="6.2" y2="18.6"/>
+								<line stroke="#FFF" stroke-width="2" x1="26.4" y1="12.8" x2="26.4" y2="18.6"/>
+							</g>
+						</svg>
+						codepen.io/jorgeatgu
+						</a>
+						</br>
+						</br>
+						<a href="http://github.io/jorgeatgu" target="_blank">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32">
+						<path fill="black" d="M16,0C7.2,0,0,7.2,0,16c0,7.1,4.6,13.1,11,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.7,2.5,1.7c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5c3.1-2.1,4.4-1.6,4.4-1.6 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.2-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C27.4,29.1,32,23.1,32,16C32,7.2,24.9,0,16,0z"/>
+						</svg>
+						github.io/jorgeatgu
+						</a>
+						</br>
+						</br>
+
+						<a href="http://plus.google.com/jorgeatgu" target="_blank">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32">
+							<g id="google_plus">
+							    <circle fill="#DB4935" cx="16" cy="16" r="16"/>
+							    <path fill="#FFF" d="M16.9,8.4c0.2,0.1,0.3,0.3,0.6,0.5c0.3,0.2,0.4,0.4,0.6,0.7c0.2,0.3,0.4,0.6,0.5,1 c0.1,0.4,0.2,0.8,0.2,1.3s-0.1,0.9-0.2,1.3c-0.1,0.4-0.3,0.7-0.5,1c-0.2,0.3-0.4,0.6-0.7,0.8s-0.5,0.5-0.8,0.7 c-0.2,0.2-0.3,0.4-0.5,0.6c-0.2,0.2-0.2,0.4-0.2,0.7s0.1,0.5,0.2,0.7c0.2,0.2,0.3,0.3,0.4,0.4l1,0.7c0.3,0.2,0.6,0.5,0.8,0.7 c0.3,0.2,0.5,0.5,0.7,0.8c0.2,0.3,0.4,0.6,0.5,1c0.1,0.4,0.2,0.8,0.2,1.2c0,0.6-0.2,1.2-0.4,1.8c-0.2,0.6-0.7,1.1-1.3,1.6 c-0.6,0.5-1.3,0.8-2.2,1.1c-0.9,0.3-1.9,0.4-3,0.4c-1,0-1.8-0.1-2.5-0.3c-0.7-0.2-1.3-0.5-1.8-0.8c-0.5-0.4-0.8-0.8-1.1-1.2 c-0.2-0.4-0.3-0.9-0.3-1.4s0.1-1,0.4-1.6c0.3-0.6,0.8-1.1,1.6-1.6c0.4-0.2,0.8-0.4,1.3-0.6c0.5-0.1,0.9-0.3,1.4-0.4 s0.9-0.1,1.3-0.2c0.4,0,0.8-0.1,1.1-0.1c-0.2-0.2-0.4-0.5-0.5-0.8c-0.2-0.3-0.3-0.6-0.3-1c0-0.2,0-0.4,0.1-0.6 c0.1-0.1,0.1-0.3,0.2-0.5c-0.1,0-0.3,0-0.4,0c-0.1,0-0.3,0-0.4,0c-0.7,0-1.3-0.1-1.9-0.4c-0.5-0.2-1-0.5-1.4-0.9 c-0.4-0.4-0.7-0.8-0.8-1.3c-0.2-0.5-0.3-1-0.3-1.5c0-0.6,0.1-1.2,0.4-1.9c0.3-0.6,0.7-1.2,1.3-1.7c0.8-0.6,1.6-1,2.4-1.2 c0.8-0.2,1.6-0.3,2.3-0.3h5.4L18.6,8h-1.7V8.4z M17.9,23.6c0-0.3-0.1-0.6-0.2-0.9c-0.1-0.3-0.3-0.5-0.5-0.8 c-0.2-0.3-0.5-0.5-0.9-0.8c-0.4-0.3-0.8-0.6-1.3-1c-0.1,0-0.2,0-0.3,0s-0.2,0-0.3,0c-0.1,0-0.2,0-0.4,0s-0.4,0-0.7,0.1 c-0.3,0.1-0.5,0.1-0.8,0.1c-0.3,0.1-0.6,0.1-0.9,0.2c-0.1,0.1-0.3,0.1-0.6,0.3c-0.3,0.1-0.5,0.3-0.8,0.5c-0.2,0.2-0.5,0.5-0.6,0.8 c-0.2,0.3-0.3,0.7-0.3,1.2c0,1,0.4,1.7,1.3,2.3c0.8,0.6,2,0.9,3.4,0.9c1.3,0,2.2-0.3,2.9-0.8S17.9,24.4,17.9,23.6z M14,15.8 c0.3,0,0.7-0.1,1-0.2c0.3-0.1,0.6-0.3,0.8-0.5c0.3-0.3,0.5-0.6,0.6-1c0.1-0.4,0.1-0.7,0.1-0.9c0-0.5-0.1-1-0.2-1.6 c-0.1-0.6-0.4-1.1-0.6-1.6c-0.3-0.5-0.6-0.9-1-1.2c-0.4-0.3-0.9-0.5-1.4-0.5c-0.4,0-0.7,0.1-1,0.2c-0.3,0.2-0.6,0.4-0.8,0.6 C11.3,9.4,11.1,9.7,11,10c-0.1,0.3-0.1,0.7-0.1,1c0,0.4,0.1,0.9,0.2,1.5c0.1,0.6,0.3,1.1,0.6,1.5c0.3,0.5,0.6,0.9,1,1.2 C12.9,15.7,13.4,15.8,14,15.8z"/>
+							    <line stroke="#FFF" x1="19.8" y1="11.5" x2="28.3" y2="11.5"/>
+							    <line stroke="#FFF" x1="24" y1="7.2" x2="24" y2="15.8"/>
+							</g>
+						</svg>
+						plus.google.com/+jorgeatgu
+						</a>
+						</br>
+						</br>
+						<a href="http://behance.net/jorgeatgu" target="_blank">
+
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32">
+							<g id="behance">
+								<circle fill="#1769FF" cx="16" cy="16" r="16"/>
+								<rect x="4.3" y="8.6" fill="#FFF" width="3.3" height="14.5"/>
+								<rect x="7.5" y="8.6" fill="#FFF" width="4.4" height="2.6"/>
+								<rect x="7.5" y="20.6" fill="#FFF" width="4.4" height="2.6"/>
+								<rect x="7.5" y="14.5" fill="#FFF" width="4.4" height="2.2"/>
+								<path fill="#FFF" d="M11.8,23.2c0,0,4.6,0.1,4.6-4.3c0,0,0.2-3.6-2.7-3.6c0,0,2.2-0.2,2.2-2.8s-1.8-3.9-4.1-3.9 c-2.3,0-2.2,1.3-2.2,1.3l1.6,1.3h0.5c0,0,1,0,1,1.5s-0.6,1.7-1.3,1.7c-0.7,0-0.9,1.1-0.9,1.1l1.2,1.1c0,0,1.5,0,1.5,2 s-1.6,1.9-2,1.9c-0.4,0-0.3,1-0.3,1L11.8,23.2z"/>
+								<path fill="#FFF" d="M22.6,12.3c-5.6,0-5.6,5.6-5.6,5.6s-0.4,5.6,5.6,5.6c0,0,5,0.3,5-3.9H25c0,0,0.1,1.6-2.3,1.6 c0,0-2.6,0.2-2.6-2.5h7.5C27.7,18.6,28.5,12.3,22.6,12.3z M20.1,16.7c0,0,0.3-2.2,2.6-2.2s2.2,2.2,2.2,2.2H20.1z"/>
+								<rect x="19.5" y="9.5" fill="#FFF" width="6" height="1.8"/>
+							</g>
+						</svg>
+						behance.net/jorgeatgu
+						</a>
+
+					</p>
+				</section>
+
+
+				<section data-background="#EFCC52">
+<svg version="1.1" x="900" y="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 349 300">
+						<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="30" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="50" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="70" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="30" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="170" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="30" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="30" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="210" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="30" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="50" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="70" begin="0s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="0s" dur="2s" fill="freeze"/>
+</rect>
+
+
+<!-- S -->
+
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="100" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="120" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="140" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="100" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="170" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="100" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="120" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="140" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="140" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="210" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="140" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="120" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="100" begin="2s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="2s" dur="2s" fill="freeze"/>
+</rect>
+
+<!-- S -->
+
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="170" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="190" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="210" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="170" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="170" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="170" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="190" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="210" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="210" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="210" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="210" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="190" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="170" begin="4s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="4s" dur="2s" fill="freeze"/>
+</rect>
+
+<!-- 3 -->
+
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="240" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="260" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="280" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="150" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="280" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="170" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="280" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="260" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="240" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="190" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="280" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="210" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="280" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" x="20" width="20" height="20" fill="tomato">
+    <animate attributeName="x" from="0" to="260" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+<rect y="280" width="20" height="20" fill="crimson">
+    <animate attributeName="x" from="0" to="240" begin="6s" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="280" to="230" begin="6s" dur="2s" fill="freeze"/>
+</rect>
+
+</svg>
+				</section>
+		<section>
+		<h1>SOPORTE</h1>
+		<svg width="900" height="200" viewBox="0 0 700 200">
+					<image x="0" y="20" width="150" height="126" xlink:href="logos/safari.svg"/>
+					<image x="300" y="20" width="150" height="126" xlink:href="logos/chrome.svg"/>
+					<image x="450" y="20" width="150" height="126" xlink:href="logos/opera.svg"/>
+					<image x="600" y="20" width="150" height="126" xlink:href="logos/firefox.svg"/>
+					<image id="ie" x="150" y="20" width="150" height="126" xlink:href="logos/explorer.svg" opacity="1">
+						<animate attributeName="opacity" values="1; .2; 1; .2" begin="0s" dur="2s" repeatCount="indefinite"/>
+					</image>
+		</svg>
+		<a href="http://caniuse.com/#feat=css-animation" target="blank">CanIuse</a>
+
+
+		</section>
+
+		<section>
+		<h1>KEYFRAMES</h1>
+
+		<p><code><pre>@keyframes nombreDeLaAnimacion {
+			0% {
+
+			}
+			100% {
+
+			}
+		}
+		.nombre{
+		animation: name duration timing-function delay iteration-count direction fill-mode;
+		}
+
+		</code></pre></p>
+
+
+		</section>
+
+		<section>
+		<h1>Quién tiene un fix tiene un tesoro</h1>
+		<a href="https://github.com/ai/autoprefixer" target="_blank">Autoprefixer</a></br>
+		<a href="http://leaverou.github.io/prefixfree/" target="_blank">Prefix-free</a></br>
+		<a href="https://github.com/i-akhmadullin/Sublime-CSS3" target="_blank">CSS3-syntax</a>
+
+
+		</section>
+
+		<section>
+		<h1>Comienzan la diversión</h1>
+		<p>HTML DESDE 50% 50%</p>
+		<p>SVG DESDE 0% 0%</p>
+		<a href="http://codepen.io/jorgeatgu/pen/AzJkn" target="_blank">DEMO!</a></br>
+
+		</section>
+
+		<section>
+
+		<h1>FFF</h1>
+
+		<p class="fragment shrink">
+		<ol>
+		<li class="fragment"><a href="http://codepen.io/jorgeatgu/pen/btqFa/" target="_blank">SIN FIX</a></br></li>
+
+		<li class="fragment"><a href="http://codepen.io/jorgeatgu/pen/vmykC/" target="_blank">CON FIX</a></li>
+
+		<li class="fragment">
+		<pre><code>
+	.corregir {
+	-moz-transform: translate(629px,427.2px);
+	}
+	.corregir polygon {
+	-moz-transform: translate(-629px,-427.2px);
+	}
+		</code></pre>
+		</li>
+
+
+		<p class="fragment">Estos valores solo funcionan con este ejemplo!!!</p>
+
+
+		</ol>
+		</p>
+		</section>
+
+		<section>
+		<h1>BIBLIOGRAFIA</h1>
+		<p><a href="http://jorgeatgu.com/blog/animando-svg-con-css3-en-firefox/" target="_blank">Fix para rotaciones en Firefox</a></p>
+		<a href="http://ksesocss.blogspot.com/2014/06/solucion-bug-svg-transform-origin.html" target="_blank">Kseso aporta otro FIX</a></br>
+		<a href="http://hansmuller-webkit.blogspot.com.es/2012/03/css-transform-origin-coming-to-svg.html" target="_blank">Implementando transform-origin en WebKit (ENG)</a></br>
+
+
+		</section>
+
+		<section>
+
+		<h1>F-IE</h1>
+
+		<p class="fragment">Las transformaciones CSS3 ejecutadas sobre SVG no funcionan en ninguna version de IE. </p>
+
+		<a href="https://vimeo.com/95452732" target="_blank">Vídeo en VIMEO</a>
+
+		</br></br>
+
+		<a href="http://codepen.io/jorgeatgu/pen/ktEKJ/" target="_blank">Una demo que contiene rectángulos creados con SVG y CSS. Todos animados con CSS3.</a>
+
+		</br></br>
+
+		<a href="http://codepen.io/jorgeatgu/pen/oHpxj/" target="_blank">Una demo que contiene varias animaciones con transformaciones CSS3.</a>
+
+
+		</section>
+
+		<section >
+
+		<h1>BIBLIOTECAS CSS3</h1>
+
+		<p><a href="http://daneden.github.io/animate.css/" target="_blank">ANIMATE.CSS</a></p>
+
+		<p><a href="http://bouncejs.com/" target="_blank">BOUNCEJS</a></p>
+
+		</section>
+
+		<section>
+
+		<h1>ENLACES SVG * CSS3</h1>
+
+		<p><a href="http://jorgeatgu.com/blog/animando-svg-con-css3-en-firefox/" target="_blank">Fix para rotaciones en Firefox</a></p>
+		<p><a href="http://jorgeatgu.com/blog/cheat-sheet-animaciones-css3/" target="_blank">CheatSheet animaciones CSS3</a></p>
+		<p><a href="http://jorgeatgu.com/blog/animando-svg-de-smil-a-css3/" target="_blank">Animando SVG de SMIL a CSS3</a></p>
+		<p><a href="http://css-tricks.com/animating-svg-css/" target="_blank">Animating SVG with CSS (ENG)</a></p>
+		<p><a href="http://youtu.be/0NFct2yOfiI" target="_blank">CSSConf Australia 2014 Chris Wright - Surprise and delight: CSS + SVG</a></p>
+		<p><a href="http://sarasoueidan.com/blog/cssconf-2014-talk/" target="_blank">CSS CONF 2014 por Sara Soueidan</a></p>
+
+		</section>
+
+		<section>
+
+		<h1>DEMOS SVG * CSS3</h1>
+		<p><a href="http://codepen.io/collection/whnLE" target="_blank">COLLECIÓN CON TODAS LAS DEMOS DE LOS HANGOUTS</a></p>
+		<p><a href="http://codepen.io/jorgeatgu/pen/Dqxig" target="_blank">VISIBLE SPECTRUM</a></p>
+		<p><a href="http://codepen.io/jorgeatgu/pen/EvyhL" target="_blank">CITY & CLOCK/a></p>
+		<p><a href="http://codepen.io/fixcl/pen/bsIhn" target="_blank">NEW CAKE por Marco Barría</a></p>
+
+
+
+		</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
