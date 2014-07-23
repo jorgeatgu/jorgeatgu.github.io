@@ -1,32 +1,50 @@
-html, body {
-background-color: khaki;
+header {
+width:100%;
+background-color:beige;
 }
 
-/*.texto-mi {
-width: 100%;
-display: inline-block;
-text-align: center;
-font-family: "alternate-gothic-no-2-d",sans-serif;
-font-size: 1.5em;
-}*/
-
-.primero {
-width: 50%;
-height:800px;
-background-color: gold;
-float: left;
+nav {
+width:255px;
+margin: 0 auto;
+padding:2em;
 }
 
-.segundo {
-width: 50%;
-height: 250px;
-background-color: olive;
-float: left;
+.first {
+width:100%;
+background-color:crimson;
 }
 
-.tercero {
-width: 50%;
-height: 250px;
-background-color: snow;
-float: left;
+.second {
+width:100%;
+background-color:khaki;
+}
+
+.three {
+width:100%;
+background-color:crimson;
+font-family: "aw-conqueror-carved-one",sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+.title {
+text-align:center;
+margin:0;
+padding:1em;
+}
+
+.enlaces {
+text-align:center;
+display:block;
+text-decoration:none;
+
+font-family: "proxima-nova-alt",sans-serif;
+font-style: normal;
+font-weight: 700;
+}
+
+.animacion {
+width:30%;
+margin:0;
+padding:0;
 }
