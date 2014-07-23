@@ -27,7 +27,7 @@ background-color:#FFFED8;
 .title {
 text-align:center;
 margin:0;
-padding:1em;
+padding:0.5em;
 font-family: "jubilat",sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -50,11 +50,15 @@ padding: 1em;
 display:inline-block;
 text-decoration:none;
 background-color: #FF1B79;
+font-size:1.5em;
 font-family: "proxima-nova-alt",sans-serif;
 font-style: normal;
 font-weight: 700;
 letter-spacing: 1px;
 margin:2.5em;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
 }
 
 .enlaces:hover {
