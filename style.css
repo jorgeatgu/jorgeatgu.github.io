@@ -1,4 +1,9 @@
-header {
+body {
+width: 100%;
+margin: 0;
+}
+
+  header {
 width:100%;
 background-color:beige;
 }
