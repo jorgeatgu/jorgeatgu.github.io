@@ -3,7 +3,7 @@ width: 100%;
 margin: 0;
 }
 
-  header {
+header {
 width:100%;
 background-color:beige;
 }
@@ -16,7 +16,7 @@ padding:2em;
 
 .first {
 width:100%;
-background-color:#7AD7EE;
+background-color:#ED755D;
 }
 
 .second {
@@ -71,7 +71,7 @@ background-color: #D6145F;
 }
 
 .icons {
-background-color:#EB7E7F;
+background-color:#EFCC52;
 }
 
 .fuck {
