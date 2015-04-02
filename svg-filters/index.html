@@ -145,6 +145,21 @@
 <button class="btn-morpho-cuatro">
   Morpho 4
 </button>
+<button class="btn-saturotate">
+  Saturotate
+</button>
+<button class="btn-rotamatrix">
+  Rotamatrix
+</button>
+<button class="btn-multitable">
+  Multitable
+</button>
+<button class="btn-tablen">
+  Tablen
+</button>
+<button class="btn-dishue">
+  Dishue
+</button>
 
 
 </section>
@@ -292,12 +307,38 @@
                    0 3 0 0 0
                    0 0 1 1 0"/>
          </filter>
+
          <filter id="hueRotate" filterUnits="objectBoundingBox">
            <feColorMatrix type="hueRotate" in="SourceGraphic" values="180"/>
          </filter>
          <filter id="luminanceToAlpha" filterUnits="objectBoundingBox">
            <feColorMatrix type="luminanceToAlpha" in="SourceGraphic" values="0.4"/>
          </filter>
+
+         <filter id="saturotate" filterUnits="objectBoundingBox">
+             <feColorMatrix type="saturate" result="saturado" values="20"/>
+             <feColorMatrix type="hueRotate" in="saturado" in2="SourceGraphic" values="291"/>
+         </filter>
+
+         <filter id="rotamatrix" filterUnits="objectBoundingBox">
+             <feColorMatrix type="hueRotate" result="romatrix"  values="245"/>
+             <feColorMatrix type="matrix" in="romatrix" in2="SourceGraphic"
+             values="-1 2 -3 0 -.5
+                     2 1 0 0 0
+                     0 3 1 0 0
+                     0 0 1 1 0"/>
+         </filter>
+
+         <filter id="dishue" filterUnits="objectBoundingBox">
+           <feComponentTransfer result="lsd">
+             <feFuncR type="discrete" tableValues="0 .5 1 1"/>
+             <feFuncG type="discrete" tableValues="0 .5 1"/>
+             <feFuncB type="discrete" tableValues="0 .5"/>
+           </feComponentTransfer>
+           <feColorMatrix type="hueRotate" in="lsd" in2="SourceGraphic" values="-180"/>
+         </filter>
+
+
 
          <!-- feComponentTransfer -->
 
@@ -334,6 +375,7 @@
                 <feFuncR type="identity"/>
                 <feFuncG type="identity"/>
                 <feFuncB type="identity"/>
+                <feFuncA type="identity"/>
             </feComponentTransfer>
          </filter>
          <filter id="linear">
@@ -349,6 +391,24 @@
                  <feFuncG type="gamma" amplitude="2" exponent="3"/>
                  <feFuncB type="gamma" amplitude="2" exponent="1"/>
             </feComponentTransfer>
+         </filter>
+
+         <filter id="multitable">
+            <feComponentTransfer result="tablas">
+                <feFuncR type="table" tableValues="1 0 1" exponent="5"/>
+                <feFuncG type="table" tableValues="1 0 1" exponent="2"/>
+                <feFuncB type="table" tableValues="1 0 1" exponent="5"/>
+            </feComponentTransfer>
+                <feColorMatrix type="saturate" in="tablas" in2="SourceGraphic" values="-5"/>
+         </filter>
+
+         <filter id="tablen">
+            <feComponentTransfer result="tablas">
+                <feFuncR type="table" tableValues="1 0 1" exponent="5"/>
+                <feFuncG type="table" tableValues="1 0 2" exponent="2"/>
+                <feFuncB type="table" tableValues="1 0 0" exponent="1"/>
+            </feComponentTransfer>
+                <feColorMatrix type="saturate" in="tablas" in2="SourceGraphic" values="-50"/>
          </filter>
 
          <!-- feConvolveMatrix -->
@@ -375,8 +435,6 @@
             <feTurbulence type='turbulence' baseFrequency='.7' result='fuzz' numOctaves='2' stitchTiles='stitch'/>
             <feComposite in='SourceGraphic' in2='fuzz' operator='arithmetic' k1='0' k2='1' k3='-3' k4='.01'/>
         </filter>
-
-
 
         <!-- feGaussianBlur * feDisplacementMap -->
 
@@ -537,6 +595,25 @@
           $( "img").removeClass().addClass("saturate");
         });
 
+        $( ".btn-saturotate" ).click(function() {
+          $( "img").removeClass().addClass("saturotate");
+        });
+
+        $( ".btn-rotamatrix" ).click(function() {
+          $( "img").removeClass().addClass("rotamatrix");
+        });
+
+        $( ".btn-tablen" ).click(function() {
+          $( "img").removeClass().addClass("tablen");
+        });
+
+        $( ".btn-multitable" ).click(function() {
+          $( "img").removeClass().addClass("multitable");
+        });
+
+        $( ".btn-dishue" ).click(function() {
+          $( "img").removeClass().addClass("dishue");
+        });
 
          $( ".btn-matrix" ).click(function() {
            $( "img").removeClass().addClass("matrix");
