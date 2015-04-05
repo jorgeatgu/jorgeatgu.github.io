@@ -1,5 +1,4 @@
-@import "sanitize";
-
+@import "reset";
 
 /* ==========================================================================
 Estilos principales GitHub Jorge Aznar
@@ -11,12 +10,24 @@ Estilos principales GitHub Jorge Aznar
 	font-weight: 400;
 	color: #001F3F;
 	font-size: 40px;
+	letter-spacing: 10px;
+	margin: 50px;
+	text-align: center;
+}
+
+.titulo-principal::after {
+	width: 400px;
+	content: " ";
+	display: block;
+	padding: 20px 0;
+	margin: 0 auto;
+	border-bottom: 1px solid navy;
 }
 
 .titulo-proyectos {
 	font-size: 24px;
-	font-family: "effra",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 100;
 	color: #85144B;
 }
