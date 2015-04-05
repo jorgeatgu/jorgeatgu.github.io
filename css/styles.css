@@ -356,6 +356,9 @@ th {
 /* ==========================================================================
 Estilos principales GitHub Jorge Aznar
 ========================================================================== */
+body {
+  background-color: #F0F8FF; }
+
 .titulo-principal {
   font-family: "din-condensed-web",sans-serif;
   font-style: normal;
@@ -365,14 +368,19 @@ Estilos principales GitHub Jorge Aznar
   letter-spacing: 10px;
   margin: 50px;
   text-align: center; }
+  .titulo-principal::after {
+    width: 400px;
+    content: " ";
+    display: block;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid navy; }
 
-.titulo-principal::after {
-  width: 400px;
-  content: " ";
-  display: block;
-  padding: 20px 0;
-  margin: 0 auto;
-  border-bottom: 1px solid navy; }
+.texto-mio {
+  font-family: "brandon-grotesque",sans-serif;
+  font-size: 30px;
+  color: salmon;
+  text-align: left; }
 
 .titulo-proyectos {
   font-size: 24px;

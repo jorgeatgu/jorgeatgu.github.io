@@ -1,28 +1,43 @@
 @import "reset";
 
+$bg-color: #F0F8FF;
+$principal-color: #001F3F;
+$proyecto-color: #85144B;
+
 /* ==========================================================================
 Estilos principales GitHub Jorge Aznar
 ========================================================================== */
+
+body {
+	background-color: $bg-color;
+}
 
 .titulo-principal {
 	font-family: "din-condensed-web",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: #001F3F;
+	color: $principal-color;
 	font-size: 40px;
 	letter-spacing: 10px;
 	margin: 50px;
 	text-align: center;
+	&::after {
+		width: 400px;
+		content: " ";
+		display: block;
+		padding: 20px 0;
+		margin: 0 auto;
+		border-bottom: 1px solid navy;
+	}
 }
 
-.titulo-principal::after {
-	width: 400px;
-	content: " ";
-	display: block;
-	padding: 20px 0;
-	margin: 0 auto;
-	border-bottom: 1px solid navy;
+.texto-mio {
+	font-family: "brandon-grotesque",sans-serif;
+	font-size: 30px;
+	color: salmon;
+	text-align: left;
 }
+
 
 .titulo-proyectos {
 	font-size: 24px;
