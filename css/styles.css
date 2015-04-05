@@ -367,6 +367,7 @@ body {
   font-size: 40px;
   letter-spacing: 10px;
   margin: 50px;
+  margin-top: 10px;
   text-align: center; }
   .titulo-principal::after {
     width: 400px;
@@ -380,9 +381,10 @@ body {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: #008B8B;
-  text-align: left; }
+  text-align: center;
+  margin-bottom: 0; }
 
 .titulo-proyectos {
   font-size: 24px;
