@@ -14,6 +14,13 @@ body {
 	background-color: $bg-color;
 }
 
+
+.proyectos {
+	box-sizing: border-box;
+	width: 80%;
+	padding-left: 50px;
+}
+
 .titulo-principal {
 	font-family: "din-condensed-web",sans-serif;
 	font-style: normal;
@@ -53,13 +60,16 @@ body {
 	font-size: 24px;
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 600;
 	color: $principal-color;
+	letter-spacing: 1px;
 }
 
-
-.proyectos {
-	box-sizing: border-box;
-	width: 80%;
-	padding-left: 50px;
+.proyectos-definicion {
+	font-family: "ff-meta-web-pro",sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: $mi-color;
+	line-height: 20px;
 }
+

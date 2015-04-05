@@ -359,6 +359,11 @@ Estilos principales GitHub Jorge Aznar
 body {
   background-color: #F0F8FF; }
 
+.proyectos {
+  box-sizing: border-box;
+  width: 80%;
+  padding-left: 50px; }
+
 .titulo-principal {
   font-family: "din-condensed-web",sans-serif;
   font-style: normal;
@@ -392,12 +397,15 @@ body {
   font-size: 24px;
   font-family: "proxima-nova",sans-serif;
   font-style: normal;
-  font-weight: 400;
-  color: #001F3F; }
+  font-weight: 600;
+  color: #001F3F;
+  letter-spacing: 1px; }
 
-.proyectos {
-  box-sizing: border-box;
-  width: 80%;
-  padding-left: 50px; }
+.proyectos-definicion {
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #008B8B;
+  line-height: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
