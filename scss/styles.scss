@@ -3,6 +3,7 @@
 $bg-color: #F0F8FF;
 $principal-color: #001F3F;
 $proyecto-color: #85144B;
+$mi-color: #008B8B;
 
 /* ==========================================================================
 Estilos principales GitHub Jorge Aznar
@@ -35,8 +36,8 @@ body {
 	font-family: "ff-meta-web-pro",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 30px;
-	color: salmon;
+	font-size: 20px;
+	color: $mi-color;
 	text-align: left;
 }
 
