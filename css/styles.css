@@ -362,7 +362,9 @@ body {
 .proyectos {
   box-sizing: border-box;
   width: 80%;
-  padding-left: 50px; }
+  padding-left: 50px;
+  display: block;
+  margin: 0 auto; }
 
 .titulo-principal {
   font-family: "din-condensed-web",sans-serif;
