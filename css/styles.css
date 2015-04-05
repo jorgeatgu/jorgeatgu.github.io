@@ -1,0 +1,155 @@
+/*! sanitize.css | CC0 Public Domain | github.com/jonathantneal/sanitize.css */
+/*
+ * Normalization
+ */
+:root {
+  text-size-adjust: 100%; }
+
+audio:not([controls]) {
+  display: none; }
+
+details {
+  display: block; }
+
+input[type="number"] {
+  width: auto; }
+input[type="search"] {
+  -webkit-appearance: textfield; }
+  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+main {
+  display: block; }
+
+summary {
+  display: block; }
+
+pre {
+  overflow: auto; }
+
+progress {
+  display: inline-block; }
+
+small {
+  font-size: 75%; }
+
+template {
+  display: none; }
+
+textarea {
+  overflow: auto; }
+
+[hidden] {
+  display: none; }
+
+[unselectable] {
+  user-select: none; }
+
+/*
+ * Universal inheritance
+ */
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit; }
+
+/*
+ * Opinionated defaults
+ */
+*,
+*::before,
+*::after {
+  border-style: solid;
+  border-width: 0; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  box-sizing: border-box;
+  cursor: default;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  vertical-align: top; }
+
+* {
+  cursor: inherit; }
+
+a,
+button,
+input,
+select,
+textarea {
+  cursor: initial; }
+
+button,
+input,
+select,
+textarea {
+  background: transparent; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; }
+
+input {
+  min-height: 1.5em; }
+
+nav ol,
+nav ul {
+  list-style: none; }
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none; }
+  select::-ms-expand {
+    display: none; }
+  select::-ms-value {
+    color: currentColor; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+textarea {
+  resize: vertical; }
+
+::selection {
+  background-color: #B3D4FC;
+  text-shadow: none; }
+
+@media screen {
+  [hidden~="screen"] {
+    display: inherit; }
+
+  [hidden~="screen"]:not(:active):not(:focus):not(:target) {
+    clip: rect(0 0 0 0) !important;
+    position: absolute !important; } }
+/* ==========================================================================
+Estilos principales GitHub Jorge Aznar
+========================================================================== */
+.titulo-principal {
+  font-family: "din-condensed-web",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #001F3F;
+  font-size: 40px; }
+
+.titulo-proyectos {
+  font-size: 24px;
+  font-family: "effra",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #85144B; }
+
+/*# sourceMappingURL=styles.css.map */
