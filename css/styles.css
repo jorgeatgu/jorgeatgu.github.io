@@ -359,6 +359,10 @@ Estilos principales GitHub Jorge Aznar
 body {
   background-color: #F0F8FF; }
 
+a {
+  text-decoration: none;
+  color: #001F3F; }
+
 .proyectos {
   box-sizing: border-box;
   width: 80%;
