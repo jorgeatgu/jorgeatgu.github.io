@@ -398,7 +398,8 @@ a {
   color: #008B8B;
   text-align: center;
   margin-bottom: 0;
-  display: block; }
+  display: block;
+  margin-top: 20px; }
 
 .proyectos-titulo {
   font-size: 24px;
