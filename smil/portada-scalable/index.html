@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portada SCALABLE, un libro sobre SVG</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 2550 3300">
+            <animate id="primera" attributeName="viewBox" dur="1s" values="0 4000 2550 3300; 0 1800 2550 3300" begin="0s" fill="freeze"/>
+            <animate id="segunda" attributeName="viewBox" dur="2s" values="0 1800 2550 3300; 0 200 2550 3300; -350 300 800 400" begin="15s" fill="freeze"/>
+            <animate id="tercera" attributeName="viewBox" dur="5s" values="-350 300 800 400; 1450 300 800 400; -1800 200 7100 6600" begin="17s" fill="freeze"/>
+
+            <g id="fondo">
+                <rect fill="white" stroke="white" stroke-width="110" width="2550" height="1874"/>
+                <rect y="1425.9" fill="#D03053" stroke="white" stroke-width="110" width="2550" height="1874"/>
+            </g>
+            <g fill="#006837" fill-opacity="0.25" stroke-opacity="0.25" stroke="white" stroke-width="4">
+                <rect y="2019" width="100" height="100">
+                    <animate id="mover" attributeName="x" from="-100" to="931" begin="0s" dur="2s" fill="freeze"/>
+                    <animate id="crecer" attributeName="width" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animate attributeName="height" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 15 1265 2363" dur="10s" begin="crecer.end" fill="freeze"/>
+                </rect>
+                <rect y="2019" width="100" height="100">
+                    <animate id="mover" attributeName="x" from="-500" to="931" begin="0s" dur="2s" fill="freeze"/>
+                    <animate id="crecer" attributeName="width" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animate attributeName="height" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 30 1265 2363" dur="10s" begin="crecer.end+0.5s" fill="freeze"/>
+                </rect>
+                <rect y="2019" x="931" width="100" height="100">
+                    <animate id="mover" attributeName="y" from="-400" to="2019" begin="0s" dur="2s" fill="freeze"/>
+                    <animate id="crecer" attributeName="width" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animate attributeName="height" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 45 1265 2363" dur="10s" begin="crecer.end+1s" fill="freeze"/>
+                </rect>
+                <rect y="2019" width="100" height="100">
+                    <animate id="mover" attributeName="x" from="2000" to="931" begin="0s" dur="2s" fill="freeze"/>
+                    <animate id="crecer" attributeName="width" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animate attributeName="height" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 60 1265 2363" dur="10s" begin="crecer.end+1.5s" fill="freeze"/>
+                </rect>
+                <rect y="2019" x="931" width="100" height="100">
+                    <animate id="mover" attributeName="y" from="3000" to="2019" begin="0s" dur="2s" fill="freeze"/>
+                    <animate id="crecer" attributeName="width" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animate attributeName="height" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 75 1265 2363" dur="10s" begin="crecer.end+2s" fill="freeze"/>
+                </rect>
+                <rect y="2019" width="100" height="100">
+                    <animate id="mover" attributeName="x" from="-300" to="931" begin="0s" dur="2s" fill="freeze"/>
+                    <animate id="crecer" attributeName="width" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animate attributeName="height" from="100" to="688" begin="mover.end" dur="2s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 90 1265 2363" dur="10s" begin="crecer.end+2.5s" fill="freeze"/>
+                </rect>
+            </g>
+                 <text opacity="0" x="1150" y="2500" fill="#436A61" font-family="'prototypo-regular'" font-size="36" letter-spacing="11">S
+                    <animate attributeName="font-size" values="0; 395" dur="3s" begin="mover.end+2s" fill="freeze"/>
+                    <animate attributeName="opacity" from="0" to="1" dur="3s" begin="mover.end+1s" fill="freeze"/>
+                    <animateTransform id="rotar" attributeName="transform" type="rotate" values="0 1265 2363; 360 1265 2363; 0 1265 2363" dur="5s" begin="mover.end+2s" fill="freeze"/>
+                    <animate attributeName="y" values="2500; 650" begin="14s" dur="2s" fill="freeze"/>
+                    <animate attributeName="x" values="1150; 215" begin="16s" dur="2s" fill="freeze"/>
+                 </text>
+            <g id="calable" opacity="0">
+                <text x="460" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">C</text>
+                <text x="730" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">A</text>
+                <text x="1000" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">L</text>
+                <text x="1220" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">A</text>
+                <text x="1500" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">B</text>
+                <text x="1780" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">L</text>
+                <text x="1980" y="650" fill="#436A61" font-family="'prototypo-regular'" font-size="396" letter-spacing="11">E</text>
+                <text transform="matrix(1 0 0 1 576.1411 844.2318)"><tspan x="0" y="0" fill="#994C41" font-family="'NexaBold'" font-size="107.577" letter-spacing="9">UN LIBRO SOBRE SVG</tspan><tspan x="113.8" y="225.9" fill="#222220" font-family="'NexaBold'" font-size="80.6827" letter-spacing="7">por Jorge Aznar Tobajas</tspan></text>
+                <animate attributeName="opacity" from="0" to="1" dur="3s" begin="segunda.end" fill="freeze"/>
+            </g>
+        </svg>
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

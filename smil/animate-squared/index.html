@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Animate Squared</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="50" viewBox="0 0 80 50">
+            <defs>
+                <rect id="s" fill="white" width="5" height="5">
+                    <animate id="width" attributeName="width" values="5; 10; 20; 25; 35; 25; 15; 5" begin="0s" dur="12s" calcMode="paced" fill="freeze"/>
+                    <animate attributeName="fill" values="white; crimson; gold; navajowhite" begin="0s" dur="12s" fill="freeze"/>
+                    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 5 5" begin="2s" dur="10s"/>
+              <animate attributeName="x" values="20; 100; 200; 500" begin="width.end+0.5s" dur="3s" fill="freeze"/>
+                </rect>
+            </defs>
+            <g id="b">
+                <use x="0" y="0" fill-opacity=".4" xlink:href="#s"/>
+                <use x="5" y="0" fill-opacity=".2" xlink:href="#s"/>
+                <use x="10" y="0" fill-opacity=".6" xlink:href="#s"/>
+                <use x="15" y="0" fill-opacity=".5" xlink:href="#s"/>
+                <use x="20" y="0" fill-opacity=".2" xlink:href="#s"/>
+                <use x="25" y="0" fill-opacity=".4" xlink:href="#s"/>
+                <use x="30" y="0" fill-opacity=".7" xlink:href="#s"/>
+                <use x="0" y="5" fill-opacity=".3" xlink:href="#s"/>
+                <use x="5" y="5" fill-opacity=".4" xlink:href="#s"/>
+                <use x="10" y="5" fill-opacity=".2" xlink:href="#s"/>
+                <use x="15" y="5" fill-opacity=".6" xlink:href="#s"/>
+                <use x="20" y="5" fill-opacity=".4" xlink:href="#s"/>
+                <use x="25" y="5" fill-opacity=".3" xlink:href="#s"/>
+                <use x="30" y="5" fill-opacity=".1" xlink:href="#s"/>
+                <use x="35" y="5" fill-opacity=".4" xlink:href="#s"/>
+                <use x="0" y="10" fill-opacity=".3" xlink:href="#s"/>
+                <use x="5" y="10" fill-opacity=".2" xlink:href="#s"/>
+                <use x="10" y="10" fill-opacity=".6" xlink:href="#s"/>
+                <use x="15" y="10" fill-opacity=".2" xlink:href="#s"/>
+                <use x="20" y="10" fill-opacity=".6" xlink:href="#s"/>
+                <use x="25" y="10" fill-opacity=".4" xlink:href="#s"/>
+                <use x="30" y="10" fill-opacity=".3" xlink:href="#s"/>
+                <use x="35" y="10" fill-opacity=".7" xlink:href="#s"/>
+                <use x="0" y="15" fill-opacity=".4" xlink:href="#s"/>
+                <use x="5" y="15" fill-opacity=".3" xlink:href="#s"/>
+                <use x="10" y="15" fill-opacity=".5" xlink:href="#s"/>
+                <use x="15" y="15" fill-opacity=".3" xlink:href="#s"/>
+                <use x="25" y="15" fill-opacity=".6" xlink:href="#s"/>
+                <use x="30" y="15" fill-opacity=".1" xlink:href="#s"/>
+                <use x="35" y="15" fill-opacity=".3" xlink:href="#s"/>
+                <use x="0" y="20" fill-opacity=".1" xlink:href="#s"/>
+                <use x="5" y="20" fill-opacity=".6" xlink:href="#s"/>
+                <use x="10" y="20" fill-opacity=".3" xlink:href="#s"/>
+                <use x="15" y="20" fill-opacity=".5" xlink:href="#s"/>
+                <use x="20" y="20" fill-opacity=".2" xlink:href="#s"/>
+                <use x="30" y="20" fill-opacity=".5" xlink:href="#s"/>
+                <use x="35" y="20" fill-opacity=".2" xlink:href="#s"/>
+            </g>
+            <use x="-40" y="25" transform="matrix(-1 0 0 1 0 0)" xlink:href="#b" />
+            <use x="-80" y="-35" transform="matrix(-1 0 0 -1 0 0)" xlink:href="#b" />
+            <use x="40" y="-60" transform="matrix(1 0 0 -1 0 0)" xlink:href="#b" />
+            <use x="40" y="-10" transform="matrix(1 0 0 -1 0 0)" xlink:href="#b" />
+        </svg>
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

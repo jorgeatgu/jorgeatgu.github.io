@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SPACE INVADERS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <svg width="1265" height="600" viewBox="0 0 1265 600">
+                <defs>
+                    <g id="ovni">
+                        <rect x="876" y="71" fill="white" width="1" height="1"/>
+                        <rect x="877" y="71" fill="white" width="1" height="1"/>
+                        <rect x="878" y="71" fill="white" width="1" height="1"/>
+                        <rect x="879" y="71" fill="white" width="1" height="1"/>
+                        <rect x="880" y="71" fill="white" width="1" height="1"/>
+                        <rect x="881" y="71" fill="white" width="1" height="1"/>
+                        <rect x="882" y="71" fill="white" width="1" height="1"/>
+                        <rect x="883" y="71" fill="white" width="1" height="1"/>
+                        <rect x="884" y="71" fill="white" width="1" height="1"/>
+                        <rect x="885" y="71" fill="white" width="1" height="1"/>
+                        <rect x="886" y="71" fill="white" width="1" height="1"/>
+                        <rect x="887" y="71" fill="white" width="1" height="1"/>
+                        <rect x="879" y="72" fill="white" width="1" height="1"/>
+                        <rect x="880" y="72" fill="white" width="1" height="1"/>
+                        <rect x="883" y="72" fill="white" width="1" height="1"/>
+                        <rect x="884" y="72" fill="white" width="1" height="1"/>
+                        <rect x="879" y="73" fill="white" width="1" height="1"/>
+                        <rect x="878" y="72" fill="white" width="1" height="1"/>
+                        <rect x="887" y="72" fill="white" width="1" height="1"/>
+                        <rect x="881" y="67" fill="white" width="1" height="1"/>
+                        <rect x="882" y="67" fill="white" width="1" height="1"/>
+                        <rect x="879" y="68" fill="white" width="1" height="1"/>
+                        <rect x="880" y="68" fill="white" width="1" height="1"/>
+                        <rect x="881" y="68" fill="white" width="1" height="1"/>
+                        <rect x="882" y="68" fill="white" width="1" height="1"/>
+                        <rect x="883" y="68" fill="white" width="1" height="1"/>
+                        <rect x="883" y="67" fill="white" width="1" height="1"/>
+                        <rect x="884" y="68" fill="white" width="1" height="1"/>
+                        <rect x="885" y="68" fill="white" width="1" height="1"/>
+                        <rect x="886" y="68" fill="white" width="1" height="1"/>
+                        <rect x="878" y="69" fill="white" width="1" height="1"/>
+                        <rect x="879" y="69" fill="white" width="1" height="1"/>
+                        <rect x="880" y="69" fill="white" width="1" height="1"/>
+                        <rect x="881" y="69" fill="white" width="1" height="1"/>
+                        <rect x="882" y="69" fill="white" width="1" height="1"/>
+                        <rect x="883" y="69" fill="white" width="1" height="1"/>
+                        <rect x="884" y="69" fill="white" width="1" height="1"/>
+                        <rect x="885" y="69" fill="white" width="1" height="1"/>
+                        <rect x="886" y="69" fill="white" width="1" height="1"/>
+                        <rect x="887" y="69" fill="white" width="1" height="1"/>
+                        <rect x="887" y="68" fill="white" width="1" height="1"/>
+                        <rect x="884" y="67" fill="white" width="1" height="1"/>
+                        <rect x="885" y="67" fill="white" width="1" height="1"/>
+                        <rect x="886" y="67" fill="white" width="1" height="1"/>
+                        <rect x="877" y="70" fill="white" width="1" height="1"/>
+                        <rect x="878" y="70" fill="white" width="1" height="1"/>
+                        <rect x="880" y="70" fill="white" width="1" height="1"/>
+                        <rect x="884" y="70" fill="white" width="1" height="1"/>
+                        <rect x="883" y="70" fill="white" width="1" height="1"/>
+                        <rect x="881" y="70" fill="white" width="1" height="1"/>
+                        <rect x="886" y="70" fill="white" width="1" height="1"/>
+                        <rect x="887" y="70" fill="white" width="1" height="1"/>
+                        <rect x="888" y="71" fill="white" width="1" height="1"/>
+                        <rect x="889" y="71" fill="white" width="1" height="1"/>
+                        <rect x="880" y="71" fill="white" width="1" height="1"/>
+                        <rect x="891" y="71" fill="white" width="1" height="1"/>
+                        <rect x="890" y="70" fill="white" width="1" height="1"/>
+                        <rect x="890" y="71" fill="white" width="1" height="1"/>
+                        <rect x="888" y="72" fill="white" width="1" height="1"/>
+                        <rect x="888" y="73" fill="white" width="1" height="1"/>
+                        <rect x="889" y="72" fill="white" width="1" height="1"/>
+                        <rect x="888" y="68" fill="white" width="1" height="1"/>
+                        <rect x="888" y="69" fill="white" width="1" height="1"/>
+                        <rect x="889" y="69" fill="white" width="1" height="1"/>
+                        <rect x="889" y="70" fill="white" width="1" height="1"/>
+                        <rect x="880" y="70" fill="white" width="1" height="1"/>
+                    </g>
+
+                    <g id="invaders">
+                        <rect x="860" y="69" fill="white" width="1" height="1"/>
+                        <rect x="861" y="69" fill="white" width="1" height="1"/>
+                        <rect x="862" y="69" fill="white" width="1" height="1"/>
+                        <rect x="863" y="69" fill="white" width="1" height="1"/>
+                        <rect x="864" y="69" fill="white" width="1" height="1"/>
+                        <rect x="865" y="69" fill="white" width="1" height="1"/>
+                        <rect x="866" y="69" fill="white" width="1" height="1"/>
+                        <rect x="867" y="69" fill="white" width="1" height="1"/>
+                        <rect x="868" y="69" fill="white" width="1" height="1"/>
+                        <rect x="869" y="69" fill="white" width="1" height="1"/>
+                        <rect x="870" y="69" fill="white" width="1" height="1"/>
+                        <rect x="871" y="69" fill="white" width="1" height="1"/>
+                        <rect x="863" y="70" fill="white" width="1" height="1"/>
+                        <rect x="864" y="70" fill="white" width="1" height="1"/>
+                        <rect x="867" y="70" fill="white" width="1" height="1"/>
+                        <rect x="868" y="70" fill="white" width="1" height="1"/>
+                        <rect x="862" y="71" fill="white" width="1" height="1"/>
+                        <rect x="865" y="71" fill="white" width="1" height="1"/>
+                        <rect x="866" y="71" fill="white" width="1" height="1"/>
+                        <rect x="869" y="71" fill="white" width="1" height="1"/>
+                        <rect x="863" y="72" fill="white" width="1" height="1"/>
+                        <rect x="868" y="72" fill="white" width="1" height="1"/>
+                        <rect x="864" y="65" fill="white" width="1" height="1"/>
+                        <rect x="865" y="65" fill="white" width="1" height="1"/>
+                        <rect x="866" y="65" fill="white" width="1" height="1"/>
+                        <rect x="861" y="66" fill="white" width="1" height="1"/>
+                        <rect x="862" y="66" fill="white" width="1" height="1"/>
+                        <rect x="863" y="66" fill="white" width="1" height="1"/>
+                        <rect x="864" y="66" fill="white" width="1" height="1"/>
+                        <rect x="865" y="66" fill="white" width="1" height="1"/>
+                        <rect x="866" y="66" fill="white" width="1" height="1"/>
+                        <rect x="867" y="66" fill="white" width="1" height="1"/>
+                        <rect x="867" y="65" fill="white" width="1" height="1"/>
+                        <rect x="868" y="66" fill="white" width="1" height="1"/>
+                        <rect x="869" y="66" fill="white" width="1" height="1"/>
+                        <rect x="870" y="66" fill="white" width="1" height="1"/>
+                        <rect x="860" y="67" fill="white" width="1" height="1"/>
+                        <rect x="861" y="67" fill="white" width="1" height="1"/>
+                        <rect x="862" y="67" fill="white" width="1" height="1"/>
+                        <rect x="863" y="67" fill="white" width="1" height="1"/>
+                        <rect x="864" y="67" fill="white" width="1" height="1"/>
+                        <rect x="865" y="67" fill="white" width="1" height="1"/>
+                        <rect x="866" y="67" fill="white" width="1" height="1"/>
+                        <rect x="867" y="67" fill="white" width="1" height="1"/>
+                        <rect x="868" y="67" fill="white" width="1" height="1"/>
+                        <rect x="869" y="67" fill="white" width="1" height="1"/>
+                        <rect x="870" y="67" fill="white" width="1" height="1"/>
+                        <rect x="871" y="67" fill="white" width="1" height="1"/>
+                        <rect x="860" y="68" fill="white" width="1" height="1"/>
+                        <rect x="861" y="68" fill="white" width="1" height="1"/>
+                        <rect x="862" y="68" fill="white" width="1" height="1"/>
+                        <rect x="865" y="68" fill="white" width="1" height="1"/>
+                        <rect x="866" y="68" fill="white" width="1" height="1"/>
+                        <rect x="869" y="68" fill="white" width="1" height="1"/>
+                        <rect x="870" y="68" fill="white" width="1" height="1"/>
+                        <rect x="871" y="68" fill="white" width="1" height="1"/>
+                    </g>
+
+                    <g id="invadersdos">
+                        <rect x="835" y="70" fill="white" width="1" height="1"/>
+                        <rect x="834" y="70" fill="white" width="1" height="1"/>
+                        <rect x="836" y="70" fill="white" width="1" height="1"/>
+                        <rect x="837" y="70" fill="white" width="1" height="1"/>
+                        <rect x="838" y="70" fill="white" width="1" height="1"/>
+                        <rect x="839" y="70" fill="white" width="1" height="1"/>
+                        <rect x="840" y="70" fill="white" width="1" height="1"/>
+                        <rect x="841" y="70" fill="white" width="1" height="1"/>
+                        <rect x="842" y="70" fill="white" width="1" height="1"/>
+                        <rect x="843" y="70" fill="white" width="1" height="1"/>
+                        <rect x="844" y="70" fill="white" width="1" height="1"/>
+                        <rect x="845" y="70" fill="white" width="1" height="1"/>
+                        <rect x="846" y="70" fill="white" width="1" height="1"/>
+                        <rect x="835" y="71" fill="white" width="1" height="1"/>
+                        <rect x="836" y="71" fill="white" width="1" height="1"/>
+                        <rect x="837" y="71" fill="white" width="1" height="1"/>
+                        <rect x="838" y="71" fill="white" width="1" height="1"/>
+                        <rect x="839" y="71" fill="white" width="1" height="1"/>
+                        <rect x="840" y="71" fill="white" width="1" height="1"/>
+                        <rect x="841" y="71" fill="white" width="1" height="1"/>
+                        <rect x="842" y="71" fill="white" width="1" height="1"/>
+                        <rect x="843" y="71" fill="white" width="1" height="1"/>
+                        <rect x="844" y="71" fill="white" width="1" height="1"/>
+                        <rect x="845" y="71" fill="white" width="1" height="1"/>
+                        <rect x="836" y="72" fill="white" width="1" height="1"/>
+                        <rect x="844" y="72" fill="white" width="1" height="1"/>
+                        <rect x="835" y="73" fill="white" width="1" height="1"/>
+                        <rect x="845" y="73" fill="white" width="1" height="1"/>
+                        <rect x="836" y="66" fill="white" width="1" height="1"/>
+                        <rect x="844" y="66" fill="white" width="1" height="1"/>
+                        <rect x="834" y="67" fill="white" width="1" height="1"/>
+                        <rect x="837" y="67" fill="white" width="1" height="1"/>
+                        <rect x="843" y="67" fill="white" width="1" height="1"/>
+                        <rect x="846" y="67" fill="white" width="1" height="1"/>
+                        <rect x="834" y="68" fill="white" width="1" height="1"/>
+                        <rect x="836" y="68" fill="white" width="1" height="1"/>
+                        <rect x="837" y="68" fill="white" width="1" height="1"/>
+                        <rect x="838" y="68" fill="white" width="1" height="1"/>
+                        <rect x="839" y="68" fill="white" width="1" height="1"/>
+                        <rect x="840" y="68" fill="white" width="1" height="1"/>
+                        <rect x="841" y="68" fill="white" width="1" height="1"/>
+                        <rect x="842" y="68" fill="white" width="1" height="1"/>
+                        <rect x="843" y="68" fill="white" width="1" height="1"/>
+                        <rect x="844" y="68" fill="white" width="1" height="1"/>
+                        <rect x="846" y="68" fill="white" width="1" height="1"/>
+                        <rect x="835" y="69" fill="white" width="1" height="1"/>
+                        <rect x="834" y="69" fill="white" width="1" height="1"/>
+                        <rect x="836" y="69" fill="white" width="1" height="1"/>
+                        <rect x="838" y="69" fill="white" width="1" height="1"/>
+                        <rect x="839" y="69" fill="white" width="1" height="1"/>
+                        <rect x="840" y="69" fill="white" width="1" height="1"/>
+                        <rect x="841" y="69" fill="white" width="1" height="1"/>
+                        <rect x="842" y="69" fill="white" width="1" height="1"/>
+                        <rect x="844" y="69" fill="white" width="1" height="1"/>
+                        <rect x="845" y="69" fill="white" width="1" height="1"/>
+                        <rect x="846" y="69" fill="white" width="1" height="1"/>
+                    </g>
+                    <g id="invaderstres">
+                            <rect x="849" y="70" fill="white" width="1" height="1"/>
+                            <rect x="850" y="70" fill="white" width="1" height="1"/>
+                            <rect x="851" y="70" fill="white" width="1" height="1"/>
+                            <rect x="852" y="70" fill="white" width="1" height="1"/>
+                            <rect x="853" y="70" fill="white" width="1" height="1"/>
+                            <rect x="854" y="70" fill="white" width="1" height="1"/>
+                            <rect x="855" y="70" fill="white" width="1" height="1"/>
+                            <rect x="856" y="70" fill="white" width="1" height="1"/>
+                            <rect x="851" y="71" fill="white" width="1" height="1"/>
+                            <rect x="854" y="71" fill="white" width="1" height="1"/>
+                            <rect x="850" y="72" fill="white" width="1" height="1"/>
+                            <rect x="855" y="72" fill="white" width="1" height="1"/>
+                            <rect x="851" y="73" fill="white" width="1" height="1"/>
+                            <rect x="854" y="73" fill="white" width="1" height="1"/>
+                            <rect x="852" y="66" fill="white" width="1" height="1"/>
+                            <rect x="853" y="66" fill="white" width="1" height="1"/>
+                            <rect x="851" y="67" fill="white" width="1" height="1"/>
+                            <rect x="852" y="67" fill="white" width="1" height="1"/>
+                            <rect x="853" y="67" fill="white" width="1" height="1"/>
+                            <rect x="854" y="67" fill="white" width="1" height="1"/>
+                            <rect x="850" y="68" fill="white" width="1" height="1"/>
+                            <rect x="851" y="68" fill="white" width="1" height="1"/>
+                            <rect x="852" y="68" fill="white" width="1" height="1"/>
+                            <rect x="853" y="68" fill="white" width="1" height="1"/>
+                            <rect x="854" y="68" fill="white" width="1" height="1"/>
+                            <rect x="855" y="68" fill="white" width="1" height="1"/>
+                            <rect x="849" y="69" fill="white" width="1" height="1"/>
+                            <rect x="850" y="69" fill="white" width="1" height="1"/>
+                            <rect x="852" y="69" fill="white" width="1" height="1"/>
+                            <rect x="853" y="69" fill="white" width="1" height="1"/>
+                            <rect x="855" y="69" fill="white" width="1" height="1"/>
+                            <rect x="856" y="69" fill="white" width="1" height="1"/>
+                    </g>
+                    <g id="invadergreen">
+                            <rect x="849" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="850" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="851" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="852" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="853" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="854" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="855" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="856" y="70" fill="chartreuse" width="1" height="1"/>
+                            <rect x="851" y="71" fill="chartreuse" width="1" height="1"/>
+                            <rect x="854" y="71" fill="chartreuse" width="1" height="1"/>
+                            <rect x="850" y="72" fill="chartreuse" width="1" height="1"/>
+                            <rect x="855" y="72" fill="chartreuse" width="1" height="1"/>
+                            <rect x="851" y="73" fill="chartreuse" width="1" height="1"/>
+                            <rect x="854" y="73" fill="chartreuse" width="1" height="1"/>
+                            <rect x="852" y="66" fill="chartreuse" width="1" height="1"/>
+                            <rect x="853" y="66" fill="chartreuse" width="1" height="1"/>
+                            <rect x="851" y="67" fill="chartreuse" width="1" height="1"/>
+                            <rect x="852" y="67" fill="chartreuse" width="1" height="1"/>
+                            <rect x="853" y="67" fill="chartreuse" width="1" height="1"/>
+                            <rect x="854" y="67" fill="chartreuse" width="1" height="1"/>
+                            <rect x="850" y="68" fill="chartreuse" width="1" height="1"/>
+                            <rect x="851" y="68" fill="chartreuse" width="1" height="1"/>
+                            <rect x="852" y="68" fill="chartreuse" width="1" height="1"/>
+                            <rect x="853" y="68" fill="chartreuse" width="1" height="1"/>
+                            <rect x="854" y="68" fill="chartreuse" width="1" height="1"/>
+                            <rect x="855" y="68" fill="chartreuse" width="1" height="1"/>
+                            <rect x="849" y="69" fill="chartreuse" width="1" height="1"/>
+                            <rect x="850" y="69" fill="chartreuse" width="1" height="1"/>
+                            <rect x="852" y="69" fill="chartreuse" width="1" height="1"/>
+                            <rect x="853" y="69" fill="chartreuse" width="1" height="1"/>
+                            <rect x="855" y="69" fill="chartreuse" width="1" height="1"/>
+                            <rect x="856" y="69" fill="chartreuse" width="1" height="1"/>
+                    </g>
+                </defs>
+                        <!-- MAGIA -->
+                    <animate id="zoomin" attributeName="viewBox" begin="2s" dur="10s" values="0 0 1265 600; 600 20 160 160; 600 100 160 160" fill="freeze"/>
+                    <animate attributeName="viewBox" begin="zoomin.end+40s" dur="10s" values="600 100 160 160; 0 0 1265 600" fill="freeze"/>
+
+                    <rect id="background" fill="#99E2F0" width="1265" height="600"/>
+
+                    <g id="cajabotones">
+                        <rect x="542" y="258" fill="#59A3AC" width="189" height="24"/>
+                        <rect x="542" y="246" fill="#3E767B" width="189" height="12"/>
+                        <line fill="white" stroke="black" x1="542" y1="258.5" x2="732" y2="258.5"/>
+                        <line fill="white" stroke="black" x1="541" y1="281.5" x2="731" y2="281.5"/>
+                    </g>
+
+                    <g id="botones">
+
+                        <!-- FONDO > PANTALLA > BOTONES > MANDO -->
+
+                        <rect x="542" y="86" fill="#5C5C5E" width="189" height="160"/>
+
+                        <rect x="562" y="104" fill="#1C1C1C" width="148" height="125" rx="11"/>
+
+                        <ellipse fill="#B48340" cx="691.4" cy="250.3" rx="5.3" ry="1.4"/>
+                        <ellipse fill="#943C30" cx="628.4" cy="250.3" rx="5.3" ry="1.4"/>
+                        <ellipse fill="#C6C6CE" cx="583.4" cy="251.3" rx="5.3" ry="1.4"/>
+                        <ellipse fill="#943C30" cx="644.4" cy="250.3" rx="5.3" ry="1.4"/>
+                        <ellipse fill="#B48340" cx="691.4" cy="255.3" rx="5.3" ry="1.4"/>
+                        <line stroke="black" stroke-width="3" x1="583.5" y1="246" x2="583.5" y2="252"/>
+                        <circle fill="#943C30" cx="583.2" cy="239.7" r="7.2"/>
+                        <circle fill="#C6C6CE" cx="579.9" cy="237.9" r="1.8"/>
+                    </g>
+                    <g id="cajasuperior">
+                        <rect x="542" y="36" fill="#CD5441" width="191" height="50"/>
+                    </g>
+                    <g id="cajainferior">
+                        <rect x="542" y="282" fill="#F2BA5C" width="193" height="266"/>
+                    </g>
+                    <g id="recaudacion">
+                        <rect x="587" y="304" fill="#191919" width="100" height="90" rx="11"/>
+                        <rect x="611" y="340" fill="#E8CCC9" width="51" height="10"/>
+                        <rect x="610" y="319" fill="#E8CCC9" width="18" height="14"/>
+                        <rect x="646" y="319" fill="#E8CCC9" width="18" height="14"/>
+                        <rect x="595" y="324" fill="#C14E39" width="11" height="4"/>
+                        <rect x="668" y="324" fill="#C14E39" width="11" height="4"/>
+                        <rect x="613" y="321" width="12" height="4"/>
+                        <rect x="649" y="321" width="12" height="4"/>
+                    </g>
+
+                    <!-- INVADERS -->
+
+                    <g id="laterales">
+                        <line fill="none" stroke="black" stroke-width="8" x1="538" y1="27" x2="538" y2="551"/>
+                        <line fill="none" stroke="black" stroke-width="8" x1="735" y1="27" x2="735" y2="551"/>
+                        <line fill="none" stroke="black" stroke-width="8" x1="542" y1="36" x2="733" y2="36"/>
+                        <line fill="none" stroke="black" stroke-width="8" x1="541" y1="544" x2="732" y2="544"/>
+                        <path d="M612.4,59h-2.1v2.7h-10.8v-2.5h-2.2v-2.8h4.3V59h6.5v-5.2h-8.6v-2.7h-2.2v-5.4h2.1V43h8.7v2.5h2.1v2.7h-4.3v-2.5h-4.3v5.2 h8.6v2.8h2.1V59z M605.5,81.4h-8.2v-2.4h2.8V67.3h-2.8v-2.4h8.2v2.3h-2.7V79h2.7V81.4z M616.2,81.4h-2.8v-2.2h-1.3v-2.5h-1.3v-2.4 h-1.4v7.1h-2.8V64.9h2.8v2.3h1.3v2.3h1.4v2.5h1.3v-7.1h2.8V81.4z M628.4,53.6h-2.1v2.7h-8.6v5.4h-4.4V43h12.8v2.5h2.2V53.6z  M626.8,74.2h-1.3v2.5h-1.3V79h-1.4v2.5h-1.3v-2.2H620v-2.5h-1.4v-2.3h-1.3v-9.6h2.7v7h1.4v2.5h1.3V72h1.3v-7.1h2.8V74.2z  M624,53.6v-7.9h-6.4v7.9H624z M637.2,81.4h-2.8v-4.7h-4v4.7h-2.8V69.6h1.3v-2.4h1.3v-2.4h4.1v2.3h1.4v2.3h1.4V81.4z M644.9,61.7 h-4.2v-5.3h-6.4v5.3H630V48.3h2v-2.6h2.1V43h6.6v2.5h2.1v2.7h2.1V61.7z M634.4,74.2v-4.8h-1.3v-2.2h-1.4v2.4h-1.3v4.6H634.4z  M640.7,53.6v-5.4h-2.1v-2.5h-2.2v2.7h-2.1v5.2H640.7z M647.8,76.7h-1.3V79h-1.3v2.5h-7V64.9h6.9v2.3h1.3v2.3h1.3V76.7z  M645.1,76.7v-7.2h-1.4v-2.2H641V79h2.8v-2.3H645.1z M661.3,48.2H657v-2.5h-4.2v2.5h-2.2v8h2.1V59h4.3v-2.6h4.4V59h-2.1v2.7h-8.6 v-2.5h-2.2v-2.7h-2.1v-8.2h2.1v-2.6h2.1V43h8.7v2.5h2.1V48.2z M658.4,81.3h-9.8V64.6h9.8v2.4h-6.9v4.8h4.1v2.5h-4.1v4.8h6.9V81.3z  M669,73.9h-2.6v2.4h1.3v2.4h1.3v2.5h-4v-2.3h-1.3v-2.5h-1.3v4.8h-2.8V64.6h8.2v2.3h1.3V73.9z M666.3,71.6v-4.7h-4v7h2.7v-2.3 H666.3z M678.5,61.9h-15.2V43.1h15.2v2.6h-10.9v5.4h6.4v2.8h-6.4v5.3h10.9V61.9z M679.7,79h-1.3v2.5h-6.9v-2.2H670v-2.5h2.8V79 h4.1v-4.5h-5.5V72H670v-4.8h1.3v-2.4h5.5v2.3h1.3v2.4h-2.7v-2.3h-2.8v4.6h5.5v2.4h1.4V79z"/>
+                        <use xlinf:href="ovni" x="711" y="57"/>
+                        <path fill="white" d="M711.4,57.1h1.6v6.6h-1.6v1.6h-1.6v1.6h1.6v1.6h-1.6v-1.6h-1.6v-1.6h-8.2v1.6h-1.6v1.6h-1.6v-1.6h1.6v-1.6 h-1.6v-1.6H695v-6.6h1.6v3.3h1.6v-1.6h1.6v-1.6h-1.6v-1.6h1.6v1.6h1.6v1.6h4.9v-1.6h1.6v-1.6h1.6v1.6h-1.6v1.6h1.6v1.6h1.6V57.1z  M701.6,62v-1.6h-1.6V62H701.6z M708.1,62v-1.6h-1.6V62H708.1z"/>
+                        <path fill="white" d="M588.4,57.1h1.6v6.6h-1.6v1.6h-1.6v1.6h1.6v1.6h-1.6v-1.6h-1.6v-1.6h-8.2v1.6h-1.6v1.6h-1.6v-1.6h1.6v-1.6 h-1.6v-1.6H572v-6.6h1.6v3.3h1.6v-1.6h1.6v-1.6h-1.6v-1.6h1.6v1.6h1.6v1.6h4.9v-1.6h1.6v-1.6h1.6v1.6h-1.6v1.6h1.6v1.6h1.6V57.1z  M578.6,62v-1.6h-1.6V62H578.6z M585.1,62v-1.6h-1.6V62H585.1z"/>
+                    </g>
+
+                        <!-- TEXTO SUPERIOR E INFERIOR -->
+
+                    <g id="textofijo">
+                        <text x="576.6" y="115.4" fill="white">SCORE &lt;1&gt; HI-SCORE SCORE &lt;2&gt;</text>
+                        <text x="581.6" y="123" fill="white">0000</text>
+                        <text x="628.7" y="123" fill="white">0000</text>
+                        <text x="672.7" y="123" fill="white">0000</text>
+                        <text x="643.1" y="226" fill="white">credit 00</text>
+                    </g>
+
+
+                        <!-- BEGIN+1.Xs WHEN viewBox ZOOMIN ENDS -->
+
+                    <g id="textopocoapoco" visibility="hidden">
+
+                        <text x="630" y="136" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1s" dur="20s"/>
+                        P</text>
+                        <text x="635" y="136" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.1s" dur="19.9s"/>
+                        L</text>
+                        <text x="640" y="136" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.2s" dur="19.8s"/>
+                        A</text>
+                        <text transform="matrix(-1 0 0 -1 648.8 131.9)" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.3s" dur="19.7s"/>
+                            <animateTransform attributeName="transform" type="translate" begin="zoomin.end+9.8s" values="648.8; 711" dur="2.5s" fill="freeze"/>
+                        Y</text>
+
+                        <text x="606" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.4s" dur="19.6s"/>
+                        S</text>
+                        <text x="611" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.5s" dur="19.5s"/>
+                        P</text>
+                        <text x="616" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.6s" dur="19.4s"/>
+                        A</text>
+                        <text x="621" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.7s" dur="19.3s"/>
+                        C</text>
+                        <text x="626" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.8s" dur="19.2s"/>
+                        E</text>
+
+                        <text x="638" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+1.9s" dur="19.1s"/>
+                        I</text>
+                        <text x="643" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2s" dur="19s"/>
+                        N</text>
+                        <text x="648" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2.1s" dur="18.9s"/>
+                        V</text>
+                        <text x="653" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2.2s" dur="18.8s"/>
+                        A</text>
+                        <text x="658" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2.3s" dur="18.7s"/>
+                        D</text>
+                        <text x="663" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2.4s" dur="18.6s"/>
+                        E</text>
+                        <text x="668" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2.5s" dur="18.5s"/>
+                        R</text>
+                        <text x="673" y="149" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+2.6s" dur="18.4s"/>
+                        S</text>
+                    </g>
+
+                    <g id="textoderepente" visibility="hidden">
+                        <g>
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3s" dur="18s"/>
+                            <text x="591.8" y="164.5" fill="white">*SCORE ADVANCE TABLE* </text>
+                            <g id="allinvaders" transform="scale(.8)">
+                                <use xlink:href="#ovni" x="-100" y="148"/>
+                                <use xlink:href="#invaders" x="-83" y="160"/>
+                                <use xlink:href="#invadersdos" x="-58" y="170"/>
+                                <use xlink:href="#invadergreen" x="-71" y="180" fill="#000"/>
+                            </g>
+                        </g>
+
+                        <text x="635" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.1s" dur="17.9s"/>
+                        =?</text>
+                        <text x="649" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.2s" dur="17.8s"/>
+                        m</text>
+                        <text x="654" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.3s" dur="17.7s"/>
+                        y</text>
+                        <text x="659" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.4s" dur="17.6s"/>
+                        s</text>
+                        <text x="664" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.5s" dur="17.5s"/>
+                        t</text>
+                        <text x="669" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.6s" dur="17.4s"/>
+                        e</text>
+                        <text x="674" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.7s" dur="17.3s"/>
+                        r</text>
+                        <text x="679" y="178" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+3.8s" dur="17.2s"/>
+                        y</text>
+
+                        <text x="635" y="185" fill="white">
+
+                        <animate attributeName="visibility" values="visible" begin="zoomin.end+4s" dur="17s"/>
+                        =30</text>
+                        <text x="654" y="185" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.1s" dur="16.9s"/>
+                        p</text>
+                        <text x="659" y="185" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.2s" dur="16.8s"/>
+                        o</text>
+                        <text x="664" y="185" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.3s" dur="16.7s"/>
+                        i</text>
+                        <text x="666" y="185" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.4s" dur="16.6s"/>
+                        n</text>
+                        <text x="671" y="185" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.5s" dur="16.5s"/>
+                        t</text>
+                        <text x="676" y="185" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.6s" dur="16.4s"/>
+                        s</text>
+
+
+                        <text x="635" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.8s" dur="16.2s"/>
+                        =20</text>
+                        <text x="654" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+4.9s" dur="16.1s"/>
+                        p</text>
+                        <text x="659" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5s" dur="16s"/>
+                        o</text>
+                        <text x="664" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.1s" dur="15.9s"/>
+                        i</text>
+                        <text x="666" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.2s" dur="15.8s"/>
+                        n</text>
+                        <text x="671" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.3s" dur="15.7s"/>
+                        t</text>
+                        <text x="676" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.4s" dur="15.6s"/>
+                        s</text>
+
+                        <text x="635" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.6s" dur="15.4s"/>
+                        =10</text>
+                        <text x="654" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.7s" dur="15.3s"/>
+                        p</text>
+                        <text x="659" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.8s" dur="15.2s"/>
+                        o</text>
+                        <text x="664" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+5.9s" dur="15.1s"/>
+                        i</text>
+                        <text x="666" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+6s" dur="15"/>
+                        n</text>
+                        <text x="671" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+6.1s" dur="14.9s"/>
+                        t</text>
+                        <text x="676" y="203" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+6.2s" dur="14.8s"/>
+                        s</text>
+                    </g>
+
+                    <g id="textofinal" visibility="hidden">
+                        <text x="615" y="165" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+23s" dur="12s"/>
+                        insert </text>
+                        <text x="650" y="165" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+23s" dur="12s"/>
+                        coin</text>
+                        <text x="645" y="165" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+23s" fill="freeze"/>
+                           <animate attributeName="visibility" values="hidden" begin="rayo.end-0.3s" fill="freeze"/>
+                        c</text>
+                        <text x="602" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24s" dur="11s"/>
+                        &lt;</text>
+                        <text x="606" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.1s" dur="10.9s"/>
+                        1</text>
+                        <text x="614" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.2s" dur="10.8s"/>
+                        or</text>
+                        <text x="627" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.3s" dur="10.7s"/>
+                        2</text>
+                        <text x="637" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.4s" dur="10.6s"/>
+                        p</text>
+                        <text x="642" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.5s" dur="10.5s"/>
+                        l</text>
+                        <text x="647" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.6s" dur="10.4s"/>
+                        a</text>
+                        <text x="652" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.7s" dur="10.3s"/>
+                        y</text>
+                        <text x="657" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.8s" dur="10.2s"/>
+                        e</text>
+                        <text x="662" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+24.9s" dur="10.1s"/>
+                        r</text>
+                        <text x="667" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25s" dur="10s"/>
+                        s</text>
+                        <text x="672" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.1s" dur="9.9s"/>
+                        &gt;</text>
+
+                        <text x="602" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.2s" dur="9.8s"/>
+                        *1</text>
+                        <text x="614" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.3s" dur="9.7s"/>
+                        p</text>
+                        <text x="619" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.4s" dur="9.6s"/>
+                        l</text>
+                        <text x="624" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.5s" dur="9.5s"/>
+                        a</text>
+                        <text x="629" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.6s" dur="9.4s"/>
+                        y</text>
+                        <text x="634" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.7s" dur="9.3s"/>
+                        e</text>
+                        <text x="639" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.8s" dur="9.2s"/>
+                        r</text>
+
+                        <text x="652" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+25.9s" dur="9.1s"/>
+                        1</text>
+
+                        <text x="657" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26s" dur="9s"/>
+                        c</text>
+                        <text x="662" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.1s" dur="8.9s"/>
+                        o</text>
+                        <text x="667" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.2s" dur="8.8s"/>
+                        i</text>
+                        <text x="669" y="195" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.3s" dur="8.7s"/>
+                        n</text>
+
+
+                        <text x="602" y="209" fill="chartreuse">*2
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.5s" dur="8.5s"/>
+                        </text>
+                        <text x="614" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.6s" dur="8.4s"/>
+                        p</text>
+                        <text x="619" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.7s" dur="8.3s"/>
+                        l</text>
+                        <text x="624" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.8s" dur="8.2s"/>
+                        a</text>
+                        <text x="629" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+26.9s" dur="8.1s"/>
+                        y</text>
+                        <text x="634" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27s" dur="8s"/>
+                        e</text>
+                        <text x="639" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.1s" dur="7.9s"/>
+                        r</text>
+                        <text x="644" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.2s" dur="7.8s"/>
+                        s</text>
+                        <text x="652" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.3s" dur="7.7s"/>
+                        2</text>
+                        <text x="662" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.4s" dur="7.6s"/>
+                        c</text>
+                        <text x="667" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.5s" dur="7.5s"/>
+                        o</text>
+                        <text x="672" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.6s" dur="7.4s"/>
+                        i</text>
+                        <text x="674" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.7s" dur="7.3s"/>
+                        n</text>
+                        <text x="679" y="209" fill="chartreuse">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+27.8s" dur="7.2s"/>
+                        s</text>
+                    </g>
+
+                    <g id="invadersmove" transform="translate(-150,65)">
+                        <animate attributeName="visibility" values="visible" begin="zoomin.end+7s" fill="freeze"/>
+                        <animateTransform attributeName="transform" type="translate" begin="zoomin.end+7.3s" values="-150,65; -213,65; -150,65" dur="5s" repeatCount="2"/>
+                        <rect x="860" y="69" fill="white" width="1" height="1"/>
+                        <rect x="861" y="69" fill="white" width="1" height="1"/>
+                        <rect x="862" y="69" fill="white" width="1" height="1"/>
+                        <rect x="863" y="69" fill="white" width="1" height="1"/>
+                        <rect x="864" y="69" fill="white" width="1" height="1"/>
+                        <rect x="865" y="69" fill="white" width="1" height="1"/>
+                        <rect x="866" y="69" fill="white" width="1" height="1"/>
+                        <rect x="867" y="69" fill="white" width="1" height="1"/>
+                        <rect x="868" y="69" fill="white" width="1" height="1"/>
+                        <rect x="869" y="69" fill="white" width="1" height="1"/>
+                        <rect x="870" y="69" fill="white" width="1" height="1"/>
+                        <rect x="871" y="69" fill="white" width="1" height="1"/>
+                        <rect x="863" y="70" fill="white" width="1" height="1"/>
+                        <rect x="864" y="70" fill="white" width="1" height="1"/>
+                        <rect x="867" y="70" fill="white" width="1" height="1"/>
+                        <rect x="868" y="70" fill="white" width="1" height="1"/>
+                        <rect x="862" y="71" fill="white" width="1" height="1"/>
+                        <rect x="865" y="71" fill="white" width="1" height="1"/>
+                        <rect x="866" y="71" fill="white" width="1" height="1"/>
+                        <rect x="869" y="71" fill="white" width="1" height="1"/>
+                        <rect x="863" y="72" fill="white" width="1" height="1">
+                            <animate attributeName="x" values="863;861;863;861;863;861;863;861;863;861;863;861;863;861;863;861;" begin="zoomin.end+7.3s" dur="2.5s" repeatCount="4"/>
+                        </rect>
+                        <rect x="868" y="72" fill="white" width="1" height="1">
+                            <animate attributeName="x" values="868;870;868;870;868;870;868;870;868;870;868;870;868;870;868;870;" begin="zoomin.end+7.3s" dur="2.5s" repeatCount="4"/>
+                        </rect>
+                        <rect x="864" y="65" fill="white" width="1" height="1"/>
+                        <rect x="865" y="65" fill="white" width="1" height="1"/>
+                        <rect x="866" y="65" fill="white" width="1" height="1"/>
+                        <rect x="861" y="66" fill="white" width="1" height="1"/>
+                        <rect x="862" y="66" fill="white" width="1" height="1"/>
+                        <rect x="863" y="66" fill="white" width="1" height="1"/>
+                        <rect x="864" y="66" fill="white" width="1" height="1"/>
+                        <rect x="865" y="66" fill="white" width="1" height="1"/>
+                        <rect x="866" y="66" fill="white" width="1" height="1"/>
+                        <rect x="867" y="66" fill="white" width="1" height="1"/>
+                        <rect x="867" y="65" fill="white" width="1" height="1"/>
+                        <rect x="868" y="66" fill="white" width="1" height="1"/>
+                        <rect x="869" y="66" fill="white" width="1" height="1"/>
+                        <rect x="870" y="66" fill="white" width="1" height="1"/>
+                        <rect x="860" y="67" fill="white" width="1" height="1"/>
+                        <rect x="861" y="67" fill="white" width="1" height="1"/>
+                        <rect x="862" y="67" fill="white" width="1" height="1"/>
+                        <rect x="863" y="67" fill="white" width="1" height="1"/>
+                        <rect x="864" y="67" fill="white" width="1" height="1"/>
+                        <rect x="865" y="67" fill="white" width="1" height="1"/>
+                        <rect x="866" y="67" fill="white" width="1" height="1"/>
+                        <rect x="867" y="67" fill="white" width="1" height="1"/>
+                        <rect x="868" y="67" fill="white" width="1" height="1"/>
+                        <rect x="869" y="67" fill="white" width="1" height="1"/>
+                        <rect x="870" y="67" fill="white" width="1" height="1"/>
+                        <rect x="871" y="67" fill="white" width="1" height="1"/>
+                        <rect x="860" y="68" fill="white" width="1" height="1"/>
+                        <rect x="861" y="68" fill="white" width="1" height="1"/>
+                        <rect x="862" y="68" fill="white" width="1" height="1"/>
+                        <rect x="865" y="68" fill="white" width="1" height="1"/>
+                        <rect x="866" y="68" fill="white" width="1" height="1"/>
+                        <rect x="869" y="68" fill="white" width="1" height="1"/>
+                        <rect x="870" y="68" fill="white" width="1" height="1"/>
+                        <rect x="871" y="68" fill="white" width="1" height="1"/>
+                    </g>
+                    <g id="rayorojo" fill="red">
+                            <rect x="561" y="130" width="1" height="1"/>
+                            <rect x="560" y="131" width="1" height="1"/>
+                            <rect x="561" y="132" width="1" height="1"/>
+                            <rect x="560" y="133" width="1" height="1"/>
+                            <animateTransform id="rayo" attributeName="transform" type="translate" begin="zoomin.end+31.8s" values="85,0; 85,32" dur="2.5s"/>
+                            <animate id="rayo" attributeName="fill" begin="zoomin.end+31.8s" values="white; red; white; red; white; red; white; red; white; red; white; red" dur="2.5s"/>
+                    </g>
+                    <g id="invadersrojo" transform="translate(-312,65)">
+                        <animate attributeName="visibility" values="visible" begin="zoomin.end+29s" fill="freeze"/>
+                        <animateTransform attributeName="transform" type="translate" begin="zoomin.end+29.3s" values="-312,65; -220,65; -312,65" dur="5s"/>
+                        <rect x="860" y="69" fill="red" width="1" height="1"/>
+                        <rect x="861" y="69" fill="red" width="1" height="1"/>
+                        <rect x="862" y="69" fill="red" width="1" height="1"/>
+                        <rect x="863" y="69" fill="red" width="1" height="1"/>
+                        <rect x="864" y="69" fill="red" width="1" height="1"/>
+                        <rect x="865" y="69" fill="red" width="1" height="1"/>
+                        <rect x="866" y="69" fill="red" width="1" height="1"/>
+                        <rect x="867" y="69" fill="red" width="1" height="1"/>
+                        <rect x="868" y="69" fill="red" width="1" height="1"/>
+                        <rect x="869" y="69" fill="red" width="1" height="1"/>
+                        <rect x="870" y="69" fill="red" width="1" height="1"/>
+                        <rect x="871" y="69" fill="red" width="1" height="1"/>
+                        <rect x="863" y="70" fill="red" width="1" height="1"/>
+                        <rect x="864" y="70" fill="red" width="1" height="1"/>
+                        <rect x="867" y="70" fill="red" width="1" height="1"/>
+                        <rect x="868" y="70" fill="red" width="1" height="1"/>
+                        <rect x="862" y="71" fill="red" width="1" height="1"/>
+                        <rect x="865" y="71" fill="red" width="1" height="1"/>
+                        <rect x="866" y="71" fill="red" width="1" height="1"/>
+                        <rect x="869" y="71" fill="red" width="1" height="1"/>
+                        <rect x="863" y="72" fill="red" width="1" height="1">
+                            <animate attributeName="x" values="863;861;863;861;863;861;863;861;863;861;863;861;863;861;863;861;" begin="zoomin.end+29.3s" dur="2.5s" repeatCount="4"/>
+                        </rect>
+                        <rect x="868" y="72" fill="red" width="1" height="1">
+                            <animate attributeName="x" values="868;870;868;870;868;870;868;870;868;870;868;870;868;870;868;870;" begin="zoomin.end+29.3s" dur="2.5s" repeatCount="4"/>
+                        </rect>
+                        <rect x="864" y="65" fill="red" width="1" height="1"/>
+                        <rect x="865" y="65" fill="red" width="1" height="1"/>
+                        <rect x="866" y="65" fill="red" width="1" height="1"/>
+                        <rect x="861" y="66" fill="red" width="1" height="1"/>
+                        <rect x="862" y="66" fill="red" width="1" height="1"/>
+                        <rect x="863" y="66" fill="red" width="1" height="1"/>
+                        <rect x="864" y="66" fill="red" width="1" height="1"/>
+                        <rect x="865" y="66" fill="red" width="1" height="1"/>
+                        <rect x="866" y="66" fill="red" width="1" height="1"/>
+                        <rect x="867" y="66" fill="red" width="1" height="1"/>
+                        <rect x="867" y="65" fill="red" width="1" height="1"/>
+                        <rect x="868" y="66" fill="red" width="1" height="1"/>
+                        <rect x="869" y="66" fill="red" width="1" height="1"/>
+                        <rect x="870" y="66" fill="red" width="1" height="1"/>
+                        <rect x="860" y="67" fill="red" width="1" height="1"/>
+                        <rect x="861" y="67" fill="red" width="1" height="1"/>
+                        <rect x="862" y="67" fill="red" width="1" height="1"/>
+                        <rect x="863" y="67" fill="red" width="1" height="1"/>
+                        <rect x="864" y="67" fill="red" width="1" height="1"/>
+                        <rect x="865" y="67" fill="red" width="1" height="1"/>
+                        <rect x="866" y="67" fill="red" width="1" height="1"/>
+                        <rect x="867" y="67" fill="red" width="1" height="1"/>
+                        <rect x="868" y="67" fill="red" width="1" height="1"/>
+                        <rect x="869" y="67" fill="red" width="1" height="1"/>
+                        <rect x="870" y="67" fill="red" width="1" height="1"/>
+                        <rect x="871" y="67" fill="red" width="1" height="1"/>
+                        <rect x="860" y="68" fill="red" width="1" height="1"/>
+                        <rect x="861" y="68" fill="red" width="1" height="1"/>
+                        <rect x="862" y="68" fill="red" width="1" height="1"/>
+                        <rect x="865" y="68" fill="red" width="1" height="1"/>
+                        <rect x="866" y="68" fill="red" width="1" height="1"/>
+                        <rect x="869" y="68" fill="red" width="1" height="1"/>
+                        <rect x="870" y="68" fill="red" width="1" height="1"/>
+                        <rect x="871" y="68" fill="red" width="1" height="1"/>
+                    </g>
+                    <g visibility="hidden">
+                        <text x="630" y="159" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+35s" dur="2s"/>
+                        PUSH</text>
+                        <text x="599" y="179" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+35s" dur="2s"/>
+                        ONLY 1PLAYER BUTTON</text>
+                    </g>
+                    <g visibility="hidden">
+                        <text x="610" y="165" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+38s" dur="2s"/>
+                        PLAY PLAYER&lt;1&gt;</text>
+                    </g>
+                    <g visibility="hidden">
+                        <text x="610" y="165" fill="white">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+40s" fill="freeze"/>
+                        TO BE CONTINUED</text>
+                        <text x="680" y="165" fill="white" opacity="1">
+                            <animate attributeName="visibility" values="visible" begin="zoomin.end+40s" fill="freeze"/>
+                            <animate attributeName="opacity" values="0; 1; 0; 1; 0; 1; 0; 1" begin="zoomin.end+39s" repeatCount="indifinite"/>
+                        ...</text>
+                    </g>
+                        <text x="710" y="136" fill="white" visibility="visible">
+                            <animate attributeName="x" type="translate" begin="zoomin.end+12.3s" values="710,; 645" dur="2.5s" fill="freeze"/>
+                            <animate attributeName="visibility" values="hidden" begin="zoomin.end+21s" dur=".1s" fill="freeze"/>
+                        Y</text>
+                        <rect x="710" y="127" width="20px" height="20px" fill="#5C5C5E"/>
+                        <rect x="542" y="127" width="20px" height="20px" fill="#5C5C5E"/>
+                </svg>
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Animando filtros</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <body>
+          <svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox="0 0 100% 100%">
+            <filter color-interpolation-filters='sRGB' id='filter3115'>
+                    <feTurbulence type='fractalNoise' numOctaves='1' baseFrequency='0.9' id='feTurbulence3117'>
+                        <animate attributeName="numOctaves" values="0;5;4;3;2;7;8;9;10;1;2" dur="20s" repeatCount="indefinite"/>
+                        <animate attributeName="baseFrequency" values="0;5;4;3;2;7;8;9;10;1;2" dur="20s" repeatCount="indefinite"/>
+                    </feTurbulence>
+                    <feColorMatrix result='result5' values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -4.15' id='feColorMatrix3119'/>
+                    <feComposite in2='result5' operator='in' in='SourceGraphic' result='result6' id='feComposite3121' />
+                    <feMorphology in='result6' operator='dilate' radius='9' result='result3' id='feMorphology3123'>
+                        <animate attributeName="radius" values="1;2;3;4;5;6;7;8;9;1;9" dur="20s" repeatCount="indefinite"/>
+                    </feMorphology>
+                </filter>
+            <rect width='100%' height='100%' x='0' y='0' id='rect2985' fill='#000000'/>
+            <rect width='100%' height='100%' x='0' y='0' id='rect2985' filter="url(#filter3115)" fill="#611748">
+                <animate attributeName="width" values="90%; 80%; 50%; 60%; 80%; 10%" begin="1s" dur="10s"/>
+                <animate attributeName="fill" dur="20s" values="#1abc9c; #16a085; #3498db; #2980b9; #9b59b6; #8e44ad;" begin="1s" repeatCount="indefinite"/>
+            </rect>
+        </svg>
+        </body>
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
