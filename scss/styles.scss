@@ -64,6 +64,16 @@ a {
 }
 
 
+.proyectos-divisiones {
+	&::after {
+		content: "";
+		width: 200px;
+		display: block;
+		margin: 30px auto;
+		border-bottom: 1px solid tomato;
+	}
+}
+
 .proyectos-titulo {
 	font-size: 24px;
 	font-family: "proxima-nova",sans-serif;
