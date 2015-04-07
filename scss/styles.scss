@@ -14,7 +14,6 @@ body {
 	background-color: $bg-color;
 }
 
-
 a {
 	text-decoration: none;
 	color: $navy-color;
@@ -80,5 +79,12 @@ a {
 	font-weight: 400;
 	color: darkslategrey;
 	line-height: 24px;
+}
+
+.proyectos-divisiones {
+	span {
+		color: tomato;
+		font-weight: 800;
+	}
 }
 
