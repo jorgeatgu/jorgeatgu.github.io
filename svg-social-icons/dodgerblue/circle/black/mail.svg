@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title">
+        <title id="title">Mail icon</title>
+<circle fill="dodgerblue" cx="16" cy="16" r="16"/>
+<rect x="6.6" y="9.5" fill="none" stroke="black" stroke-width="1.5" width="18.8" height="13.1"/>
+    <polyline fill="none" stroke="black" stroke-width="1.5" points="6.6,9.5 16,16.5 25.4,9.5"/>
+    <line stroke="black" stroke-width="1.5" x1="25.4" y1="22.6" x2="18.5" y2="14.6"/>
+    <line stroke="black" stroke-width="1.5" x1="6.6" y1="22.6" x2="13.6" y2="14.6"/>
+</svg>
