@@ -11,12 +11,12 @@ Estilos principales GitHub Jorge Aznar
 ========================================================================== */
 
 body {
-	background-color: $bg-color;
+  background-color: $bg-color;
 }
 
 a {
-	text-decoration: none;
-	color: $navy-color;
+  text-decoration: none;
+  color: $navy-color;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, a {
@@ -27,77 +27,85 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 .proyectos {
   box-sizing: border-box;
   width: 80%;
-	padding-left: 50px;
-	display: block;
-	margin: 0 auto;
+  padding-left: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
 .titulo-principal {
-	font-family: "din-condensed-web",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	color: $principal-color;
-	font-size: 40px;
-	letter-spacing: 10px;
-	margin: 50px;
-	margin-top: 0;
-	text-align: center;
-	&::after,
-	&::before {
-		width: 400px;
-		content: " ";
-		display: block;
-		padding: 20px 0;
-		margin: 0 auto;
-		border-bottom: 1px solid $navy-color;
-	}
-	&::before {
-		margin-bottom: 40px;
-	}
+  font-family: "din-condensed-web",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: $principal-color;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin: 50px;
+  margin-top: 0;
+  text-align: center;
+  &::after,
+  &::before {
+    width: 400px;
+    content: " ";
+    display: block;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid $navy-color;
+  }
+  &::before {
+    margin-bottom: 40px;
+  }
 }
 
 .texto-mio {
-	font-family: "ff-meta-web-pro",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	color: $mi-color;
-	text-align: center;
-	margin-bottom: 0;
-	display: block;
-	margin-top: 20px;
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: $mi-color;
+  text-align: center;
+  margin-bottom: 0;
+  display: block;
+  margin-top: 20px;
 }
 
 
 .proyectos-divisiones {
-	&::after {
-		content: "";
-		width: 200px;
-		display: block;
-		margin: 30px auto;
-		border-bottom: 1px solid tomato;
-	}
+  &::after {
+    content: "";
+    width: 200px;
+    display: block;
+    margin: 30px auto;
+    border-bottom: 1px solid tomato;
+  }
 }
 
 .proyectos-titulo {
-	font-size: 28px;
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	color: $principal-color;
-	letter-spacing: 1px;
-	span {
-		color: tomato;
-		font-weight: 800;
-	}
+  font-size: 28px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: $principal-color;
+  letter-spacing: 1px;
+  span {
+    color: tomato;
+    font-weight: 800;
+  }
 }
 
 .proyectos-definicion {
-	font-family: "ff-meta-web-pro",sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	color: darkslategrey;
-	line-height: 28px;
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: darkslategrey;
+  line-height: 28px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .embed-container {

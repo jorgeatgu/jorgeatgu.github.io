@@ -437,4 +437,11 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
   overflow: hidden;
   max-width: 100%; }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
 /*# sourceMappingURL=styles.css.map */
