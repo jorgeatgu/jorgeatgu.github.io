@@ -368,7 +368,8 @@ STYLES SVG SOCIAL ICONS
     color: navy;
     text-align: center;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 30px; }
   .keywords-header .keywords-header-iconos {
     display: block;
     width: 60%;
@@ -385,6 +386,7 @@ button {
   width: 10%;
   background-color: crimson;
   display: inline-block;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  font-family: "Hind", sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -22,6 +22,7 @@ STYLES SVG SOCIAL ICONS
 		text-align: center;
 		display: block;
 		margin: 0 auto;
+		padding-top: 30px;
 	}
 	.keywords-header-iconos {
 		display: block;
@@ -37,10 +38,18 @@ STYLES SVG SOCIAL ICONS
 	}
 }
 
-button {
-	border: 0;
-	width: 100/10 * 1%;
-	background-color: crimson;
-	display: inline-block;
-	-webkit-appearance: none;
+.keywords-footer {
+	font-size: 0;
+	box-sizing: border-box;
+	button {
+		border: 0;
+		width: 100/10 * 1%;
+		background-color: crimson;
+		display: inline-block;
+		-webkit-appearance: none;
+		font-family: $hind;
+		font-size: 14px;
+		box-sizing: border-box;
+		padding: 10px;
+	}
 }
