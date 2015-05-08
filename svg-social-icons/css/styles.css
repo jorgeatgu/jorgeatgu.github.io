@@ -359,5 +359,26 @@ Variables
 /* ==========================================================================
 STYLES SVG SOCIAL ICONS
 ========================================================================== */
+.keywords-header {
+  background-color: navajowhite;
+  width: 100%; }
+  .keywords-header .keywords-header-titulo {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: navy;
+    text-align: center;
+    display: block;
+    margin: 0 auto; }
+  .keywords-header .keywords-header-iconos {
+    display: block;
+    width: 60%;
+    margin: 0 auto; }
+
+button {
+  border: 0;
+  width: 10%;
+  background-color: crimson;
+  display: inline-block;
+  -webkit-appearance: none; }
 
 /*# sourceMappingURL=styles.css.map */

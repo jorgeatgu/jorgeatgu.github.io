@@ -4,8 +4,36 @@
 Variables
 ========================================================================== */
 
-
+$hind: 'Hind', sans-serif;
+$montse: 'Montserrat', sans-serif;
 
 /* ==========================================================================
 STYLES SVG SOCIAL ICONS
 ========================================================================== */
+
+
+.keywords-header {
+	background-color: navajowhite;
+	width: 100%;
+	.keywords-header-titulo {
+		font-size: 40px;
+		font-family: $montse;
+		color: navy;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+	.keywords-header-iconos {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+button {
+	border: 0;
+	width: 100/10 * 1%;
+	background-color: crimson;
+	display: inline-block;
+	-webkit-appearance: none;
+}
