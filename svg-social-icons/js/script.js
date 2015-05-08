@@ -9,8 +9,6 @@ $(document).ready(function() {
     });
 
 	$('button').click(function(){
-	    $("$images")
-	      .delay(199)
-	      .velocity({ scale: 0}, { duration: 500, easing: "easeInCirc"})
+	    $("svg").delay(199).velocity({ scale: 0}, { duration: 500, easing: "easeInCirc"});
 	});
 });
