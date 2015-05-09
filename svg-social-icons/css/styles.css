@@ -1,405 +1,71 @@
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+/*
+Error: Duplicate key #fffaf0 in map (aliceblue: (base: aliceblue, light: lighten(aliceblue, 10%)), antiquewhite: (base: antiquewhite, light: lighten(antiquewhite, 10%)), aqua: (base: aqua, light: lighten(aqua, 10%)), aquamarine: (base: aquamarine, light: lighten(aquamarine, 10%)), azure: (base: azure, light: lighten(azure, 10%)), beige: (base: beige, light: lighten(beige, 10%)), bisque: (base: bisque, light: lighten(bisque, 10%)), black: (base: black, light: lighten(black, 10%)), blanchedalmond: (base: blanchedalmond, light: lighten(blanchedalmond, 10%)), blue: (base: blue, light: lighten(blue, 10%)), blueviolet: (base: blueviolet, light: lighten(blueviolet, 10%)), brown: (base: brown, light: lighten(brown, 10%)), burlywood: (base: burlywood, light: lighten(burlywood, 10%)), cadetblue: (base: cadetblue, light: lighten(cadetblue, 10%)), chartreuse: (base: chartreuse, light: lighten(chartreuse, 10%)), chocolate: (base: chocolate, light: lighten(chocolate, 10%)), coral: (base: coral, light: lighten(coral, 10%)), cornflowerblue: (base: cornflowerblue, light: lighten(cornflowerblue, 10%)), cornsilk: (base: cornsilk, light: lighten(cornsilk, 10%)), crimson: (base: crimson, light: lighten(crimson, 10%)), darkblue: (base: darkblue, light: lighten(darkblue, 10%)), darkcyan: (base: darkcyan, light: lighten(darkcyan, 10%)), darkgoldenrod: (base: darkgoldenrod, light: lighten(darkgoldenrod, 10%)), darkgray: (base: darkgray, light: lighten(darkgray, 10%)), darkgreen: (base: darkgreen, light: lighten(darkgreen, 10%)), darkkhaki: (base: darkkhaki, light: lighten(darkkhaki, 10%)), darkmagenta: (base: darkmagenta, light: lighten(darkmagenta, 10%)), darkolivegreen: (base: darkolivegreen, light: lighten(darkolivegreen, 10%)), darkorange: (base: darkorange, light: lighten(darkorange, 10%)), darkorchid: (base: darkorchid, light: lighten(darkorchid, 10%)), darkred: (base: darkred, light: lighten(darkred, 10%)), darksalmon: (base: darksalmon, light: lighten(darksalmon, 10%)), darkseagreen: (base: darkseagreen, light: lighten(darkseagreen, 10%)), darkslateblue: (base: darkslateblue, light: lighten(darkslateblue, 10%)), darkslategray: (base: darkslategray, light: lighten(darkslategray, 10%)), darkturquoise: (base: darkturquoise, light: lighten(darkturquoise, 10%)), darkviolet: (base: darkviolet, light: lighten(darkviolet, 10%)), deeppink: (base: deeppink, light: lighten(deeppink, 10%)), deepskyblue: (base: deepskyblue, light: lighten(deepskyblue, 10%)), dimgray: (base: dimgray, light: lighten(dimgray, 10%)), dodgerblue: (base: dodgerblue, light: lighten(dodgerblue, 10%)), firebrick: (base: firebrick, light: lighten(firebrick, 10%)), floralwhite: (base: floralwhite, light: lighten(floralwhite, 10%)), forestgreen: (base: forestgreen, light: lighten(forestgreen, 10%)), fuchsia: (base: fuchsia, light: lighten(fuchsia, 10%)), gainsboro: (base: gainsboro, light: lighten(gainsboro, 10%)), ghostwhite: (base: ghostwhite, light: lighten(ghostwhite, 10%)), gold: (base: gold, light: lighten(gold, 10%)), goldenrod: (base: goldenrod, light: lighten(goldenrod, 10%)), gray: (base: gray, light: lighten(gray, 10%)), green: (base: green, light: lighten(green, 10%)), floralwhite: (base: floralwhite, light: lighten(floralwhite, 10%)), floralwhite: (base: floralwhite, light: lighten(floralwhite, 10%))).
+        on line 1 of scss/_color.scss
+        from line 2 of scss/styles.scss
 
-/**
- * Remove default margin.
- */
-body {
-  margin: 0; }
+1: @import "reset";
+2: @import "color";
+3: 
+4: /* ==========================================================================
+5: Variables
+6: ========================================================================== *\/
 
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block; }
-
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
- */
-[hidden],
-template {
-  display: none; }
-
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
-a {
-  background-color: transparent; }
-
-/**
- * Improve readability of focused elements when they are also in an
- * active/hover state.
- */
-a:active,
-a:hover {
-  outline: 0; }
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
-b,
-strong {
-  font-weight: bold; }
-
-/**
- * Address styling not present in Safari and Chrome.
- */
-dfn {
-  font-style: italic; }
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-/**
- * Address styling not present in IE 8/9.
- */
-mark {
-  background: #ff0;
-  color: #000; }
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-small {
-  font-size: 80%; }
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sup {
-  top: -0.5em; }
-
-sub {
-  bottom: -0.25em; }
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
-img {
-  border: 0; }
-
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
-svg:not(:root) {
-  overflow: hidden; }
-
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
-figure {
-  margin: 1em 40px; }
-
-/**
- * Address differences between Firefox and other browsers.
- */
-hr {
-  box-sizing: content-box;
-  height: 0; }
-
-/**
- * Contain overflow in all browsers.
- */
-pre {
-  overflow: auto; }
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em; }
-
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
-button {
-  overflow: visible; }
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-button,
-select {
-  text-transform: none; }
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
-
-/**
- * Re-set default cursor for disabled elements.
- */
-button[disabled],
-html input[disabled] {
-  cursor: default; }
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-input {
-  line-height: normal; }
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  box-sizing: content-box;
-  /* 2 */ }
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-/**
- * Define consistent border, margin, and padding.
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
-textarea {
-  overflow: auto; }
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-optgroup {
-  font-weight: bold; }
-
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-td,
-th {
-  padding: 0; }
-
-/* ==========================================================================
-Variables
-========================================================================== */
-/* ==========================================================================
-STYLES SVG SOCIAL ICONS
-========================================================================== */
-h1, h2, h3, h4, h5, h6, p, ul, a {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased; }
-
-.keywords-header {
-  background-color: #DDDDDD;
-  width: 100%; }
-  .keywords-header .keywords-header-titulo {
-    font-size: 40px;
-    font-family: "fira-sans-2", sans-serif;
-    font-weight: 500;
-    color: #001F3F;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px; }
-  .keywords-header .keywords-header-iconos {
-    display: block;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 50px;
-    text-align: center;
-    padding-bottom: 100px; }
-    .keywords-header .keywords-header-iconos svg {
-      width: 50px;
-      height: 50px; }
-
-.keywords-footer {
-  font-size: 0;
-  box-sizing: border-box; }
-  .keywords-footer button {
-    border: 0;
-    width: 10%;
-    background-color: crimson;
-    display: inline-block;
-    -webkit-appearance: none;
-    font-family: "fira-sans", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: #001F3F;
-    box-sizing: border-box;
-    padding: 10px; }
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+scss/_color.scss:1
+scss/styles.scss:2
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/script/tree/map_literal.rb:55:in `block in _perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/script/tree/map_literal.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/script/tree/map_literal.rb:52:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:468:in `visit_variable'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.0/lib/listen/listener.rb:291:in `call'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Duplicate key #fffaf0 in map (aliceblue: (base: aliceblue, light: lighten(aliceblue, 10%)), antiquewhite: (base: antiquewhite, light: lighten(antiquewhite, 10%)), aqua: (base: aqua, light: lighten(aqua, 10%)), aquamarine: (base: aquamarine, light: lighten(aquamarine, 10%)), azure: (base: azure, light: lighten(azure, 10%)), beige: (base: beige, light: lighten(beige, 10%)), bisque: (base: bisque, light: lighten(bisque, 10%)), black: (base: black, light: lighten(black, 10%)), blanchedalmond: (base: blanchedalmond, light: lighten(blanchedalmond, 10%)), blue: (base: blue, light: lighten(blue, 10%)), blueviolet: (base: blueviolet, light: lighten(blueviolet, 10%)), brown: (base: brown, light: lighten(brown, 10%)), burlywood: (base: burlywood, light: lighten(burlywood, 10%)), cadetblue: (base: cadetblue, light: lighten(cadetblue, 10%)), chartreuse: (base: chartreuse, light: lighten(chartreuse, 10%)), chocolate: (base: chocolate, light: lighten(chocolate, 10%)), coral: (base: coral, light: lighten(coral, 10%)), cornflowerblue: (base: cornflowerblue, light: lighten(cornflowerblue, 10%)), cornsilk: (base: cornsilk, light: lighten(cornsilk, 10%)), crimson: (base: crimson, light: lighten(crimson, 10%)), darkblue: (base: darkblue, light: lighten(darkblue, 10%)), darkcyan: (base: darkcyan, light: lighten(darkcyan, 10%)), darkgoldenrod: (base: darkgoldenrod, light: lighten(darkgoldenrod, 10%)), darkgray: (base: darkgray, light: lighten(darkgray, 10%)), darkgreen: (base: darkgreen, light: lighten(darkgreen, 10%)), darkkhaki: (base: darkkhaki, light: lighten(darkkhaki, 10%)), darkmagenta: (base: darkmagenta, light: lighten(darkmagenta, 10%)), darkolivegreen: (base: darkolivegreen, light: lighten(darkolivegreen, 10%)), darkorange: (base: darkorange, light: lighten(darkorange, 10%)), darkorchid: (base: darkorchid, light: lighten(darkorchid, 10%)), darkred: (base: darkred, light: lighten(darkred, 10%)), darksalmon: (base: darksalmon, light: lighten(darksalmon, 10%)), darkseagreen: (base: darkseagreen, light: lighten(darkseagreen, 10%)), darkslateblue: (base: darkslateblue, light: lighten(darkslateblue, 10%)), darkslategray: (base: darkslategray, light: lighten(darkslategray, 10%)), darkturquoise: (base: darkturquoise, light: lighten(darkturquoise, 10%)), darkviolet: (base: darkviolet, light: lighten(darkviolet, 10%)), deeppink: (base: deeppink, light: lighten(deeppink, 10%)), deepskyblue: (base: deepskyblue, light: lighten(deepskyblue, 10%)), dimgray: (base: dimgray, light: lighten(dimgray, 10%)), dodgerblue: (base: dodgerblue, light: lighten(dodgerblue, 10%)), firebrick: (base: firebrick, light: lighten(firebrick, 10%)), floralwhite: (base: floralwhite, light: lighten(floralwhite, 10%)), forestgreen: (base: forestgreen, light: lighten(forestgreen, 10%)), fuchsia: (base: fuchsia, light: lighten(fuchsia, 10%)), gainsboro: (base: gainsboro, light: lighten(gainsboro, 10%)), ghostwhite: (base: ghostwhite, light: lighten(ghostwhite, 10%)), gold: (base: gold, light: lighten(gold, 10%)), goldenrod: (base: goldenrod, light: lighten(goldenrod, 10%)), gray: (base: gray, light: lighten(gray, 10%)), green: (base: green, light: lighten(green, 10%)), floralwhite: (base: floralwhite, light: lighten(floralwhite, 10%)), floralwhite: (base: floralwhite, light: lighten(floralwhite, 10%))).\A         on line 1 of scss/_color.scss\A         from line 2 of scss/styles.scss\A \A 1: @import \"reset\";\A 2: @import \"color\";\A 3: \A 4: /* ==========================================================================\A 5: Variables\A 6: ========================================================================== */"; }
