@@ -6,6 +6,9 @@ Variables
 
 $fira: "fira-sans",sans-serif;
 $fira2: "fira-sans-2",sans-serif;
+$navy: #001F3F;
+$silver: #DDDDDD;
+
 
 /* ==========================================================================
 STYLES SVG SOCIAL ICONS
@@ -13,13 +16,13 @@ STYLES SVG SOCIAL ICONS
 
 
 .keywords-header {
-	background-color: navajowhite;
+	background-color: $silver;
 	width: 100%;
 	.keywords-header-titulo {
 		font-size: 40px;
 		font-family: $fira2;
 		font-weight: 500;
-		color: navy;
+		color: $navy;
 		text-align: center;
 		display: block;
 		margin: 0 auto;
@@ -51,6 +54,7 @@ STYLES SVG SOCIAL ICONS
 		font-family: $fira;
 		font-weight: 300;
 		font-size: 14px;
+		color: $navy;
 		box-sizing: border-box;
 		padding: 10px;
 	}

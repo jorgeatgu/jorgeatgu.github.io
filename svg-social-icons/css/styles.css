@@ -360,13 +360,13 @@ Variables
 STYLES SVG SOCIAL ICONS
 ========================================================================== */
 .keywords-header {
-  background-color: navajowhite;
+  background-color: #DDDDDD;
   width: 100%; }
   .keywords-header .keywords-header-titulo {
     font-size: 40px;
     font-family: "fira-sans-2", sans-serif;
     font-weight: 500;
-    color: navy;
+    color: #001F3F;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -394,6 +394,7 @@ STYLES SVG SOCIAL ICONS
     font-family: "fira-sans", sans-serif;
     font-weight: 300;
     font-size: 14px;
+    color: #001F3F;
     box-sizing: border-box;
     padding: 10px; }
 
