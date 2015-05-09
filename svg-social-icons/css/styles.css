@@ -359,6 +359,10 @@ Variables
 /* ==========================================================================
 STYLES SVG SOCIAL ICONS
 ========================================================================== */
+h1, h2, h3, h4, h5, h6, p, ul, a {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
 .keywords-header {
   background-color: #DDDDDD;
   width: 100%; }
