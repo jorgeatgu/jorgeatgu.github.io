@@ -4,8 +4,8 @@
 Variables
 ========================================================================== */
 
-$hind: 'Hind', sans-serif;
-$montse: 'Montserrat', sans-serif;
+$fira: "fira-sans",sans-serif;
+$fira2: "fira-sans-2",sans-serif;
 
 /* ==========================================================================
 STYLES SVG SOCIAL ICONS
@@ -17,7 +17,8 @@ STYLES SVG SOCIAL ICONS
 	width: 100%;
 	.keywords-header-titulo {
 		font-size: 40px;
-		font-family: $montse;
+		font-family: $fira2;
+		font-weight: 500;
 		color: navy;
 		text-align: center;
 		display: block;
@@ -47,7 +48,8 @@ STYLES SVG SOCIAL ICONS
 		background-color: crimson;
 		display: inline-block;
 		-webkit-appearance: none;
-		font-family: $hind;
+		font-family: $fira;
+		font-weight: 300;
 		font-size: 14px;
 		box-sizing: border-box;
 		padding: 10px;
