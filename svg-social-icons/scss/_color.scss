@@ -1,0 +1,14 @@
+$colors: (
+
+  aliceblue: (
+    base: aliceblue,
+    light: lighten(aliceblue, 10%)
+  ),
+
+  secondary: (
+    base: #0969A2,
+    light: lighten(#0969A2, 15%),
+    dark: darken(#0969A2, 15%),
+    trans: transparentize(#0969A2, 0.5)
+  )
+);

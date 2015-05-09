@@ -1,4 +1,5 @@
 @import "reset";
+@import "color";
 
 /* ==========================================================================
 Variables
@@ -8,6 +9,7 @@ $fira: "fira-sans",sans-serif;
 $fira2: "fira-sans-2",sans-serif;
 $navy: #001F3F;
 $silver: #DDDDDD;
+
 
 
 /* ==========================================================================
@@ -64,3 +66,5 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
 		padding: 10px;
 	}
 }
+
+// color: map-get(map-get($colors, aliceblue), base);
