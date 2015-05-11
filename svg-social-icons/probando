@@ -1,0 +1,1166 @@
+{
+  "version": 1,
+  "width": 130,
+  "height": 35,
+  "duration": 34.128861,
+  "command": "/bin/zsh",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.104494,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000031,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u0007"
+    ],
+    [
+      0.000019,
+      "\u001b]1;..-social-icons\u0007"
+    ],
+    [
+      0.125461,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:27]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000014,
+      "\u001b[K"
+    ],
+    [
+      0.000133,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.326052,
+      "g"
+    ],
+    [
+      0.115655,
+      "\u0008gs"
+    ],
+    [
+      0.096049,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000059,
+      "\r\r\n"
+    ],
+    [
+      0.001042,
+      "\u001b]2;git status\u0007"
+    ],
+    [
+      0.000009,
+      "\u001b]1;gs\u0007"
+    ],
+    [
+      0.058052,
+      "On branch master\r\n"
+    ],
+    [
+      0.000257,
+      "Your branch is up-to-date with 'origin/master'.\r\n"
+    ],
+    [
+      0.000008,
+      "nothing to commit, working directory clean\r\n"
+    ],
+    [
+      0.001555,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000240,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u0007"
+    ],
+    [
+      0.000015,
+      "\u001b]1;..-social-icons\u0007"
+    ],
+    [
+      0.148296,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:29]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000006,
+      "\u001b[K"
+    ],
+    [
+      0.000113,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.598916,
+      "l"
+    ],
+    [
+      0.127533,
+      "\u0008ls"
+    ],
+    [
+      0.103826,
+      " "
+    ],
+    [
+      0.136165,
+      "."
+    ],
+    [
+      0.000471,
+      "-"
+    ],
+    [
+      0.487239,
+      "\u0008 \u0008"
+    ],
+    [
+      0.144046,
+      "\u0008 \u0008"
+    ],
+    [
+      0.616090,
+      "-"
+    ],
+    [
+      0.240228,
+      "l"
+    ],
+    [
+      0.136117,
+      "a"
+    ],
+    [
+      0.095724,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000028,
+      "\r\r\n"
+    ],
+    [
+      0.008992,
+      "\u001b]2;ls -G -la\u0007\u001b]1;ls\u0007"
+    ],
+    [
+      0.012928,
+      "total 80\r\n"
+    ],
+    [
+      0.000211,
+      "drwxr-xr-x@ 157 jorgeatgu  staff   5338  8 may 22:36 \u001b[1m\u001b[36m.\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000007,
+      "drwxr-xr-x@  28 jorgeatgu  staff    952 29 abr 21:46 \u001b[1m\u001b[36m..\u001b[39;49m\u001b[0m\r\n-rw-r--r--@   1 jorgeatgu  staff  14340  8 may 22:36 .DS_Store\r\n"
+    ],
+    [
+      0.000012,
+      "drwxr-xr-x@   3 jorgeatgu  staff    102  8 may 22:36 \u001b[1m\u001b[36m.sass-cache\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "-rw-r--r--@   1 jorgeatgu  staff      0  3 may 20:14 README.md\r\n"
+    ],
+    [
+      0.000014,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:06 \u001b[1m\u001b[36maliceblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000025,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:06 \u001b[1m\u001b[36mantiquewhite\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000008,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36maqua\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36maquamarine\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000013,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36mazure\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000013,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36mbeige\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36mbisque\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000032,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:10 \u001b[1m\u001b[36mblack\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:10 \u001b[1m\u001b[36mblanchedalmond\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000006,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000017,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mblueviolet\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000008,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mbrown\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mburlywood\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000016,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mcadetblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000006,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mchartreuse\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000019,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mchocolate\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "drwxr-xr-x@   4 jorgeatgu  staff    136 29 abr 22:08 \u001b[1m\u001b[36mcoral\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000012,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mcornflowerblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000016,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mcornsilk\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mcrimson\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000014,
+      "drwxr-xr-x@   4 jorgeatgu  staff    136  8 may 22:36 \u001b[1m\u001b[36mcss\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "drwxr-xr-x@   4 jorgeatgu  staff    136 29 abr 22:09 \u001b[1m\u001b[36mcyan\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000036,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mdarkblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000008,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mdarkcyan\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mdarkgoldenrod\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mdarkgray\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000019,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mdarkgreen\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000006,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:11 \u001b[1m\u001b[36mdarkgrey\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000010,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkkhaki\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000015,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkmagenta\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000009,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkolivegreen\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000100,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkorange\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkorchid\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkred\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarksalmon\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000019,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkseagreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkslateblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkslategray\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkslategrey\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkturquoise\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdarkviolet\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdeeppink\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000004,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdeepskyblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000015,
+      "drwxr-xr-x@   4 jorgeatgu  staff    136 29 abr 22:09 \u001b[1m\u001b[36mdimgray\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000006,
+      "drwxr-xr-x@   4 jorgeatgu  staff    136 29 abr 22:09 \u001b[1m\u001b[36mdimgrey\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000098,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mdodgerblue\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000018,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:12 \u001b[1m\u001b[36mfirebrick\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mfloralwhite\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mforestgreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mfuchsia\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mgainsboro\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mghostwhite\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mgold\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mgoldenrod\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000013,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:13 \u001b[1m\u001b[36mgray\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mgreen\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000004,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mgreenyellow\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000123,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mgrey\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000016,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mhoneydew\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mhotpink\u001b[39;49m\u001b[0m\r\n-rw-r--r--@   1 jorgeatgu  staff  24327  9 may 22:48 index.html\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mindianred\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mindigo\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mivory\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   3 jorgeatgu  staff    102  8 may 20:24 \u001b[1m\u001b[36mjs\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mkhaki\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlavender\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlavenderblush\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000004,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlawngreen\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000147,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlemonchiffon\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000183,
+      "drwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlightblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlightcoral\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlightcyan\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlightgoldenrodyellow\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlightgray\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:14 \u001b[1m\u001b[36mlightgreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightgrey\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightpink\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightsalmon\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightseagreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightskyblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlight"
+    ],
+    [
+      0.000177,
+      "slategray\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightslategrey\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightsteelblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlightyellow\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlime\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlimegreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mlinen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mmagenta\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   4 jorgeatgu  staff    136 29 abr 22:10 \u001b[1m\u001b[36mmaroon\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mmediumaquamarine\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mmediumblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m\u001b[36mmediumorchid\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:15 \u001b[1m"
+    ],
+    [
+      0.000156,
+      "\u001b[36mmediumpurple\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmediumseagreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmediumslateblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmediumspringgreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmediumturquoise\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmediumvioletred\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmidnightblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmintcream\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmistyrose\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mmoccasin\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mnavajowhite\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36mnavy\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  s"
+    ],
+    [
+      0.000179,
+      "taff    170 29 abr 22:16 \u001b[1m\u001b[36moldlace\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36molive\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36molivedrab\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36morange\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36morangered\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:16 \u001b[1m\u001b[36morchid\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36moriginal\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpalegoldenrod\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpalegreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpaleturquoise\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpalevioletred\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpapayawhip\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff"
+    ],
+    [
+      0.000139,
+      "    170 29 abr 22:17 \u001b[1m\u001b[36mpeachpuff\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mperu\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpink\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mplum\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpowderblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mpurple\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mred\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mrosybrown\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mroyalblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36msaddlebrown\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36msalmon\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36msandybrown\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170  9 may 21:37 \u001b[1m\u001b["
+    ],
+    [
+      0.000152,
+      "36mscss\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mseagreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36mseashell\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:17 \u001b[1m\u001b[36msienna\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36msilver\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mskyblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mslateblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mslategray\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mslategrey\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36msnow\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mspringgreen\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36msteelblue\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mtan\u001b[39;49m\u001b[0m\r\ndr"
+    ],
+    [
+      0.000015,
+      "wxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mteal\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:18 \u001b[1m\u001b[36mthistle\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:19 \u001b[1m\u001b[36mtomato\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:19 \u001b[1m\u001b[36mturquoise\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:08 \u001b[1m\u001b[36mviolet\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36mwheat\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36mwhite\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36mwhitesmoke\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36myellow\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@   5 jorgeatgu  staff    170 29 abr 22:07 \u001b[1m\u001b[36myellowgreen\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000625,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000178,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u0007\u001b]1;..-social-icons\u0007"
+    ],
+    [
+      0.130652,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:34]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000008,
+      "\u001b[K"
+    ],
+    [
+      0.000055,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.660885,
+      "g"
+    ],
+    [
+      0.135467,
+      "\u0008gs"
+    ],
+    [
+      0.056146,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000010,
+      "\r\r\n"
+    ],
+    [
+      0.008144,
+      "\u001b]2;git status\u0007"
+    ],
+    [
+      0.000012,
+      "\u001b]1;gs\u0007"
+    ],
+    [
+      0.051072,
+      "On branch master\r\n"
+    ],
+    [
+      0.000156,
+      "Your branch is up-to-date with 'origin/master'.\r\n"
+    ],
+    [
+      0.000004,
+      "nothing to commit, working directory clean\r\n"
+    ],
+    [
+      0.000913,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000079,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u0007"
+    ],
+    [
+      0.000022,
+      "\u001b]1;..-social-icons\u0007"
+    ],
+    [
+      0.136502,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io/svg-social-icons\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:35]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000035,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.019402,
+      "c"
+    ],
+    [
+      0.159493,
+      "\u0008cd"
+    ],
+    [
+      0.087988,
+      " "
+    ],
+    [
+      0.136125,
+      "."
+    ],
+    [
+      0.151992,
+      "."
+    ],
+    [
+      0.151896,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000026,
+      "\r\r\n"
+    ],
+    [
+      0.008814,
+      "\u001b]2;cd ..\u0007\u001b]1;cd\u0007"
+    ],
+    [
+      0.000139,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000090,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io\u0007"
+    ],
+    [
+      0.000028,
+      "\u001b]1;..tgu.github.io\u0007"
+    ],
+    [
+      0.134805,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:37]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000016,
+      "\u001b[K"
+    ],
+    [
+      0.000022,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.416800,
+      "g"
+    ],
+    [
+      0.127537,
+      "\u0008gs"
+    ],
+    [
+      0.079976,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000044,
+      "\r\r\n"
+    ],
+    [
+      0.008841,
+      "\u001b]2;git status\u0007\u001b]1;gs\u0007"
+    ],
+    [
+      0.053422,
+      "On branch master\r\n"
+    ],
+    [
+      0.000148,
+      "Your branch is up-to-date with 'origin/master'.\r\nnothing to commit, working directory clean\r\n"
+    ],
+    [
+      0.000836,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000048,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io\u0007"
+    ],
+    [
+      0.000022,
+      "\u001b]1;..tgu.github.io\u0007"
+    ],
+    [
+      0.129338,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:38]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000038,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.911344,
+      "l"
+    ],
+    [
+      0.119759,
+      "\u0008ls"
+    ],
+    [
+      0.151965,
+      " "
+    ],
+    [
+      0.248166,
+      "-"
+    ],
+    [
+      0.239985,
+      "l"
+    ],
+    [
+      0.328030,
+      "a"
+    ],
+    [
+      0.191812,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000025,
+      "\r\r\n"
+    ],
+    [
+      0.008899,
+      "\u001b]2;ls -G -la\u0007\u001b]1;ls\u0007"
+    ],
+    [
+      0.008289,
+      "total 1736\r\n"
+    ],
+    [
+      0.000196,
+      "drwxr-xr-x@  28 jorgeatgu  staff     952 29 abr 21:46 \u001b[1m\u001b[36m.\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000046,
+      "drwxr-xr-x@  22 jorgeatgu  staff     748 28 abr 22:02 \u001b[1m\u001b[36m..\u001b[39;49m\u001b[0m\r\n-rw-r--r--@   1 jorgeatgu  staff   12292  3 may 22:21 .DS_Store\r\n"
+    ],
+    [
+      0.000007,
+      "drwxr-xr-x@  16 jorgeatgu  staff     544 11 may 17:03 \u001b[1m\u001b[36m.git\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000012,
+      "-rw-r--r--@   1 jorgeatgu  staff      24  7 abr 12:40 .gitignore\r\n"
+    ],
+    [
+      0.000017,
+      "drwxr-xr-x@   3 jorgeatgu  staff     102  7 abr 16:41 \u001b[1m\u001b[36m.sass-cache\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000007,
+      "-rw-r--r--@   1 jorgeatgu  staff    3002 24 mar 22:20 Gruntfile.js\r\n"
+    ],
+    [
+      0.000004,
+      "-rw-r--r--@   1 jorgeatgu  staff    1075 24 mar 22:20 LICENSE\r\n"
+    ],
+    [
+      0.000012,
+      "-rw-r--r--@   1 jorgeatgu  staff     106  1 abr 21:29 README.md\r\n"
+    ],
+    [
+      0.000004,
+      "-rw-r--r--@   1 jorgeatgu  staff   41733 24 mar 22:20 animaciones.html\r\n"
+    ],
+    [
+      0.000014,
+      "-rw-r--r--@   1 jorgeatgu  staff   24100 24 mar 22:20 animacionescss.html\r\n"
+    ],
+    [
+      0.000007,
+      "drwxr-xr-x@   7 jorgeatgu  staff     238  5 abr 17:00 \u001b[1m\u001b[36mcss\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000014,
+      "-rw-r--r--@   1 jorgeatgu  staff  730858 27 mar 23:10 demo.html\r\n"
+    ],
+    [
+      0.000006,
+      "drwxr-xr-x@   8 jorgeatgu  staff     272 24 mar 22:20 \u001b[1m\u001b[36mejemplos\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000015,
+      "-rw-r--r--@   1 jorgeatgu  staff    5600 22 abr 20:51 index.html\r\n"
+    ],
+    [
+      0.000005,
+      "drwxr-xr-x@   5 jorgeatgu  staff     170 22 abr 20:47 \u001b[1m\u001b[36mjs\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000013,
+      "drwxr-xr-x@   5 jorgeatgu  staff     170 24 mar 22:20 \u001b[1m\u001b[36mlib\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "drwxr-xr-x@   8 jorgeatgu  staff     272 24 mar 22:20 \u001b[1m\u001b[36mlogos\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000004,
+      "-rw-r--r--@   1 jorgeatgu  staff    1088 24 mar 22:20 package.json\r\n"
+    ],
+    [
+      0.000014,
+      "drwxr-xr-x@  14 jorgeatgu  staff     476 24 mar 22:20 \u001b[1m\u001b[36mplugin\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000009,
+      "drwxr-xr-x@   6 jorgeatgu  staff     204  5 abr 21:25 \u001b[1m\u001b[36mscss\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000020,
+      "drwxr-xr-x@  20 jorgeatgu  staff     680  7 abr 16:05 \u001b[1m\u001b[36msmil\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000012,
+      "-rw-r--r--@   1 jorgeatgu  staff    4845 24 mar 22:20 socialsprite.svg\r\n-rw-r--r--@   1 jorgeatgu  staff   28861 24 mar 22:20 style.css\r\n"
+    ],
+    [
+      0.000036,
+      "drwxr-xr-x@   3 jorgeatgu  staff     102 24 mar 22:20 \u001b[1m\u001b[36mstyles\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000008,
+      "drwxr-xr-x@  11 jorgeatgu  staff     374  2 abr 21:59 \u001b[1m\u001b[36msvg-filters\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@ 157 jorgeatgu  staff    5338  8 may 22:36 \u001b[1m\u001b[36msvg-social-icons\u001b[39;49m\u001b[0m\r\ndrwxr-xr-x@  13 jorgeatgu  staff     442 24 mar 22:20 \u001b[1m\u001b[36mtest\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000558,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000153,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io\u0007"
+    ],
+    [
+      0.000005,
+      "\u001b]1;..tgu.github.io\u0007"
+    ],
+    [
+      0.143513,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:40]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000048,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.214101,
+      "l"
+    ],
+    [
+      0.144144,
+      "\u0008ls"
+    ],
+    [
+      0.135884,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000010,
+      "\r\r\n"
+    ],
+    [
+      0.008847,
+      "\u001b]2;ls -G\u0007"
+    ],
+    [
+      0.000012,
+      "\u001b]1;ls\u0007"
+    ],
+    [
+      0.003933,
+      "Gruntfile.js        animacionescss.html index.html          package.json        socialsprite.svg    \u001b[1m\u001b[36msvg-social-icons\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "LICENSE             \u001b[1m\u001b[36mcss\u001b[39;49m\u001b[0m                 \u001b[1m\u001b[36mjs\u001b[39;49m\u001b[0m                  \u001b[1m\u001b[36mplugin\u001b[39;49m\u001b[0m              style.css           \u001b[1m\u001b[36mtest\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000026,
+      "README.md           demo.html           \u001b[1m\u001b[36mlib\u001b[39;49m\u001b[0m                 \u001b[1m\u001b[36mscss\u001b[39;49m\u001b[0m                \u001b[1m\u001b[36mstyles\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000026,
+      "animaciones.html    \u001b[1m\u001b[36mejemplos\u001b[39;49m\u001b[0m            \u001b[1m\u001b[36mlogos\u001b[39;49m\u001b[0m               \u001b[1m\u001b[36msmil\u001b[39;49m\u001b[0m                \u001b[1m\u001b[36msvg-filters\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000471,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000113,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io\u0007"
+    ],
+    [
+      0.000026,
+      "\u001b]1;..tgu.github.io\u0007"
+    ],
+    [
+      0.119584,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:41]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000006,
+      "\u001b[K"
+    ],
+    [
+      0.000036,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.059279,
+      "c"
+    ],
+    [
+      0.159509,
+      "\u0008cd"
+    ],
+    [
+      0.096123,
+      " "
+    ],
+    [
+      0.904032,
+      "s"
+    ],
+    [
+      0.111855,
+      "v"
+    ],
+    [
+      0.176123,
+      "g"
+    ],
+    [
+      0.120100,
+      "-"
+    ],
+    [
+      0.135833,
+      "f"
+    ],
+    [
+      0.104122,
+      "i"
+    ],
+    [
+      0.144030,
+      "l"
+    ],
+    [
+      0.079892,
+      "t"
+    ],
+    [
+      0.104029,
+      "e"
+    ],
+    [
+      0.088525,
+      "r"
+    ],
+    [
+      0.119455,
+      "s"
+    ],
+    [
+      0.087877,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000039,
+      "\r\r\n"
+    ],
+    [
+      0.008794,
+      "\u001b]2;cd svg-filters\u0007\u001b]1;cd\u0007"
+    ],
+    [
+      0.000135,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000086,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io/svg-filters\u0007"
+    ],
+    [
+      0.000035,
+      "\u001b]1;..o/svg-filters\u0007"
+    ],
+    [
+      0.137833,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io/svg-filters\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:44]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000037,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.325539,
+      "g"
+    ],
+    [
+      0.111490,
+      "\u0008gs"
+    ],
+    [
+      0.056320,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000057,
+      "\r\r\n"
+    ],
+    [
+      0.008902,
+      "\u001b]2;git status\u0007"
+    ],
+    [
+      0.000010,
+      "\u001b]1;gs\u0007"
+    ],
+    [
+      0.051019,
+      "On branch master\r\n"
+    ],
+    [
+      0.000136,
+      "Your branch is up-to-date with 'origin/master'.\r\n"
+    ],
+    [
+      0.000005,
+      "nothing to commit, working directory clean\r\n"
+    ],
+    [
+      0.000727,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000076,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~/Dropbox/github/jorgeatgu.github.io/svg-filters\u0007"
+    ],
+    [
+      0.000014,
+      "\u001b]1;..o/svg-filters\u0007"
+    ],
+    [
+      0.130004,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~/Dropbox/github/jorgeatgu.github.io/svg-filters\u001b[00m \u001b[37mon\u001b[00m git:\u001b[36mmaster \u001b[32mo\u001b[00m \u001b[37m[17:03:45]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000008,
+      "\u001b[K"
+    ],
+    [
+      0.000042,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.833328,
+      "c"
+    ],
+    [
+      0.167534,
+      "\u0008cd"
+    ],
+    [
+      0.223850,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000037,
+      "\r\r\n"
+    ],
+    [
+      0.008860,
+      "\u001b]2;cd\u0007\u001b]1;cd\u0007"
+    ],
+    [
+      0.000120,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000091,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~\u0007"
+    ],
+    [
+      0.000012,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.066412,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~\u001b[00m \u001b[37m[17:03:46]\r\n\u001b[1m\u001b[31m$ \u001b[00m\u001b[K"
+    ],
+    [
+      0.000038,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.172999,
+      "p"
+    ],
+    [
+      0.103886,
+      "\u0008pw"
+    ],
+    [
+      0.159703,
+      "d"
+    ],
+    [
+      0.072106,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000031,
+      "\r\r\n"
+    ],
+    [
+      0.009036,
+      "\u001b]2;pwd\u0007\u001b]1;pwd\u0007/Users/jorgeatgu\r\n"
+    ],
+    [
+      0.000015,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000075,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~\u0007"
+    ],
+    [
+      0.000011,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.072832,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~\u001b[00m \u001b[37m[17:03:48]\r\n\u001b[1m\u001b[31m$ \u001b[00m\u001b[K"
+    ],
+    [
+      0.000034,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.998386,
+      "c"
+    ],
+    [
+      0.159636,
+      "\u0008cd"
+    ],
+    [
+      0.055976,
+      " "
+    ],
+    [
+      0.071818,
+      "j"
+    ],
+    [
+      0.059816,
+      "o"
+    ],
+    [
+      0.076205,
+      "r"
+    ],
+    [
+      0.144199,
+      "g"
+    ],
+    [
+      0.071892,
+      "e"
+    ],
+    [
+      0.111888,
+      "a"
+    ],
+    [
+      0.111994,
+      "t"
+    ],
+    [
+      0.176008,
+      "g"
+    ],
+    [
+      0.127985,
+      "u"
+    ],
+    [
+      0.296094,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000058,
+      "\r\r\n"
+    ],
+    [
+      0.009604,
+      "\u001b]2;cd jorgeatgu\u0007\u001b]1;cd\u0007"
+    ],
+    [
+      0.000116,
+      "~\r\n"
+    ],
+    [
+      0.000059,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000078,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~\u0007"
+    ],
+    [
+      0.000022,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.073185,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~\u001b[00m \u001b[37m[17:03:51]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000047,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.333168,
+      "l"
+    ],
+    [
+      0.103755,
+      "\u0008ls"
+    ],
+    [
+      0.128003,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000010,
+      "\r\r\n"
+    ],
+    [
+      0.008908,
+      "\u001b]2;ls -G\u0007\u001b]1;ls\u0007"
+    ],
+    [
+      0.004380,
+      "\u001b[1m\u001b[36mApplications\u001b[39;49m\u001b[0m                   \u001b[1m\u001b[36mDropbox\u001b[39;49m\u001b[0m                        \u001b[1m\u001b[36mProyectos-Hiberus\u001b[39;49m\u001b[0m              \u001b[1m\u001b[36mdrush-backups\u001b[39;49m\u001b[0m\r\n\u001b[1m\u001b[36mCreative Cloud Files\u001b[39;49m\u001b[0m           \u001b[1m\u001b[36mLibrary\u001b[39;49m\u001b[0m                        \u001b[1m\u001b[36mPublic\u001b[39;49m\u001b[0m                         \u001b[1m\u001b[36mnode_modules\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[1m\u001b[36mCreative Cloud Files (unknown)\u001b[39;49m\u001b[0m \u001b[1m\u001b[36mMovies\u001b[39;49m\u001b[0m                         \u001b[1m\u001b[36mVirtualBox VMs\u001b[39;49m\u001b[0m                 npm-debug.log\r\n\u001b[1m\u001b[36mDesktop\u001b[39;49m\u001b[0m                        \u001b[1m\u001b[36mMusic\u001b[39;49m\u001b[0m                          \u001b[35mXcodeDefault.xctoolchain\u001b[39;49m\u001b[0m       \u001b[1m\u001b[36mprueba.tm2\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[1m\u001b[36mDocuments\u001b[39;49m\u001b[0m                      \u001b[35mOSX10.10.xctoolchain\u001b[39;49m\u001b[0m           \u001b[31mbatterycharge.sh\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000018,
+      "\u001b[1m\u001b[36mDownloads\u001b[39;49m\u001b[0m                      \u001b[1m\u001b[36mPictures\u001b[39;49m\u001b[0m                       \u001b[1m\u001b[36mbower_components\u001b[39;49m\u001b[0m\r\n"
+    ],
+    [
+      0.000452,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                 \r \r"
+    ],
+    [
+      0.000056,
+      "\u001b]2;jorgeatgu@urieta-mbp: ~\u0007"
+    ],
+    [
+      0.000014,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.065574,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\r\n\u001b[1m\u001b[34m#\u001b[00m \u001b[36mjorgeatgu \u001b[37mat \u001b[32murieta-mbp.local \u001b[37min \u001b[1m\u001b[33m~\u001b[00m \u001b[37m[17:03:52]\r\n\u001b[1m\u001b[31m$ \u001b[00m"
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000062,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      9.184906,
+      "\r\r\n"
+    ]
+  ]
+}
