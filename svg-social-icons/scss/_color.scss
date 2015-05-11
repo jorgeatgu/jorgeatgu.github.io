@@ -1,86 +1,94 @@
 $colors: (
 
   aliceblue: (
-    base: aliceblue,
-    light: lighten(aliceblue, 10%)
+    base: #F0F8FF,
+    light: lighten(#F0F8FF, 10%)
   ),
 
   antiquewhite: (
-    base: antiquewhite,
-    light: lighten(antiquewhite, 10%)
+    base: #FAEBD7,
+    light: lighten(#FAEBD7, 10%)
   ),
   aqua: (
-    base: aqua,
-    light: lighten(aqua, 10%)
+    base: #00FFFF,
+    light: lighten(#00FFFF, 10%)
   ),
   aquamarine: (
-    base: aquamarine,
-    light: lighten(aquamarine, 10%)
+    base: #7FFFD4,
+    light: lighten(#7FFFD4, 10%)
   ),
   azure: (
     base: azure,
     light: lighten(azure, 10%)
   ),
+  beccapurple: (
+    base: #663399,
+    light: lighten(#663399, 10%)
+  ),
   beige: (
-    base: beige,
-    light: lighten(beige, 10%)
+    base: #F5F5DC,
+    light: lighten(#F5F5DC, 10%)
   ),
   bisque: (
-    base: bisque,
-    light: lighten(bisque, 10%)
+    base: #F0FFFF,
+    light: lighten(#F0FFFF, 10%)
   ),
   black: (
-    base: black,
-    light: lighten(black, 10%)
+    base: #000,
+    light: lighten(#000, 10%)
   ),
   blanchedalmond: (
-    base: blanchedalmond,
-    light: lighten(blanchedalmond, 10%)
+    base: #FFEBCD,
+    light: lighten(#FFEBCD, 10%)
   ),
   blue: (
-    base: blue,
-    light: lighten(blue, 10%)
+    base: #0000FF,
+    light: lighten(#0000FF, 10%)
   ),
   blueviolet: (
-    base: blueviolet,
-    light: lighten(blueviolet, 10%)
+    base: #8A2BE2,
+    light: lighten(#8A2BE2, 10%)
   ),
   brown: (
-    base: brown,
-    light: lighten(brown, 10%)
+    base: #A52A2A,
+    light: lighten(#A52A2A, 10%)
   ),
   burlywood: (
-    base: burlywood,
-    light: lighten(burlywood, 10%)
+    base: #DEB887,
+    light: lighten(#DEB887, 10%)
   ),
   cadetblue: (
-    base: cadetblue,
-    light: lighten(cadetblue, 10%)
+    base: #5F9EA0,
+    light: lighten(#5F9EA0, 10%)
   ),
   chartreuse: (
-    base: chartreuse,
-    light: lighten(chartreuse, 10%)
+    base: #7FFF00,
+    light: lighten(#7FFF00, 10%)
   ),
   chocolate: (
-    base: chocolate,
-    light: lighten(chocolate, 10%)
+    base: #D2691E,
+    light: lighten(#D2691E, 10%)
   ),
   coral: (
-    base: coral,
-    light: lighten(coral, 10%)
+    base: #FF7F50,
+    light: lighten(#FF7F50, 10%)
   ),
   cornflowerblue: (
-    base: cornflowerblue,
-    light: lighten(cornflowerblue, 10%)
+    base: #6495ED,
+    light: lighten(#6495ED, 10%)
   ),
   cornsilk: (
-    base: cornsilk,
-    light: lighten(cornsilk, 10%)
+    base: #FFF8DC,
+    light: lighten(#FFF8DC, 10%)
   ),
   crimson: (
-    base: crimson,
-    light: lighten(crimson, 10%)
+    base: #DC143C,
+    light: lighten(#DC143C, 10%)
   ),
+  cyan: {
+    base: #00FFFF,
+    light: lighten(#00FFFF)
+  },
   darkblue: (
     base: darkblue,
     light: lighten(darkblue, 10%)
