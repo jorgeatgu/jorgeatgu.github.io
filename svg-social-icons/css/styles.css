@@ -370,7 +370,8 @@ ul,
 a {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  color: color(primario, base); }
 
 .keywords-header {
   background-color: #DDDDDD;
