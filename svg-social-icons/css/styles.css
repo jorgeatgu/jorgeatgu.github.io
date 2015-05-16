@@ -374,7 +374,7 @@ a {
   color: color(primario, base); }
 
 .keywords-header {
-  background-color: #DDDDDD;
+  background-color: #f7f7f7;
   width: 100%; }
   .keywords-header .keywords-header-titulo {
     font-size: 40px;
@@ -400,10 +400,12 @@ a {
 
 .keywords-footer {
   font-size: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #f7f7f7; }
   .keywords-footer button {
     border: 0;
-    width: 10%;
+    width: 9%;
+    margin: 10px 0.5%;
     display: inline-block;
     -webkit-appearance: none;
     font-family: "fira-sans", sans-serif;

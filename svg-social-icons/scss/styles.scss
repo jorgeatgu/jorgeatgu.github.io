@@ -31,7 +31,7 @@ a {
 
 
 .keywords-header {
-	background-color: $silver;
+	background-color: lighten($silver, 10%);
 	width: 100%;
 	.keywords-header-titulo {
 		font-size: 40px;
@@ -62,9 +62,11 @@ a {
 .keywords-footer {
 	font-size: 0;
 	box-sizing: border-box;
+	background-color: lighten($silver, 10%);
 	button {
 		border: 0;
-		width: 100/10 * 1%;
+		width: 90/10 * 1%;
+		margin: 10px 0.5%;
 		display: inline-block;
 		-webkit-appearance: none;
 		font-family: $fira;
