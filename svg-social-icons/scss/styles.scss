@@ -26,7 +26,6 @@ a {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: color(primario, base);
 }
 
 
@@ -80,439 +79,877 @@ a {
 
 .aliceblue {
 	background-color: map-get(map-get($colores, aliceblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, aliceblue), light);
+	}
 }
 .antiquewhite {
 	background-color: map-get(map-get($colores, antiquewhite), base);
+	&:hover {
+		background-color: map-get(map-get($colores, antiquewhite), light);
+	}
 }
 .aqua {
 	background-color: map-get(map-get($colores, aqua), base);
+	&:hover {
+		background-color: map-get(map-get($colores, aqua), light);
+	}
 }
 .aquamarine {
 	background-color: map-get(map-get($colores, aquamarine), base);
+	&:hover {
+		background-color: map-get(map-get($colores, aquamarine), light);
+	}
 }
 .azure {
 	background-color: map-get(map-get($colores, azure), base);
+	&:hover {
+		background-color: map-get(map-get($colores, azure), light);
+	}
 }
 .beccapurple {
 	background-color: map-get(map-get($colores, beccapurple), base);
+	&:hover {
+		background-color: map-get(map-get($colores, beccapurple), light);
+	}
 }
 .beige {
 	background-color: map-get(map-get($colores, beige), base);
+	&:hover {
+		background-color: map-get(map-get($colores, beige), light);
+	}
 }
 .bisque {
-	background-color: map-get(map-get($colores, bisque), base)
+	background-color: map-get(map-get($colores, bisque), base);
+	&:hover {
+		background-color: map-get(map-get($colores, bisque), ligth);
+	}
 }
 .black {
 	background-color: map-get(map-get($colores, black), base);
+	&:hover {
+		background-color: map-get(map-get($colores, black), light);
+	}
 }
 .blanchedalmond {
 	background-color: map-get(map-get($colores, blanchedalmond), base);
+	&:hover {
+		background-color: map-get(map-get($colores, blanchedalmond), light);
+	}
 }
 .blue {
 	background-color: map-get(map-get($colores, blue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, blue), light);
+	}
 }
 .blueviolet {
 	background-color: map-get(map-get($colores, blueviolet), base);
+	&:hover {
+		background-color: map-get(map-get($colores, blueviolet), light);
+	}
 }
 .brown {
 	background-color: map-get(map-get($colores, brown), base);
+	&:hover {
+		background-color: map-get(map-get($colores, brown), light);
+	}
 }
 .burlywood {
 	background-color: map-get(map-get($colores, burlywood), base);
+	&:hover {
+		background-color: map-get(map-get($colores, burlywood), light);
+	}
 }
 .cadetblue {
 	background-color: map-get(map-get($colores, cadetblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, cadetblue), light);
+	}
 }
 .chartreuse {
 	background-color: map-get(map-get($colores, chartreuse), base);
+	&:hover {
+		background-color: map-get(map-get($colores, chartreuse), light);
+	}
 }
 .chocolate {
 	background-color: map-get(map-get($colores, chocolate), base);
+	&:hover {
+		background-color: map-get(map-get($colores, chocolate), light);
+	}
 }
 .coral {
 	background-color: map-get(map-get($colores, coral), base);
+	&:hover {
+		background-color: map-get(map-get($colores, coral), light);
+	}
 }
 .cornflowerblue {
 	background-color: map-get(map-get($colores, cornflowerblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, cornflowerblue), light);
+	}
 }
 .cornsilk {
 	background-color: map-get(map-get($colores, cornsilk), base);
+	&:hover {
+		background-color: map-get(map-get($colores, cornsilk), light);
+	}
 }
 .crimson {
 	background-color: map-get(map-get($colores, crimson), base);
+	&:hover {
+		background-color: map-get(map-get($colores, crimson), light);
+	}
 }
 .cyan {
 	background-color: map-get(map-get($colores, cyan), base);
+	&:hover {
+		background-color: map-get(map-get($colores, cyan), light);
+	}
 }
 .darkblue {
 	background-color: map-get(map-get($colores, darkblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkblue), light);
+	}
 }
 .darkcyan {
 	background-color: map-get(map-get($colores, darkcyan), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkcyan), light);
+	}
 }
 .darkgoldenrod {
 	background-color: map-get(map-get($colores, darkgoldenrod), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkgoldenrod), light);
+	}
 }
 .darkgray {
 	background-color: map-get(map-get($colores, darkgray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkgray), light);
+	}
 }
 .darkgreen {
 	background-color: map-get(map-get($colores, darkgreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkgreen), light);
+	}
 }
 .darkkhaki {
 	background-color: map-get(map-get($colores, darkkhaki), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkkhaki), light);
+	}
 }
 .darkmagenta {
 	background-color: map-get(map-get($colores, darkmagenta), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkmagenta), light);
+	}
 }
 .darkolivegreen {
 	background-color: map-get(map-get($colores, darkolivegreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkolivegreen), light);
+	}
 }
 .darkorange {
 	background-color: map-get(map-get($colores, darkorange), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkorange), light);
+	}
 }
 .darkorchid {
 	background-color: map-get(map-get($colores, darkorchid), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkorchid), light);
+	}
 }
 .darkred {
 	background-color: map-get(map-get($colores, darkred), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkred), light);
+	}
 }
 .darksalmon {
 	background-color: map-get(map-get($colores, darksalmon), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darksalmon), light);
+	}
 }
 .darkseagreen {
 	background-color: map-get(map-get($colores, darkseagreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkseagreen), light);
+	}
 }
 .darkslateblue {
 	background-color: map-get(map-get($colores, darkslateblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkslateblue), light);
+	}
 }
 .darkslategray {
 	background-color: map-get(map-get($colores, darkslategray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkslategray), light);
+	}
 }
 .darkslategrey {
 	background-color: map-get(map-get($colores, darkslategrey), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkslategrey), light);
+	}
 }
 .darkturquoise {
 	background-color: map-get(map-get($colores, darkturquoise), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkturquoise), light);
+	}
 }
 .darkviolet {
 	background-color: map-get(map-get($colores, darkviolet), base);
+	&:hover {
+		background-color: map-get(map-get($colores, darkviolet), light);
+	}
 }
 .deeppink {
 	background-color: map-get(map-get($colores, deeppink), base);
+	&:hover {
+		background-color: map-get(map-get($colores, deeppink), light);
+	}
 }
 .deepskyblue {
 	background-color: map-get(map-get($colores, deepskyblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, deepskyblue), light);
+	}
 }
 .dimgray {
 	background-color: map-get(map-get($colores, dimgray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, dimgray), light);
+	}
 }
 .dimgrey {
 	background-color: map-get(map-get($colores, dimgrey), base);
+	&:hover {
+		background-color: map-get(map-get($colores, dimgrey), light);
+	}
 }
 .dodgerblue {
 	background-color: map-get(map-get($colores, dodgerblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, dodgerblue), light);
+	}
 }
 .firebrick {
 	background-color: map-get(map-get($colores, firebrick), base);
+	&:hover {
+		background-color: map-get(map-get($colores, firebrick), light);
+	}
 }
 .floralwhite {
 	background-color: map-get(map-get($colores, floralwhite), base);
+	&:hover {
+		background-color: map-get(map-get($colores, floralwhite), light);
+	}
 }
 .forestgreen {
 	background-color: map-get(map-get($colores, forestgreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, forestgreen), light);
+	}
 }
 .fuchsia {
 	background-color: map-get(map-get($colores, fuchsia), base);
+	&:hover {
+		background-color: map-get(map-get($colores, fuchsia), light);
+	}
 }
 .gainsboro {
 	background-color: map-get(map-get($colores, gainsboro), base);
+	&:hover {
+		background-color: map-get(map-get($colores, gainsboro), light);
+	}
 }
 .ghostwhite {
 	background-color: map-get(map-get($colores, ghostwhite), base);
+	&:hover {
+		background-color: map-get(map-get($colores, ghostwhite), light);
+	}
 }
 .gold {
 	background-color: map-get(map-get($colores, gold), base);
+	&:hover {
+		background-color: map-get(map-get($colores, gold), light);
+	}
 }
 .goldenrod {
 	background-color: map-get(map-get($colores, goldenrod), base);
+	&:hover {
+		background-color: map-get(map-get($colores, goldenrod), light);
+	}
 }
 .gray {
 	background-color: map-get(map-get($colores, gray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, gray), light);
+	}
 }
 .grey {
 	background-color: map-get(map-get($colores, grey), base);
+	&:hover {
+		background-color: map-get(map-get($colores, grey), light);
+	}
 }
 .green {
 	background-color: map-get(map-get($colores, green), base);
+	&:hover {
+		background-color: map-get(map-get($colores, green), light);
+	}
 }
 .greenyellow {
 	background-color: map-get(map-get($colores, greenyellow), base);
+	&:hover {
+		background-color: map-get(map-get($colores, greenyellow), light);
+	}
 }
 .honeydew {
 	background-color: map-get(map-get($colores, honeydew), base);
+	&:hover {
+		background-color: map-get(map-get($colores, honeydew), light);
+	}
 }
 .hotpink {
 	background-color: map-get(map-get($colores, hotpink), base);
+	&:hover {
+		background-color: map-get(map-get($colores, hotpink), light);
+	}
 }
 .indianred {
 	background-color: map-get(map-get($colores, indianred), base);
+	&:hover {
+		background-color: map-get(map-get($colores, indianred), light);
+	}
 }
 .indigo {
 	background-color: map-get(map-get($colores, indigo), base);
+	&:hover {
+		background-color: map-get(map-get($colores, indigo), light);
+	}
 }
 .ivory  {
 	background-color: map-get(map-get($colores, ivory), base);
+	&:hover {
+		background-color: map-get(map-get($colores, ivory), light);
+	}
 }
 .khaki {
 	background-color: map-get(map-get($colores, khaki), base);
+	&:hover {
+		background-color: map-get(map-get($colores, khaki), light);
+	}
 }
 .lavender {
 	background-color: map-get(map-get($colores, lavender), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lavender), light);
+	}
 }
 .lavenderblush {
 	background-color: map-get(map-get($colores, lavenderblush), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lavenderblush), light);
+	}
 }
 .lawngreen {
 	background-color: map-get(map-get($colores, lawngreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lawngreen), light);
+	}
 }
 .lemonchiffon {
 	background-color: map-get(map-get($colores, lemonchiffon), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lemonchiffon), light);
+	}
 }
 .lightblue {
 	background-color: map-get(map-get($colores, lightblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightblue), light);
+	}
 }
 .lightcoral {
 	background-color: map-get(map-get($colores, lightcoral), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightcoral), light);
+	}
 }
 .lightcyan {
 	background-color: map-get(map-get($colores, lightcyan), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightcyan), light);
+	}
 }
 .lightgoldenrodyellow {
 	background-color: map-get(map-get($colores, lightgoldenrodyellow), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightgoldenrodyellow), light);
+	}
 }
 .lightgreen {
 	background-color: map-get(map-get($colores, lightgreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightgreen), light);
+	}
 }
 .lightgrey {
 	background-color: map-get(map-get($colores, lightgrey), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightgrey), light);
+	}
 }
 .lightpink {
 	background-color: map-get(map-get($colores, lightpink), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightpink), light);
+	}
 }
 .lightsalmon {
 	background-color: map-get(map-get($colores, lightsalmon), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightsalmon), light);
+	}
 }
 .lightseagreen {
 	background-color: map-get(map-get($colores, lightseagreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightseagreen), light);
+	}
 }
 .lightskyblue {
 	background-color: map-get(map-get($colores, lightskyblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightskyblue), light);
+	}
 }
 .lightslategray {
 	background-color: map-get(map-get($colores, lightslategray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightslategray), light);
+	}
 }
 .lightgray {
 	background-color: map-get(map-get($colores, lightgray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightgray), light);
+	}
 }
 .lightsteelblue {
 	background-color: map-get(map-get($colores, lightsteelblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightsteelblue), light);
+	}
 }
 .lightyellow {
 	background-color: map-get(map-get($colores, lightyellow), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lightyellow), light);
+	}
 }
 .lime {
 	background-color: map-get(map-get($colores, lime), base);
+	&:hover {
+		background-color: map-get(map-get($colores, lime), light);
+	}
 }
 .limegreen {
 	background-color: map-get(map-get($colores, limegreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, limegreen), light);
+	}
 }
 .linen {
 	background-color: map-get(map-get($colores, linen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, linen), light);
+	}
 }
 .magenta {
 	background-color: map-get(map-get($colores, magenta), base);
+	&:hover {
+		background-color: map-get(map-get($colores, magenta), light);
+	}
 }
 .maroon {
 	background-color: map-get(map-get($colores, maroon), base);
+	&:hover {
+		background-color: map-get(map-get($colores, maroon), light);
+	}
 }
 .mediumaquamarine {
 	background-color: map-get(map-get($colores, mediumaquamarine), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumaquamarine), light);
+	}
 }
 .mediumblue {
 	background-color: map-get(map-get($colores, mediumblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumblue), light);
+	}
 }
 .mediumorchid {
 	background-color: map-get(map-get($colores, mediumorchid), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumorchid), light);
+	}
 }
 .mediumpurple {
 	background-color: map-get(map-get($colores, mediumpurple), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumpurple), light);
+	}
 }
 .mediumseagreen {
 	background-color: map-get(map-get($colores, mediumseagreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumseagreen), light);
+	}
 }
 .mediumslateblue {
 	background-color: map-get(map-get($colores, mediumslateblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumslateblue), light);
+	}
 }
 .mediumspringgreen {
 	background-color: map-get(map-get($colores, mediumspringgreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumspringgreen), light);
+	}
 }
 .mediumturquoise {
 	background-color: map-get(map-get($colores, mediumturquoise), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumturquoise), light);
+	}
 }
 .mediumvioletred {
 	background-color: map-get(map-get($colores, mediumvioletred), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mediumvioletred), light);
+	}
 }
 .midnightblue {
 	background-color: map-get(map-get($colores, midnightblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, midnightblue), light);
+	}
 }
 .mintcream {
 	background-color: map-get(map-get($colores, mintcream), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mintcream), light);
+	}
 }
 .mistyrose {
 	background-color: map-get(map-get($colores, mistyrose), base);
+	&:hover {
+		background-color: map-get(map-get($colores, mistyrose), light);
+	}
 }
 .moccasin {
 	background-color: map-get(map-get($colores, moccasin), base);
+	&:hover {
+		background-color: map-get(map-get($colores, moccasin), light);
+	}
 }
 .navajowhite {
 	background-color: map-get(map-get($colores, navajowhite), base);
+	&:hover {
+		background-color: map-get(map-get($colores, navajowhite), light);
+	}
 }
 .navy {
 	background-color: map-get(map-get($colores, navy), base);
+	&:hover {
+		background-color: map-get(map-get($colores, navy), light);
+	}
 }
 .oldlace {
 	background-color: map-get(map-get($colores, oldlace), base);
+	&:hover {
+		background-color: map-get(map-get($colores, oldlace), light);
+	}
 }
 .olive {
 	background-color: map-get(map-get($colores, olive), base);
+	&:hover {
+		background-color: map-get(map-get($colores, olive), light);
+	}
 }
 .olivedrab {
 	background-color: map-get(map-get($colores, olivedrab), base);
+	&:hover {
+		background-color: map-get(map-get($colores, olivedrab), light);
+	}
 }
 .orange {
 	background-color: map-get(map-get($colores, orange), base);
+	&:hover {
+		background-color: map-get(map-get($colores, orange), light);
+	}
 }
 .orangered {
 	background-color: map-get(map-get($colores, orangered), base);
+	&:hover {
+		background-color: map-get(map-get($colores, orangered), light);
+	}
 }
 .orchid {
 	background-color: map-get(map-get($colores, orchid), base);
+	&:hover {
+		background-color: map-get(map-get($colores, orchid), light);
+	}
 }
 .palegoldenrod {
 	background-color: map-get(map-get($colores, palegoldenrod), base);
+	&:hover {
+		background-color: map-get(map-get($colores, palegoldenrod), light);
+	}
 }
 .palegreen {
 	background-color: map-get(map-get($colores, palegreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, palegreen), light);
+	}
 }
 .paleturquoise {
 	background-color: map-get(map-get($colores, paleturquoise), base);
+	&:hover {
+		background-color: map-get(map-get($colores, paleturquoise), light);
+	}
 }
 .palevioletred {
 	background-color: map-get(map-get($colores, palevioletred), base);
+	&:hover {
+		background-color: map-get(map-get($colores, palevioletred), light);
+	}
 }
 .papayawhip {
 	background-color: map-get(map-get($colores, papayawhip), base);
+	&:hover {
+		background-color: map-get(map-get($colores, papayawhip), light);
+	}
 }
 .peachpuff {
 	background-color: map-get(map-get($colores, peachpuff), base);
+	&:hover {
+		background-color: map-get(map-get($colores, peachpuff), light);
+	}
 }
 .peru {
 	background-color: map-get(map-get($colores, peru), base);
+	&:hover {
+		background-color: map-get(map-get($colores, peru), light);
+	}
 }
 .pink {
 	background-color: map-get(map-get($colores, pink), base);
+	&:hover {
+		background-color: map-get(map-get($colores, pink), light);
+	}
 }
 .plum {
 	background-color: map-get(map-get($colores, plum), base);
+	&:hover {
+		background-color: map-get(map-get($colores, plum), light);
+	}
 }
 .powderblue {
 	background-color: map-get(map-get($colores, powderblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, powderblue), light);
+	}
 }
 .purple {
 	background-color: map-get(map-get($colores, purple), base);
+	&:hover {
+		background-color: map-get(map-get($colores, purple), light);
+	}
 }
 .red {
 	background-color: map-get(map-get($colores, red), base);
+	&:hover {
+		background-color: map-get(map-get($colores, red), light);
+	}
 }
 .rosybrown {
 	background-color: map-get(map-get($colores, rosybrown), base);
+	&:hover {
+		background-color: map-get(map-get($colores, rosybrown), light);
+	}
 }
 .royalblue {
 	background-color: map-get(map-get($colores, royalblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, royalblue), light);
+	}
 }
 .saddlebrown {
 	background-color: map-get(map-get($colores, saddlebrown), base);
+	&:hover {
+		background-color: map-get(map-get($colores, saddlebrown), light);
+	}
 }
 .salmon {
 	background-color: map-get(map-get($colores, salmon), base);
+	&:hover {
+		background-color: map-get(map-get($colores, salmon), light);
+	}
 }
 .sandybrown {
 	background-color: map-get(map-get($colores, sandybrown), base);
+	&:hover {
+		background-color: map-get(map-get($colores, sandybrown), light);
+	}
 }
 .seagreen {
 	background-color: map-get(map-get($colores, seagreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, seagreen), light);
+	}
 }
 .seashell {
 	background-color: map-get(map-get($colores, seashell), base);
+	&:hover {
+		background-color: map-get(map-get($colores, seashell), light);
+	}
 }
 .sienna {
 	background-color: map-get(map-get($colores, sienna), base);
+	&:hover {
+		background-color: map-get(map-get($colores, sienna), light);
+	}
 }
 .silver {
 	background-color: map-get(map-get($colores, silver), base);
+	&:hover {
+		background-color: map-get(map-get($colores, silver), light);
+	}
 }
 .skyblue {
 	background-color: map-get(map-get($colores, skyblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, skyblue), light);
+	}
 }
 .slateblue {
 	background-color: map-get(map-get($colores, slateblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, slateblue), light);
+	}
 }
 .slategray {
 	background-color: map-get(map-get($colores, slategray), base);
+	&:hover {
+		background-color: map-get(map-get($colores, slategray), light);
+	}
 }
 .slategrey {
 	background-color: map-get(map-get($colores, slategrey), base);
+	&:hover {
+		background-color: map-get(map-get($colores, slategrey), light);
+	}
 }
 .snow {
 	background-color: map-get(map-get($colores, snow), base);
+	&:hover {
+		background-color: map-get(map-get($colores, snow), light);
+	}
 }
 .springgreen {
 	background-color: map-get(map-get($colores, springgreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, springgreen), light);
+	}
 }
 .steelblue {
 	background-color: map-get(map-get($colores, steelblue), base);
+	&:hover {
+		background-color: map-get(map-get($colores, steelblue), light);
+	}
 }
 .tan {
 	background-color: map-get(map-get($colores, tan), base);
+	&:hover {
+		background-color: map-get(map-get($colores, tan), light);
+	}
 }
 .teal {
 	background-color: map-get(map-get($colores, teal), base);
+	&:hover {
+		background-color: map-get(map-get($colores, teal), light);
+	}
 }
 .thistle {
 	background-color: map-get(map-get($colores, thistle), base);
+	&:hover {
+		background-color: map-get(map-get($colores, thistle), light);
+	}
 }
 .tomato {
 	background-color: map-get(map-get($colores, tomato), base);
+	&:hover {
+		background-color: map-get(map-get($colores, tomato), light);
+	}
 }
 .turquoise {
 	background-color: map-get(map-get($colores, turquoise), base);
+	&:hover {
+		background-color: map-get(map-get($colores, turquoise), light);
+	}
 }
 .violet {
 	background-color: map-get(map-get($colores, violet), base);
+	&:hover {
+		background-color: map-get(map-get($colores, violet), light);
+	}
 }
 .wheat {
 	background-color: map-get(map-get($colores, wheat), base);
+	&:hover {
+		background-color: map-get(map-get($colores, wheat), light);
+	}
 }
 .white {
 	background-color: map-get(map-get($colores, white), base);
+	&:hover {
+		background-color: map-get(map-get($colores, white), light);
+	}
 }
 .whitesmoke {
 	background-color: map-get(map-get($colores, whitesmoke), base);
+	&:hover {
+		background-color: map-get(map-get($colores, whitesmoke), light);
+	}
 }
 .yellow {
 	background-color: map-get(map-get($colores, yellow), base);
+	&:hover {
+		background-color: map-get(map-get($colores, yellow), light);
+	}
 }
 .yellowgreen {
 	background-color: map-get(map-get($colores, yellowgreen), base);
+	&:hover {
+		background-color: map-get(map-get($colores, yellowgreen), light);
+	}
 }
