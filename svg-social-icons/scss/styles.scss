@@ -53,6 +53,8 @@ a {
 		svg {
 			width: 50px;
 			height: 50px;
+			padding: 0 5px;
+			box-sizing: border-box;
 		}
 	}
 }
@@ -63,7 +65,6 @@ a {
 	button {
 		border: 0;
 		width: 100/10 * 1%;
-		background-color: crimson;
 		display: inline-block;
 		-webkit-appearance: none;
 		font-family: $fira;
@@ -75,4 +76,443 @@ a {
 	}
 }
 
-// color: map-get(map-get($colors, aliceblue), base);
+.aliceblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.antiquewhite {
+	background-color: map-get(map-get($colores, antiquewhite), base);
+}
+.aqua {
+	background-color: map-get(map-get($colores, aqua), base);
+}
+.aquamarine {
+	background-color: map-get(map-get($colores, aquamarine), base);
+}
+.azure {
+	background-color: map-get(map-get($colores, azure), base);
+}
+.beccapurple {
+	background-color: map-get(map-get($colores, beccapurple), base);
+}
+.beige {
+	background-color: map-get(map-get($colores, beige), base);
+}
+.bisque {
+	background-color: map-get(map-get($colores, bisque), base)
+}
+.black {
+	background-color: map-get(map-get($colores, black), base);
+}
+.blanchedalmond {
+	background-color: map-get(map-get($colores, blanchedalmond), base);
+}
+.blue {
+	background-color: map-get(map-get($colores, blue), base);
+}
+.blueviolet {
+	background-color: map-get(map-get($colores, blueviolet), base);
+}
+.brown {
+	background-color: map-get(map-get($colores, brown), base);
+}
+.burlywood {
+	background-color: map-get(map-get($colores, burlywood), base);
+}
+.cadetblue {
+	background-color: map-get(map-get($colores, cadetblue), base);
+}
+.chartreuse {
+	background-color: map-get(map-get($colores, chartreuse), base);
+}
+.chocolate {
+	background-color: map-get(map-get($colores, chocolate), base);
+}
+.coral {
+	background-color: map-get(map-get($colores, coral), base);
+}
+.cornflowerblue {
+	background-color: map-get(map-get($colores, cornflowerblue), base);
+}
+.cornsilk {
+	background-color: map-get(map-get($colores, cornsilk), base);
+}
+.crimson {
+	background-color: map-get(map-get($colores, crimson), base);
+}
+.cyan {
+	background-color: map-get(map-get($colores, cyan), base);
+}
+.darkblue {
+	background-color: map-get(map-get($colores, darkblue), base);
+}
+.darkcyan {
+	background-color: map-get(map-get($colores, darkcyan), base);
+}
+.darkgoldenrod {
+	background-color: map-get(map-get($colores, darkgoldenrod), base);
+}
+.darkgray {
+	background-color: map-get(map-get($colores, darkgray), base);
+}
+.darkgreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkkhaki {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkmagenta {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkolivegreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkorange {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkorchid {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkred {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darksalmon {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkseagreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkslateblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkslategray {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkslategrey {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkturquoise {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.darkviolet {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.deeppink {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.deepskyblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.dimgray {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.dimgrey {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.dodgerblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.firebrick {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.floralwhite {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.forestgreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.fuchsia {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.gainsboro {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.ghostwhite {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.gold {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.goldenrod {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.gray {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.grey {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.green {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.greenyellow {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.honeydew {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.hotpink {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.indianred {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.indigo {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.ivory  {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.khaki {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lavender {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lavenderblush {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lawngreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lemonchiffon {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightcoral {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightcyan {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightgoldenrodyellow {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightgreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightgrey {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightpink {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightsalmon {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightseagreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightskyblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightslategray {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightgray {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightsteelblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lightyellow {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.lime {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.limegreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.linen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.magenta {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.maroon {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumaquamarine {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumorchid {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumpurple {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumseagreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumslateblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumspringgreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumturquoise {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mediumvioletred {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.midnightblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mintcream {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.mistyrose {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.moccasin {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.navajowhite {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.navy {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.oldlace {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.olive {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.olivedrab {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.orange {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.orangered {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.orchid {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.palegoldenrod {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.palegreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.paleturquoise {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.palevioletred {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.papayawhip {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.peachpuff {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.peru {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.pink {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.plum {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.powderblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.purple {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.red {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.rosybrown {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.royalblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.saddlebrown {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.salmon {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.sandybrown {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.seagreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.seashell {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.sienna {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.silver {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.skyblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.slateblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.slategray {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.slategrey {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.snow {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.springgreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.steelblue {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.tan {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.teal {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.thistle {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.tomato {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.turquoise {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.violet {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.wheat {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.white {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.whitesmoke {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.yellow {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+.yellowgreen {
+	background-color: map-get(map-get($colores, aliceblue), base);
+}
+
+// background-color: map-get(map-get($colors, aliceblue), base);
