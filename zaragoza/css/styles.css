@@ -387,15 +387,23 @@ h1, h2, h3, h4, h5, h6, p, ul, a, span {
   font-weight: 800; }
 
 #logo-zec,
-#sanidad {
+#sanidad,
+#marea,
+#pah {
   position: absolute;
   top: 5%;
   margin: 0 auto;
   left: 0;
   right: 0; }
 
-#sanidad {
+#sanidad,
+#marea,
+#pah {
   top: 50%; }
+
+#marea,
+#pah {
+  display: none; }
 
 h1 {
   position: absolute;

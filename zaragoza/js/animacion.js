@@ -127,6 +127,18 @@ $("#uno").delay(200)
             $(function() {
                 $("#unotexto").animacion();
                 $("html").addClass("background");
+                $('#marea')
+                  .delay(1000)
+                  .queue(function (next) {
+                    $(this).show();
+                    next();
+                  });
+                $('#marea')
+                  .delay(2000)
+                  .queue(function (next) {
+                    $(this).hide();
+                    next();
+                  });
             });
 
         }
@@ -146,6 +158,18 @@ $("#dos")
         complete: function() {
             $(function() {
                 $("#dostexto").animacion();
+                $('#pah')
+                  .delay(1000)
+                  .queue(function (next) {
+                    $(this).show();
+                    next();
+                  });
+                $('#pah')
+                  .delay(2500)
+                  .queue(function (next) {
+                    $(this).hide();
+                    next();
+                  });
             });
 
         }
