@@ -41,7 +41,8 @@
 
     <h1 id="cuatrotexto">SERVICIOS SOCIALES PARA TODOS</h1>
 
-    <h1 id="textofinal">GANEMOS LA CIUDAD, PARA LOS CIUDADANOS</h1>
+    <h1 id="textofinal">GANEMOS LA CIUDAD, </br>PARA LOS CIUDADANOS</br></br>#YoSoyZaragozaEnComun</h1>
+
 
     <script>
 
@@ -99,6 +100,13 @@
             .blast({delimiter: "character"})
             .velocity("transition.slideDownIn", { stagger: 70, drag: true, duration: 2000})
             .velocity({ opacity:0}, {duration: 20});
+    }
+
+    $.fn.animacionfinal = function(){
+        $(this)
+            .css({display:"block"})
+            .blast({delimiter: "character"})
+            .velocity("transition.slideDownIn", { stagger: 70, drag: true, duration: 2000})
     }
 
     $("#uno").delay(200)
@@ -169,7 +177,7 @@
              strokeWidth:1500,
              complete: function() {
                $(function(){
-                $("#textofinal").animacion();
+                $("#textofinal").animacionfinal();
                 $("#cinco, #cuatro, #tres, #dos, #uno").delay(2000).velocity({opacity: 0}, {duration: 1000, easing: "spring"});
                 animacionLogo();
                });
@@ -181,7 +189,7 @@
 
 
     </script>
-
+    <div id="background"></div>
     <div id="logo-zec"></div>
 
     <h2 class="footer-texto">Made with <span>❤</span> by  <a target="_blank" href="http://jorgeatgu.com">jorgeatgu</a> </h2>
