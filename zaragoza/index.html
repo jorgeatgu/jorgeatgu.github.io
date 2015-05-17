@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Animación para #YoSoyZaragozaEnComun</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+		<script src="js/jquery.lazylinepainter-1.5.1.js"></script>
+		<script src="js/velocity.min.js"></script>
+        <script src="http://julian.com/research/blast/build/jquery.blast.js"></script>
+        <script src="http://julian.com/research/velocity/build/velocity.ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" >
+
+        <line id="uno" x1="600" y1="0" x2="600" y2="0" stroke="#01FF70" stroke-width="1" stroke-linecap="round"/>
+
+        <line id="dos" x1="1200" y1="300" x2="1200" y2="300" stroke="#CF323B" stroke-width="1" stroke-linecap="round"/>
+        <line id="tres" x1="0" y1="0" x2="0" y2="0" stroke="#fff" stroke-width="1" stroke-linecap="round"/>
+
+        <line id="cuatro" x1="0" y1="600" x2="0" y2="600" stroke="orange" stroke-width="1" stroke-linecap="round"/>
+
+        <line id="cinco" x1="1200" y1="0" x2="1200" y2="0" stroke="#DA131A" stroke-width="1" stroke-linecap="round"/>
+
+    </svg>
+
+    <h1 id="unotexto">ESCUELA PÚBLICA: </br>DE TODOS PARA TODOS</h1>
+
+    <h1 id="dostexto">STOP DESHAUCIOS! </br>POR EL DERECHO A LA VIVIENDA</h1>
+
+    <h1 id="trestexto">LA SANIDAD NO SE VENDE, SE DEFIENDE</h1>
+
+    <h1 id="cuatrotexto">SERVICIOS SOCIALES PARA TODOS</h1>
+
+    <h1 id="textofinal">GANEMOS LA CIUDAD, PARA LOS CIUDADANOS</h1>
+
+    <script>
+
+            function animacionLogo(){
+                var svgData = {
+                    "logo-zec" :
+                    {
+                        "strokepath" :
+                        [
+                            {   "path": "M70.9,29.8 c-20.2,6.8-34.7,25.9-34.7,48.3c0,28.2,22.8,51,51,51s51-22.8,51-51c0-8.3-2-16.1-5.5-23.1",
+                                "duration": 1500,
+                                "strokeColor": '#fff',
+                                "strokeWidth": 5
+                                },
+                            {   "path": "M60.3,75.4 c-1.1,11.4,5,22.8,16,27.8c13.8,6.3,30.1,0.1,36.4-13.7C119,75.6,112.9,59.3,99,53c-4.1-1.8-8.4-2.6-12.6-2.4",
+                                "duration":3000,
+                                "strokeColor": '#fff',
+                                "strokeWidth": 5
+                                },
+                            {   "path": "M56.8,62 c-7,12.9-5.5,29.4,5.1,40.7c13.2,14.3,35.5,15.1,49.7,1.9s15.1-35.5,1.9-49.7c-3.9-4.2-8.6-7.2-13.6-9.1",
+                                "duration":3000,
+                                "strokeColor": '#fff',
+                                "strokeWidth": 5
+                                },
+                            {   "path": "M59.7,45.2 C46,56.8,40.6,76.2,47.6,93.8c8.8,22,33.7,32.7,55.7,23.9S136.1,84,127.3,62c-2.6-6.5-6.6-12-11.5-16.3",
+                                "duration":3000,
+                                "strokeColor": '#fff',
+                                "strokeWidth": 5
+                                }
+                        ],
+                        "dimensions" : { "width": 150, "height":150 }
+                    }
+                }
+
+                 $(document).ready(function(){
+                     $('#logo-zec').lazylinepainter({
+                            'svgData' : svgData,
+                            'strokeWidth':7,
+                            'strokeColor':'#fff',
+                            'drawSequential': true
+                            }).lazylinepainter('paint');
+                });
+            }
+
+
+
+
+
+
+
+
+    $.fn.animacion = function(){
+        $(this)
+            .css({display:"block"})
+            .blast({delimiter: "character"})
+            .velocity("transition.slideDownIn", { stagger: 70, drag: true, duration: 2000})
+            .velocity({ opacity:0}, {duration: 20});
+    }
+
+    $("#uno").delay(200)
+        .velocity({y2: 600},{duration:1500,easing: "spring"})
+        .delay(150)
+        .velocity(
+        {
+            strokeWidth:1500,
+            complete: function() {
+               $(function(){
+                $("#unotexto").animacion();
+               });
+
+            }
+        }
+        );
+
+    $("#dos")
+        .delay(4500)
+        .velocity({x2: 0},{duration:1500, easing: "swing"})
+        .delay(50)
+        .velocity(
+         {
+             strokeWidth:1500,
+             complete: function() {
+               $(function(){
+                $("#dostexto").animacion();
+               });
+
+            }
+         }
+         );
+
+    $("#tres")
+        .delay(10000)
+        .velocity({x2: 1200, y2: 600},{duration:1500, easing: "spring"})
+        .delay(50)
+        .velocity({
+             strokeWidth:1500,
+             complete: function() {
+               $(function(){
+                $("#trestexto").animacion();
+               });
+            }
+         }
+         );
+
+    $("#cuatro")
+        .delay(16000)
+        .velocity({x2: 1200, y2: 0},{duration:1500, easing: "swing"})
+        .delay(50)
+        .velocity({
+             strokeWidth:1500,
+             complete: function() {
+               $(function(){
+                $("#cuatrotexto").animacion();
+               });
+
+            }
+         }
+         );
+
+    $("#cinco")
+        .delay(20000)
+        .velocity({x2: 0, y2: 600},{duration:2500, easing: "spring"})
+        .delay(50)
+        .velocity({
+             strokeWidth:1500,
+             complete: function() {
+               $(function(){
+                $("#textofinal").animacion();
+                $("#cinco, #cuatro, #tres, #dos, #uno").delay(2000).velocity({opacity: 0}, {duration: 1000, easing: "spring"});
+                animacionLogo();
+               });
+
+            }
+         }
+         );
+
+
+
+    </script>
+
+    <div id="logo-zec"></div>
+
+    <h2 class="footer-texto">Made with <span>❤</span> by  <a target="_blank" href="http://jorgeatgu.com">jorgeatgu</a> </h2>
+    <a class="footer-enlace" target="_blank" href="http://github.com/jorgeatgu/animacion-zaragoza-en-comun">GitHub</a>
+        <script src="//use.typekit.net/oth0btl.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript">
+
+           var _gaq = _gaq || [];
+           _gaq.push(['_setAccount', 'UA-36222123-1']);
+           _gaq.push(['_trackPageview']);
+
+           (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+           })();
+
+         </script>
+    </body>
+</html>
