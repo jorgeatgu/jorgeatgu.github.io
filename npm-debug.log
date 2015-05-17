@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'wakatimecli' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'wakatimecli', null ]
+5 verbose cache add name=undefined spec="wakatimecli" args=["wakatimecli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'wakatimecli',
+6 verbose parsed url   path: 'wakatimecli',
+6 verbose parsed url   href: 'wakatimecli' }
+7 silly lockFile b6e56cb1-wakatimecli wakatimecli
+8 verbose lock wakatimecli /Users/jorgeatgu/.npm/b6e56cb1-wakatimecli.lock
+9 silly lockFile b6e56cb1-wakatimecli wakatimecli
+10 silly lockFile b6e56cb1-wakatimecli wakatimecli
+11 verbose addNamed [ 'wakatimecli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d44891b2-wakatimecli wakatimecli@
+14 verbose lock wakatimecli@ /Users/jorgeatgu/.npm/d44891b2-wakatimecli.lock
+15 silly addNameRange { name: 'wakatimecli', range: '*', hasData: false }
+16 verbose request where is /wakatimecli
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 0ad6655ad0e1484b
+19 verbose url raw /wakatimecli
+20 verbose url resolving [ 'https://registry.npmjs.org/', './wakatimecli' ]
+21 verbose url resolved https://registry.npmjs.org/wakatimecli
+22 verbose request where is https://registry.npmjs.org/wakatimecli
+23 info trying registry request attempt 1 at 21:22:22
+24 http GET https://registry.npmjs.org/wakatimecli
+25 http 200 https://registry.npmjs.org/wakatimecli
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"E85Y20F59RRH45LK1N8YPCIWZ"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '9141',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Mon, 11 May 2015 19:22:23 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-lhr6335-LHR',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1431372142.877043,VS0,VE164',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'wakatimecli', range: '*', hasData: true }
+28 silly addNameRange versions [ 'wakatimecli',
+28 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5', '0.1.6' ] ]
+29 verbose addNamed [ 'wakatimecli', '0.1.6' ]
+30 verbose addNamed [ '0.1.6', '0.1.6' ]
+31 silly lockFile a6c5a1b7-wakatimecli-0-1-6 wakatimecli@0.1.6
+32 verbose lock wakatimecli@0.1.6 /Users/jorgeatgu/.npm/a6c5a1b7-wakatimecli-0-1-6.lock
+33 silly lockFile 4e7e3064-akatimecli-wakatimecli-0-1-6-tgz https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz
+34 verbose lock https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz /Users/jorgeatgu/.npm/4e7e3064-akatimecli-wakatimecli-0-1-6-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz',
+35 verbose addRemoteTarball   'f709c8e76facb7d57b339801b01baa048a319e86' ]
+36 info retry fetch attempt 1 at 21:22:22
+37 verbose fetch to= /var/folders/2n/8p6fs94j1hz_yx0zn36n9sb80000gn/T/npm-1861-zpkhizzt/registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz
+38 http GET https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz
+39 http 200 https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz
+40 silly lockFile 4e7e3064-akatimecli-wakatimecli-0-1-6-tgz https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz
+41 silly lockFile 4e7e3064-akatimecli-wakatimecli-0-1-6-tgz https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz
+42 silly lockFile a6c5a1b7-wakatimecli-0-1-6 wakatimecli@0.1.6
+43 silly lockFile a6c5a1b7-wakatimecli-0-1-6 wakatimecli@0.1.6
+44 silly lockFile d44891b2-wakatimecli wakatimecli@
+45 silly lockFile d44891b2-wakatimecli wakatimecli@
+46 silly resolved [ { name: 'wakatimecli',
+46 silly resolved     version: '0.1.6',
+46 silly resolved     repository: { url: 'https://github.com/JoshLankford/WakaTimeCLI' },
+46 silly resolved     description: 'See your WakaTime report directly in the terminal',
+46 silly resolved     main: './lib/wakatime',
+46 silly resolved     preferGlobal: 'true',
+46 silly resolved     bin: { wakatime: './bin/wakatime' },
+46 silly resolved     keywords: [ 'wakatime', 'cli' ],
+46 silly resolved     author:
+46 silly resolved      { name: 'Josh Lankford',
+46 silly resolved        email: 'lankford.josh@gmail.com',
+46 silly resolved        url: 'http://joshlankford.com/' },
+46 silly resolved     license: 'ISC',
+46 silly resolved     dependencies:
+46 silly resolved      { bluebird: '^2.8.2',
+46 silly resolved        'cli-color': '^0.3.2',
+46 silly resolved        request: '^2.51.0',
+46 silly resolved        moment: '^2.9.0' },
+46 silly resolved     bugs: { url: 'https://github.com/JoshLankford/WakaTimeCLI/issues' },
+46 silly resolved     homepage: 'https://github.com/JoshLankford/WakaTimeCLI',
+46 silly resolved     _id: 'wakatimecli@0.1.6',
+46 silly resolved     scripts: {},
+46 silly resolved     _shasum: 'f709c8e76facb7d57b339801b01baa048a319e86',
+46 silly resolved     _from: 'wakatimecli@',
+46 silly resolved     _npmVersion: '1.4.23',
+46 silly resolved     _npmUser: { name: 'joshlankford', email: 'lankford.josh@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'f709c8e76facb7d57b339801b01baa048a319e86',
+46 silly resolved        tarball: 'http://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/wakatimecli/-/wakatimecli-0.1.6.tgz' } ]
+47 info install wakatimecli@0.1.6 into /usr/local/lib
+48 info installOne wakatimecli@0.1.6
+49 verbose lib/node_modules/wakatimecli unbuild
+50 verbose tar unpack /Users/jorgeatgu/.npm/wakatimecli/0.1.6/package.tgz
+51 silly lockFile d6978a9e-cal-lib-node-modules-wakatimecli tar:///usr/local/lib/node_modules/wakatimecli
+52 verbose lock tar:///usr/local/lib/node_modules/wakatimecli /Users/jorgeatgu/.npm/d6978a9e-cal-lib-node-modules-wakatimecli.lock
+53 silly lockFile c0422abb-pm-wakatimecli-0-1-6-package-tgz tar:///Users/jorgeatgu/.npm/wakatimecli/0.1.6/package.tgz
+54 verbose lock tar:///Users/jorgeatgu/.npm/wakatimecli/0.1.6/package.tgz /Users/jorgeatgu/.npm/c0422abb-pm-wakatimecli-0-1-6-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/wakatimecli'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/wakatimecli']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/wakatimecli',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/wakatimecli',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.3.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "wakatimecli"
+60 error cwd /Users/jorgeatgu/Dropbox/github/jorgeatgu.github.io
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/wakatimecli
+64 error fstream_path /usr/local/lib/node_modules/wakatimecli
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/wakatimecli'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
