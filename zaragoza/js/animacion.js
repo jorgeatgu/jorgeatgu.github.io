@@ -269,6 +269,12 @@ $("#cinco")
                     duration: 1000,
                     easing: "spring"
                 });
+                $('#twittear')
+                  .delay(2500)
+                  .queue(function (next) {
+                    $(this).show().css("display", "block");
+                    next();
+                  });
                 animacionLogo();
             });
 
