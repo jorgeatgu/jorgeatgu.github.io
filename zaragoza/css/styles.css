@@ -450,7 +450,8 @@ h1 {
   color: #001F3F; }
 
 #textofinal .texto-blanco {
-  color: #fff; }
+  color: #fff;
+  font-size: 42px; }
 
 .footer-texto,
 .footer-enlace {
