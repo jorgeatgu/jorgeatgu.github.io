@@ -134,7 +134,7 @@ $.fn.animacionfinal = function() {
         })
 }
 
-//Animaciones con VelocityJS
+//Animaciones de los line de SVG con VelocityJS
 
 $("#uno").delay(200)
     .velocity({
@@ -149,7 +149,6 @@ $("#uno").delay(200)
         complete: function() {
             $(function() {
                 $("#unotexto").animacion();
-                $("html").addClass("background");
                 $('#marea')
                   .delay(1000)
                   .queue(function (next) {
@@ -163,7 +162,6 @@ $("#uno").delay(200)
                     next();
                   });
             });
-
         }
     });
 
@@ -194,7 +192,6 @@ $("#dos")
                     next();
                   });
             });
-
         }
     });
 
@@ -233,6 +230,7 @@ $("#cuatro")
         complete: function() {
             $(function() {
                 $("#cuatrotexto").animacion();
+                $("html").addClass("background");
                 $('#naranja')
                   .delay(1000)
                   .queue(function (next) {
