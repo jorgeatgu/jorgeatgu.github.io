@@ -1,3 +1,8 @@
+/* Animaciones con Lazypainter
+========================================================================== */
+
+//Animacion del logo de Zaragoza en Común
+
 function animacionLogo() {
     var svgData = {
         "logo-zec": {
@@ -49,6 +54,8 @@ function animacionLogo() {
     });
 }
 
+//Animacion del logo de Sanidad con la librería Lazypainter
+
 function animacionSanidad() {
     var svgData = {
         "sanidad": {
@@ -86,6 +93,12 @@ function animacionSanidad() {
     });
 }
 
+
+/* Animacion principal con VelocityJS y BlastJS
+========================================================================== */
+
+//Funciones creadas para la animación del texto con BlastJS
+
 $.fn.animacion = function() {
     $(this)
         .css({
@@ -120,6 +133,8 @@ $.fn.animacionfinal = function() {
             duration: 2000
         })
 }
+
+//Animaciones con VelocityJS
 
 $("#uno").delay(200)
     .velocity({
