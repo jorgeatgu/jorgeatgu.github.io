@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6, p, ul, a, span {
 #marea,
 #pah,
 #naranja {
-  top: 40%; }
+  top: 20%; }
 
 #marea,
 #pah,
@@ -436,9 +436,9 @@ h1 {
   right: 0;
   margin: 0 auto;
   display: none;
-  font-family: "fira-sans",sans-serif;
+  font-family: "raleway",sans-serif;
   font-style: normal;
-  font-weight: 700; }
+  font-weight: 400; }
 
 #cinco {
   opacity: 1; }
