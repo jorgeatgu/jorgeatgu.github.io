@@ -417,15 +417,18 @@ h1 {
   right: 0;
   margin: 0 auto;
   display: none;
-  font-family: "proxima-nova",sans-serif;
+  font-family: "fira-sans",sans-serif;
   font-style: normal;
-  font-weight: 600; }
+  font-weight: 400; }
 
 #cinco {
   opacity: 1; }
 
 #trestexto {
   color: #001F3F; }
+
+#textofinal .texto-blanco {
+  color: #fff; }
 
 .footer-texto,
 .footer-enlace {
