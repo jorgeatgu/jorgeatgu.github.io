@@ -115,8 +115,10 @@ h1 {
 
 #textofinal {
 	.texto-blanco {
-		color: #fff;
-		font-size: 42px;
+		a {
+			color: #fff;
+			font-size: 42px;
+		}
 	}
 }
 
