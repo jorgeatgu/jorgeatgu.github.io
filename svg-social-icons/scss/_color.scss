@@ -1,3 +1,7 @@
+@function color($color-name, $color-group) {
+  @return map-get(map-get($colores, $color-group), $color-name);
+}
+
 $colores: (
 
   aliceblue: (

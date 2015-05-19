@@ -370,7 +370,8 @@ ul,
 a {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  color: #00FFFF; }
 
 .keywords-header {
   background-color: #f7f7f7;
@@ -415,731 +416,733 @@ a {
     padding: 10px; }
 
 .aliceblue {
-  background-color: #F0F8FF; }
+  color: #F0F8FF; }
   .aliceblue:hover {
-    background-color: white; }
+    color: white; }
 
 .antiquewhite {
-  background-color: #FAEBD7; }
+  color: #FAEBD7; }
   .antiquewhite:hover {
-    background-color: white; }
+    color: white; }
 
 .aqua {
-  background-color: #00FFFF; }
+  color: #00FFFF; }
   .aqua:hover {
-    background-color: #33ffff; }
+    color: #33ffff; }
 
 .aquamarine {
-  background-color: #7FFFD4; }
+  color: #7FFFD4; }
   .aquamarine:hover {
-    background-color: #b2ffe5; }
+    color: #b2ffe5; }
 
 .azure {
-  background-color: azure; }
+  color: azure; }
   .azure:hover {
-    background-color: white; }
+    color: white; }
 
 .beccapurple {
-  background-color: #663399; }
+  color: #663399; }
   .beccapurple:hover {
-    background-color: #7f40bf; }
+    color: #7f40bf; }
 
 .beige {
-  background-color: #F5F5DC; }
+  color: #F5F5DC; }
   .beige:hover {
-    background-color: white; }
+    color: white; }
 
 .bisque {
-  background-color: #F0FFFF; }
+  color: #F0FFFF; }
+  .bisque:hover {
+    color: white; }
 
 .black {
-  background-color: #000; }
+  color: #000; }
   .black:hover {
-    background-color: #1a1a1a; }
+    color: #1a1a1a; }
 
 .blanchedalmond {
-  background-color: #FFEBCD; }
+  color: #FFEBCD; }
   .blanchedalmond:hover {
-    background-color: white; }
+    color: white; }
 
 .blue {
-  background-color: #0000FF; }
+  color: #0000FF; }
   .blue:hover {
-    background-color: #3333ff; }
+    color: #3333ff; }
 
 .blueviolet {
-  background-color: #8A2BE2; }
+  color: #8A2BE2; }
   .blueviolet:hover {
-    background-color: #a358e8; }
+    color: #a358e8; }
 
 .brown {
-  background-color: #A52A2A; }
+  color: #A52A2A; }
   .brown:hover {
-    background-color: #cc3636; }
+    color: #cc3636; }
 
 .burlywood {
-  background-color: #DEB887; }
+  color: #DEB887; }
   .burlywood:hover {
-    background-color: #e9d0af; }
+    color: #e9d0af; }
 
 .cadetblue {
-  background-color: #5F9EA0; }
+  color: #5F9EA0; }
   .cadetblue:hover {
-    background-color: #7fb1b3; }
+    color: #7fb1b3; }
 
 .chartreuse {
-  background-color: #7FFF00; }
+  color: #7FFF00; }
   .chartreuse:hover {
-    background-color: #99ff33; }
+    color: #99ff33; }
 
 .chocolate {
-  background-color: #D2691E; }
+  color: #D2691E; }
   .chocolate:hover {
-    background-color: #e4843f; }
+    color: #e4843f; }
 
 .coral {
-  background-color: #FF7F50; }
+  color: #FF7F50; }
   .coral:hover {
-    background-color: #ffa483; }
+    color: #ffa483; }
 
 .cornflowerblue {
-  background-color: #6495ED; }
+  color: #6495ED; }
   .cornflowerblue:hover {
-    background-color: #92b4f2; }
+    color: #92b4f2; }
 
 .cornsilk {
-  background-color: #FFF8DC; }
+  color: #FFF8DC; }
   .cornsilk:hover {
-    background-color: white; }
+    color: white; }
 
 .crimson {
-  background-color: #DC143C; }
+  color: #DC143C; }
   .crimson:hover {
-    background-color: #ed365b; }
+    color: #ed365b; }
 
 .cyan {
-  background-color: #00FFFF; }
+  color: #00FFFF; }
   .cyan:hover {
-    background-color: #33ffff; }
+    color: #33ffff; }
 
 .darkblue {
-  background-color: #00008B; }
+  color: #00008B; }
   .darkblue:hover {
-    background-color: #0000be; }
+    color: #0000be; }
 
 .darkcyan {
-  background-color: #008B8B; }
+  color: #008B8B; }
   .darkcyan:hover {
-    background-color: #00bebe; }
+    color: #00bebe; }
 
 .darkgoldenrod {
-  background-color: #B8860B; }
+  color: #B8860B; }
   .darkgoldenrod:hover {
-    background-color: #e8a90e; }
+    color: #e8a90e; }
 
 .darkgray {
-  background-color: #A9A9A9; }
+  color: #A9A9A9; }
   .darkgray:hover {
-    background-color: #c3c3c3; }
+    color: #c3c3c3; }
 
 .darkgreen {
-  background-color: #006400; }
+  color: #006400; }
   .darkgreen:hover {
-    background-color: #009700; }
+    color: #009700; }
 
 .darkkhaki {
-  background-color: #BDB76B; }
+  color: #BDB76B; }
   .darkkhaki:hover {
-    background-color: #cdc88e; }
+    color: #cdc88e; }
 
 .darkmagenta {
-  background-color: #8B008B; }
+  color: #8B008B; }
   .darkmagenta:hover {
-    background-color: #be00be; }
+    color: #be00be; }
 
 .darkolivegreen {
-  background-color: #556B2F; }
+  color: #556B2F; }
   .darkolivegreen:hover {
-    background-color: #718e3f; }
+    color: #718e3f; }
 
 .darkorange {
-  background-color: #FF8C00; }
+  color: #FF8C00; }
   .darkorange:hover {
-    background-color: #ffa333; }
+    color: #ffa333; }
 
 .darkorchid {
-  background-color: #9932CC; }
+  color: #9932CC; }
   .darkorchid:hover {
-    background-color: #ad5ad7; }
+    color: #ad5ad7; }
 
 .darkred {
-  background-color: #8B0000; }
+  color: #8B0000; }
   .darkred:hover {
-    background-color: #be0000; }
+    color: #be0000; }
 
 .darksalmon {
-  background-color: #E9967A; }
+  color: #E9967A; }
   .darksalmon:hover {
-    background-color: #f0b9a6; }
+    color: #f0b9a6; }
 
 .darkseagreen {
-  background-color: #8FBC8F; }
+  color: #8FBC8F; }
   .darkseagreen:hover {
-    background-color: #afcfaf; }
+    color: #afcfaf; }
 
 .darkslateblue {
-  background-color: #483D8B; }
+  color: #483D8B; }
   .darkslateblue:hover {
-    background-color: #5a4dae; }
+    color: #5a4dae; }
 
 .darkslategray {
-  background-color: #2F4F4F; }
+  color: #2F4F4F; }
   .darkslategray:hover {
-    background-color: #426f6f; }
+    color: #426f6f; }
 
 .darkslategrey {
-  background-color: #2F4F4F; }
+  color: #2F4F4F; }
   .darkslategrey:hover {
-    background-color: #426f6f; }
+    color: #426f6f; }
 
 .darkturquoise {
-  background-color: #00CED1; }
+  color: #00CED1; }
   .darkturquoise:hover {
-    background-color: #05fbff; }
+    color: #05fbff; }
 
 .darkviolet {
-  background-color: #9400D3; }
+  color: #9400D3; }
   .darkviolet:hover {
-    background-color: #b507ff; }
+    color: #b507ff; }
 
 .deeppink {
-  background-color: #FF1493; }
+  color: #FF1493; }
   .deeppink:hover {
-    background-color: #ff47aa; }
+    color: #ff47aa; }
 
 .deepskyblue {
-  background-color: #00BFFF; }
+  color: #00BFFF; }
   .deepskyblue:hover {
-    background-color: #33ccff; }
+    color: #33ccff; }
 
 .dimgray {
-  background-color: #696969; }
+  color: #696969; }
   .dimgray:hover {
-    background-color: #838383; }
+    color: #838383; }
 
 .dimgrey {
-  background-color: #696969; }
+  color: #696969; }
   .dimgrey:hover {
-    background-color: #838383; }
+    color: #838383; }
 
 .dodgerblue {
-  background-color: #1E90FF; }
+  color: #1E90FF; }
   .dodgerblue:hover {
-    background-color: #51a9ff; }
+    color: #51a9ff; }
 
 .firebrick {
-  background-color: #B22222; }
+  color: #B22222; }
   .firebrick:hover {
-    background-color: #d73030; }
+    color: #d73030; }
 
 .floralwhite {
-  background-color: #FFFAF0; }
+  color: #FFFAF0; }
   .floralwhite:hover {
-    background-color: white; }
+    color: white; }
 
 .forestgreen {
-  background-color: #228B22; }
+  color: #228B22; }
   .forestgreen:hover {
-    background-color: #2cb42c; }
+    color: #2cb42c; }
 
 .fuchsia {
-  background-color: #FF00FF; }
+  color: #FF00FF; }
   .fuchsia:hover {
-    background-color: #ff33ff; }
+    color: #ff33ff; }
 
 .gainsboro {
-  background-color: #DCDCDC; }
+  color: #DCDCDC; }
   .gainsboro:hover {
-    background-color: #f6f6f6; }
+    color: #f6f6f6; }
 
 .ghostwhite {
-  background-color: #F8F8FF; }
+  color: #F8F8FF; }
   .ghostwhite:hover {
-    background-color: white; }
+    color: white; }
 
 .gold {
-  background-color: #FFD700; }
+  color: #FFD700; }
   .gold:hover {
-    background-color: #ffdf33; }
+    color: #ffdf33; }
 
 .goldenrod {
-  background-color: #DAA520; }
+  color: #DAA520; }
   .goldenrod:hover {
-    background-color: #e4b849; }
+    color: #e4b849; }
 
 .gray {
-  background-color: #808080; }
+  color: #808080; }
   .gray:hover {
-    background-color: #9a9a9a; }
+    color: #9a9a9a; }
 
 .grey {
-  background-color: #808080; }
+  color: #808080; }
   .grey:hover {
-    background-color: #9a9a9a; }
+    color: #9a9a9a; }
 
 .green {
-  background-color: #008000; }
+  color: #008000; }
   .green:hover {
-    background-color: #00b300; }
+    color: #00b300; }
 
 .greenyellow {
-  background-color: #ADFF2F; }
+  color: #ADFF2F; }
   .greenyellow:hover {
-    background-color: #c1ff62; }
+    color: #c1ff62; }
 
 .honeydew {
-  background-color: #F0FFF0; }
+  color: #F0FFF0; }
   .honeydew:hover {
-    background-color: white; }
+    color: white; }
 
 .hotpink {
-  background-color: #CD5C5C; }
+  color: #CD5C5C; }
   .hotpink:hover {
-    background-color: #d98383; }
+    color: #d98383; }
 
 .indianred {
-  background-color: #CD5C5C; }
+  color: #CD5C5C; }
   .indianred:hover {
-    background-color: #d98383; }
+    color: #d98383; }
 
 .indigo {
-  background-color: #6B0082; }
+  color: #6B0082; }
   .indigo:hover {
-    background-color: #9500b5; }
+    color: #9500b5; }
 
 .ivory {
-  background-color: #FFFFF0; }
+  color: #FFFFF0; }
   .ivory:hover {
-    background-color: white; }
+    color: white; }
 
 .khaki {
-  background-color: #F0E68C; }
+  color: #F0E68C; }
   .khaki:hover {
-    background-color: #f6f0b9; }
+    color: #f6f0b9; }
 
 .lavender {
-  background-color: #E6E6FA; }
+  color: #E6E6FA; }
   .lavender:hover {
-    background-color: white; }
+    color: white; }
 
 .lavenderblush {
-  background-color: #FFF0F5; }
+  color: #FFF0F5; }
   .lavenderblush:hover {
-    background-color: white; }
+    color: white; }
 
 .lawngreen {
-  background-color: #7CFC00; }
+  color: #7CFC00; }
   .lawngreen:hover {
-    background-color: #96ff30; }
+    color: #96ff30; }
 
 .lemonchiffon {
-  background-color: #FFFACD; }
+  color: #FFFACD; }
   .lemonchiffon:hover {
-    background-color: white; }
+    color: white; }
 
 .lightblue {
-  background-color: #ADD8E6; }
+  color: #ADD8E6; }
   .lightblue:hover {
-    background-color: #d4ebf2; }
+    color: #d4ebf2; }
 
 .lightcoral {
-  background-color: #F08080; }
+  color: #F08080; }
   .lightcoral:hover {
-    background-color: #f5aeae; }
+    color: #f5aeae; }
 
 .lightcyan {
-  background-color: #E0FFFF; }
+  color: #E0FFFF; }
   .lightcyan:hover {
-    background-color: white; }
+    color: white; }
 
 .lightgoldenrodyellow {
-  background-color: #FAFAD2; }
+  color: #FAFAD2; }
   .lightgoldenrodyellow:hover {
-    background-color: white; }
+    color: white; }
 
 .lightgreen {
-  background-color: #90EE90; }
+  color: #90EE90; }
   .lightgreen:hover {
-    background-color: #bcf5bc; }
+    color: #bcf5bc; }
 
 .lightgrey {
-  background-color: #D3D3D3; }
+  color: #D3D3D3; }
   .lightgrey:hover {
-    background-color: #ececec; }
+    color: #ececec; }
 
 .lightpink {
-  background-color: #FFB6C1; }
+  color: #FFB6C1; }
   .lightpink:hover {
-    background-color: #ffe9ec; }
+    color: #ffe9ec; }
 
 .lightsalmon {
-  background-color: #FFA07A; }
+  color: #FFA07A; }
   .lightsalmon:hover {
-    background-color: #ffc4ad; }
+    color: #ffc4ad; }
 
 .lightseagreen {
-  background-color: #20B2AA; }
+  color: #20B2AA; }
   .lightseagreen:hover {
-    background-color: #2cd9d0; }
+    color: #2cd9d0; }
 
 .lightskyblue {
-  background-color: #87CEFA; }
+  color: #87CEFA; }
   .lightskyblue:hover {
-    background-color: #b8e2fc; }
+    color: #b8e2fc; }
 
 .lightslategray {
-  background-color: #778899; }
+  color: #778899; }
   .lightslategray:hover {
-    background-color: #94a2af; }
+    color: #94a2af; }
 
 .lightgray {
-  background-color: #D3D3D3; }
+  color: #D3D3D3; }
   .lightgray:hover {
-    background-color: #ececec; }
+    color: #ececec; }
 
 .lightsteelblue {
-  background-color: #B0C4DE; }
+  color: #B0C4DE; }
   .lightsteelblue:hover {
-    background-color: #d4dfed; }
+    color: #d4dfed; }
 
 .lightyellow {
-  background-color: #FFFFE0; }
+  color: #FFFFE0; }
   .lightyellow:hover {
-    background-color: white; }
+    color: white; }
 
 .lime {
-  background-color: #00FF00; }
+  color: #00FF00; }
   .lime:hover {
-    background-color: #33ff33; }
+    color: #33ff33; }
 
 .limegreen {
-  background-color: #32CD32; }
+  color: #32CD32; }
   .limegreen:hover {
-    background-color: #5bd75b; }
+    color: #5bd75b; }
 
 .linen {
-  background-color: #FAF0E6; }
+  color: #FAF0E6; }
   .linen:hover {
-    background-color: white; }
+    color: white; }
 
 .magenta {
-  background-color: #FF00FF; }
+  color: #FF00FF; }
   .magenta:hover {
-    background-color: #ff33ff; }
+    color: #ff33ff; }
 
 .maroon {
-  background-color: #800000; }
+  color: #800000; }
   .maroon:hover {
-    background-color: #b30000; }
+    color: #b30000; }
 
 .mediumaquamarine {
-  background-color: #66CDAA; }
+  color: #66CDAA; }
   .mediumaquamarine:hover {
-    background-color: #8cdabf; }
+    color: #8cdabf; }
 
 .mediumblue {
-  background-color: #0000CD; }
+  color: #0000CD; }
   .mediumblue:hover {
-    background-color: #0101ff; }
+    color: #0101ff; }
 
 .mediumorchid {
-  background-color: #BA55D3; }
+  color: #BA55D3; }
   .mediumorchid:hover {
-    background-color: #ca7edd; }
+    color: #ca7edd; }
 
 .mediumpurple {
-  background-color: #9370DB; }
+  color: #9370DB; }
   .mediumpurple:hover {
-    background-color: #9370DB lightcyan, 10%; }
+    color: #9370DB lightcyan, 10%; }
 
 .mediumseagreen {
-  background-color: #3CB371; }
+  color: #3CB371; }
   .mediumseagreen:hover {
-    background-color: #5ac88b; }
+    color: #5ac88b; }
 
 .mediumslateblue {
-  background-color: #7B68EE; }
+  color: #7B68EE; }
   .mediumslateblue:hover {
-    background-color: #a396f3; }
+    color: #a396f3; }
 
 .mediumspringgreen {
-  background-color: #00FA9A; }
+  color: #00FA9A; }
   .mediumspringgreen:hover {
-    background-color: #2effaf; }
+    color: #2effaf; }
 
 .mediumturquoise {
-  background-color: #48D1CC; }
+  color: #48D1CC; }
   .mediumturquoise:hover {
-    background-color: #71dbd7; }
+    color: #71dbd7; }
 
 .mediumvioletred {
-  background-color: #C71585; }
+  color: #C71585; }
   .mediumvioletred:hover {
-    background-color: #e827a0; }
+    color: #e827a0; }
 
 .midnightblue {
-  background-color: #191970; }
+  color: #191970; }
   .midnightblue:hover {
-    background-color: #22229a; }
+    color: #22229a; }
 
 .mintcream {
-  background-color: #F5FFFA; }
+  color: #F5FFFA; }
   .mintcream:hover {
-    background-color: white; }
+    color: white; }
 
 .mistyrose {
-  background-color: #FFE4E1; }
+  color: #FFE4E1; }
   .mistyrose:hover {
-    background-color: white; }
+    color: white; }
 
 .moccasin {
-  background-color: #FFE4B5; }
+  color: #FFE4B5; }
   .moccasin:hover {
-    background-color: #fff7e8; }
+    color: #fff7e8; }
 
 .navajowhite {
-  background-color: #FFDEAD; }
+  color: #FFDEAD; }
   .navajowhite:hover {
-    background-color: #fff3e0; }
+    color: #fff3e0; }
 
 .navy {
-  background-color: #000080; }
+  color: #000080; }
   .navy:hover {
-    background-color: #000080 lightcyan, 10%; }
+    color: #000080 lightcyan, 10%; }
 
 .oldlace {
-  background-color: #FDF5E6; }
+  color: #FDF5E6; }
   .oldlace:hover {
-    background-color: white; }
+    color: white; }
 
 .olive {
-  background-color: #808000; }
+  color: #808000; }
   .olive:hover {
-    background-color: #b3b300; }
+    color: #b3b300; }
 
 .olivedrab {
-  background-color: #6B8E23; }
+  color: #6B8E23; }
   .olivedrab:hover {
-    background-color: #8ab72d; }
+    color: #8ab72d; }
 
 .orange {
-  background-color: #FFA500; }
+  color: #FFA500; }
   .orange:hover {
-    background-color: #ffb733; }
+    color: #ffb733; }
 
 .orangered {
-  background-color: #FF4500; }
+  color: #FF4500; }
   .orangered:hover {
-    background-color: #ff6a33; }
+    color: #ff6a33; }
 
 .orchid {
-  background-color: #DA70D6; }
+  color: #DA70D6; }
   .orchid:hover {
-    background-color: #e499e2; }
+    color: #e499e2; }
 
 .palegoldenrod {
-  background-color: #EEE8AA; }
+  color: #EEE8AA; }
   .palegoldenrod:hover {
-    background-color: #f6f3d5; }
+    color: #f6f3d5; }
 
 .palegreen {
-  background-color: #98FB98; }
+  color: #98FB98; }
   .palegreen:hover {
-    background-color: #c9fdc9; }
+    color: #c9fdc9; }
 
 .paleturquoise {
-  background-color: #AFEEEE; }
+  color: #AFEEEE; }
   .paleturquoise:hover {
-    background-color: #d9f7f7; }
+    color: #d9f7f7; }
 
 .palevioletred {
-  background-color: #DB7093; }
+  color: #DB7093; }
   .palevioletred:hover {
-    background-color: #e599b2; }
+    color: #e599b2; }
 
 .papayawhip {
-  background-color: #FFEFD5; }
+  color: #FFEFD5; }
   .papayawhip:hover {
-    background-color: white; }
+    color: white; }
 
 .peachpuff {
-  background-color: #FFDAB9; }
+  color: #FFDAB9; }
   .peachpuff:hover {
-    background-color: #fff5ec; }
+    color: #fff5ec; }
 
 .peru {
-  background-color: #CD853F; }
+  color: #CD853F; }
   .peru:hover {
-    background-color: #d89f67; }
+    color: #d89f67; }
 
 .pink {
-  background-color: #FFC0CB; }
+  color: #FFC0CB; }
   .pink:hover {
-    background-color: #fff3f5; }
+    color: #fff3f5; }
 
 .plum {
-  background-color: #DDA0DD; }
+  color: #DDA0DD; }
   .plum:hover {
-    background-color: #eac6ea; }
+    color: #eac6ea; }
 
 .powderblue {
-  background-color: #B0E0E6; }
+  color: #B0E0E6; }
   .powderblue:hover {
-    background-color: #d7eff2; }
+    color: #d7eff2; }
 
 .purple {
-  background-color: #800080; }
+  color: #800080; }
   .purple:hover {
-    background-color: #b300b3; }
+    color: #b300b3; }
 
 .red {
-  background-color: #FF0000; }
+  color: #FF0000; }
   .red:hover {
-    background-color: #ff3333; }
+    color: #ff3333; }
 
 .rosybrown {
-  background-color: #BC8F8F; }
+  color: #BC8F8F; }
   .rosybrown:hover {
-    background-color: #cfafaf; }
+    color: #cfafaf; }
 
 .royalblue {
-  background-color: #4169E1; }
+  color: #4169E1; }
   .royalblue:hover {
-    background-color: #6d8ce8; }
+    color: #6d8ce8; }
 
 .saddlebrown {
-  background-color: #8B4513; }
+  color: #8B4513; }
   .saddlebrown:hover {
-    background-color: #b85b19; }
+    color: #b85b19; }
 
 .salmon {
-  background-color: #FFA07A; }
+  color: #FFA07A; }
   .salmon:hover {
-    background-color: #ffc4ad; }
+    color: #ffc4ad; }
 
 .sandybrown {
-  background-color: #F4A460; }
+  color: #F4A460; }
   .sandybrown:hover {
-    background-color: #f7bf90; }
+    color: #f7bf90; }
 
 .seagreen {
-  background-color: #20B2AA; }
+  color: #20B2AA; }
   .seagreen:hover {
-    background-color: #2cd9d0; }
+    color: #2cd9d0; }
 
 .seashell {
-  background-color: #FFF5EE; }
+  color: #FFF5EE; }
   .seashell:hover {
-    background-color: white; }
+    color: white; }
 
 .sienna {
-  background-color: #A0522D; }
+  color: #A0522D; }
   .sienna:hover {
-    background-color: #c76739; }
+    color: #c76739; }
 
 .silver {
-  background-color: #C0C0C0; }
+  color: #C0C0C0; }
   .silver:hover {
-    background-color: #dadada; }
+    color: #dadada; }
 
 .skyblue {
-  background-color: #87CEEB; }
+  color: #87CEEB; }
   .skyblue:hover {
-    background-color: #b3e0f2; }
+    color: #b3e0f2; }
 
 .slateblue {
-  background-color: #7B68EE; }
+  color: #7B68EE; }
   .slateblue:hover {
-    background-color: #a396f3; }
+    color: #a396f3; }
 
 .slategray {
-  background-color: #708090; }
+  color: #708090; }
   .slategray:hover {
-    background-color: #8d9aa6; }
+    color: #8d9aa6; }
 
 .slategrey {
-  background-color: #708090; }
+  color: #708090; }
   .slategrey:hover {
-    background-color: #8d9aa6; }
+    color: #8d9aa6; }
 
 .snow {
-  background-color: #FFFAFA; }
+  color: #FFFAFA; }
   .snow:hover {
-    background-color: white; }
+    color: white; }
 
 .springgreen {
-  background-color: #00FF7F; }
+  color: #00FF7F; }
   .springgreen:hover {
-    background-color: #33ff99; }
+    color: #33ff99; }
 
 .steelblue {
-  background-color: #4682B4; }
+  color: #4682B4; }
   .steelblue:hover {
-    background-color: #699bc4; }
+    color: #699bc4; }
 
 .tan {
-  background-color: #D2B48C; }
+  color: #D2B48C; }
   .tan:hover {
-    background-color: #e0ccb1; }
+    color: #e0ccb1; }
 
 .teal {
-  background-color: #008080; }
+  color: #008080; }
   .teal:hover {
-    background-color: #00b3b3; }
+    color: #00b3b3; }
 
 .thistle {
-  background-color: #D8BFD8; }
+  color: #D8BFD8; }
   .thistle:hover {
-    background-color: #ebdfeb; }
+    color: #ebdfeb; }
 
 .tomato {
-  background-color: #FF6347; }
+  color: #FF6347; }
   .tomato:hover {
-    background-color: #ff8e7a; }
+    color: #ff8e7a; }
 
 .turquoise {
-  background-color: #40E0D0; }
+  color: #40E0D0; }
   .turquoise:hover {
-    background-color: #6ce7db; }
+    color: #6ce7db; }
 
 .violet {
-  background-color: #EE82EE; }
+  color: #EE82EE; }
   .violet:hover {
-    background-color: #f4aff4; }
+    color: #f4aff4; }
 
 .wheat {
-  background-color: #F5DEB3; }
+  color: #F5DEB3; }
   .wheat:hover {
-    background-color: #fbf2e0; }
+    color: #fbf2e0; }
 
 .white {
-  background-color: #FFFFFF; }
+  color: #FFFFFF; }
   .white:hover {
-    background-color: white; }
+    color: white; }
 
 .whitesmoke {
-  background-color: #F5F5F5; }
+  color: #F5F5F5; }
   .whitesmoke:hover {
-    background-color: white; }
+    color: white; }
 
 .yellow {
-  background-color: #FFFF00; }
+  color: #FFFF00; }
   .yellow:hover {
-    background-color: #ffff33; }
+    color: #ffff33; }
 
 .yellowgreen {
-  background-color: #9ACD32; }
+  color: #9ACD32; }
   .yellowgreen:hover {
-    background-color: #aed75b; }
+    color: #aed75b; }
 
 /*# sourceMappingURL=styles.css.map */
