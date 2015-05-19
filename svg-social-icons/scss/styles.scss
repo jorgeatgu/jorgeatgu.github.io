@@ -26,7 +26,7 @@ a {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: color(base, aqua);
+    background-color: color(base, aqua);
 }
 
 
@@ -79,878 +79,878 @@ a {
 }
 
 .aliceblue {
-	color: color(base, aliceblue);
+	background-color: color(base, aliceblue);
 	&:hover {
-		color: color(light, aliceblue);
+		background-color: color(light, aliceblue);
 	}
 }
 .antiquewhite {
-	color: color(base, antiquewhite);
+	background-color: color(base, antiquewhite);
 	&:hover {
-		color: color(light, antiquewhite);
+		background-color: color(light, antiquewhite);
 	}
 }
 .aqua {
-	color: color(base, aqua);
+	background-color: color(base, aqua);
 	&:hover {
-		color: color(light, aqua);
+		background-color: color(light, aqua);
 	}
 }
 .aquamarine {
-	color: color(base, aquamarine);
+	background-color: color(base, aquamarine);
 	&:hover {
-		color: color(light, aquamarine);
+		background-color: color(light, aquamarine);
 	}
 }
 .azure {
-	color: color(base, azure);
+	background-color: color(base, azure);
 	&:hover {
-		color: color(light, azure);
+		background-color: color(light, azure);
 	}
 }
 .beccapurple {
-	color: color(base, beccapurple);
+	background-color: color(base, beccapurple);
 	&:hover {
-		color: color(light, beccapurple);
+		background-color: color(light, beccapurple);
 	}
 }
 .beige {
-	color: color(base, beige);
+	background-color: color(base, beige);
 	&:hover {
-		color: color(light, beige);
+		background-color: color(light, beige);
 	}
 }
 .bisque {
-	color: color(base, bisque);
+	background-color: color(base, bisque);
 	&:hover {
-		color: color(light, bisque);
+		background-color: color(light, bisque);
 	}
 }
 .black {
-	color: color(base, black);
+	background-color: color(base, black);
 	&:hover {
-		color: color(light, black);
+		background-color: color(light, black);
 	}
 }
 .blanchedalmond {
-	color: color(base, blanchedalmond);
+	background-color: color(base, blanchedalmond);
 	&:hover {
-		color: color(light, blanchedalmond);
+		background-color: color(light, blanchedalmond);
 	}
 }
 .blue {
-	color: color(base, blue);
+	background-color: color(base, blue);
 	&:hover {
-		color: color(light, blue);
+		background-color: color(light, blue);
 	}
 }
 .blueviolet {
-	color: color(base, blueviolet);
+	background-color: color(base, blueviolet);
 	&:hover {
-		color: color(light, blueviolet);
+		background-color: color(light, blueviolet);
 	}
 }
 .brown {
-	color: color(base, brown);
+	background-color: color(base, brown);
 	&:hover {
-		color: color(light, brown);
+		background-color: color(light, brown);
 	}
 }
 .burlywood {
-	color: color(base, burlywood);
+	background-color: color(base, burlywood);
 	&:hover {
-		color: color(light, burlywood);
+		background-color: color(light, burlywood);
 	}
 }
 .cadetblue {
-	color: color(base, cadetblue);
+	background-color: color(base, cadetblue);
 	&:hover {
-		color: color(light, cadetblue);
+		background-color: color(light, cadetblue);
 	}
 }
 .chartreuse {
-	color: color(base, chartreuse);
+	background-color: color(base, chartreuse);
 	&:hover {
-		color: color(light, chartreuse);
+		background-color: color(light, chartreuse);
 	}
 }
 .chocolate {
-	color: color(base, chocolate);
+	background-color: color(base, chocolate);
 	&:hover {
-		color: color(light, chocolate);
+		background-color: color(light, chocolate);
 	}
 }
 .coral {
-	color: color(base, coral);
+	background-color: color(base, coral);
 	&:hover {
-		color: color(light, coral);
+		background-color: color(light, coral);
 	}
 }
 .cornflowerblue {
-	color: color(base, cornflowerblue);
+	background-color: color(base, cornflowerblue);
 	&:hover {
-		color: color(light, cornflowerblue);
+		background-color: color(light, cornflowerblue);
 	}
 }
 .cornsilk {
-	color: color(base, cornsilk);
+	background-color: color(base, cornsilk);
 	&:hover {
-		color: color(light, cornsilk);
+		background-color: color(light, cornsilk);
 	}
 }
 .crimson {
-	color: color(base, crimson);
+	background-color: color(base, crimson);
 	&:hover {
-		color: color(light, crimson);
+		background-color: color(light, crimson);
 	}
 }
 .cyan {
-	color: color(base, cyan);
+	background-color: color(base, cyan);
 	&:hover {
-		color: color(light, cyan);
+		background-color: color(light, cyan);
 	}
 }
 .darkblue {
-	color: color(base, darkblue);
+	background-color: color(base, darkblue);
 	&:hover {
-		color: color(light, darkblue);
+		background-color: color(light, darkblue);
 	}
 }
 .darkcyan {
-	color: color(base, darkcyan);
+	background-color: color(base, darkcyan);
 	&:hover {
-		color: color(light, darkcyan);
+		background-color: color(light, darkcyan);
 	}
 }
 .darkgoldenrod {
-	color: color(base, darkgoldenrod);
+	background-color: color(base, darkgoldenrod);
 	&:hover {
-		color: color(light, darkgoldenrod);
+		background-color: color(light, darkgoldenrod);
 	}
 }
 .darkgray {
-	color: color(base, darkgray);
+	background-color: color(base, darkgray);
 	&:hover {
-		color: color(light, darkgray);
+		background-color: color(light, darkgray);
 	}
 }
 .darkgreen {
-	color: color(base, darkgreen);
+	background-color: color(base, darkgreen);
 	&:hover {
-		color: color(light, darkgreen);
+		background-color: color(light, darkgreen);
 	}
 }
 .darkkhaki {
-	color: color(base, darkkhaki);
+	background-color: color(base, darkkhaki);
 	&:hover {
-		color: color(light, darkkhaki);
+		background-color: color(light, darkkhaki);
 	}
 }
 .darkmagenta {
-	color: color(base, darkmagenta);
+	background-color: color(base, darkmagenta);
 	&:hover {
-		color: color(light, darkmagenta);
+		background-color: color(light, darkmagenta);
 	}
 }
 .darkolivegreen {
-	color: color(base, darkolivegreen);
+	background-color: color(base, darkolivegreen);
 	&:hover {
-		color: color(light, darkolivegreen);
+		background-color: color(light, darkolivegreen);
 	}
 }
 .darkorange {
-	color: color(base, darkorange);
+	background-color: color(base, darkorange);
 	&:hover {
-		color: color(light, darkorange);
+		background-color: color(light, darkorange);
 	}
 }
 .darkorchid {
-	color: color(base, darkorchid);
+	background-color: color(base, darkorchid);
 	&:hover {
-		color: color(light, darkorchid);
+		background-color: color(light, darkorchid);
 	}
 }
 .darkred {
-	color: color(base, darkred);
+	background-color: color(base, darkred);
 	&:hover {
-		color: color(light, darkred);
+		background-color: color(light, darkred);
 	}
 }
 .darksalmon {
-	color: color(base, darksalmon);
+	background-color: color(base, darksalmon);
 	&:hover {
-		color: color(light, darksalmon);
+		background-color: color(light, darksalmon);
 	}
 }
 .darkseagreen {
-	color: color(base, darkseagreen);
+	background-color: color(base, darkseagreen);
 	&:hover {
-		color: color(light, darkseagreen);
+		background-color: color(light, darkseagreen);
 	}
 }
 .darkslateblue {
-	color: color(base, darkslateblue);
+	background-color: color(base, darkslateblue);
 	&:hover {
-		color: color(light, darkslateblue);
+		background-color: color(light, darkslateblue);
 	}
 }
 .darkslategray {
-	color: color(base, darkslategray);
+	background-color: color(base, darkslategray);
 	&:hover {
-		color: color(light, darkslategray);
+		background-color: color(light, darkslategray);
 	}
 }
 .darkslategrey {
-	color: color(base, darkslategrey);
+	background-color: color(base, darkslategrey);
 	&:hover {
-		color: color(light, darkslategrey);
+		background-color: color(light, darkslategrey);
 	}
 }
 .darkturquoise {
-	color: color(base, darkturquoise);
+	background-color: color(base, darkturquoise);
 	&:hover {
-		color: color(light, darkturquoise);
+		background-color: color(light, darkturquoise);
 	}
 }
 .darkviolet {
-	color: color(base, darkviolet);
+	background-color: color(base, darkviolet);
 	&:hover {
-		color: color(light, darkviolet);
+		background-color: color(light, darkviolet);
 	}
 }
 .deeppink {
-	color: color(base, deeppink);
+	background-color: color(base, deeppink);
 	&:hover {
-		color: color(light, deeppink);
+		background-color: color(light, deeppink);
 	}
 }
 .deepskyblue {
-	color: color(base, deepskyblue);
+	background-color: color(base, deepskyblue);
 	&:hover {
-		color: color(light, deepskyblue);
+		background-color: color(light, deepskyblue);
 	}
 }
 .dimgray {
-	color: color(base, dimgray);
+	background-color: color(base, dimgray);
 	&:hover {
-		color: color(light, dimgray);
+		background-color: color(light, dimgray);
 	}
 }
 .dimgrey {
-	color: color(base, dimgrey);
+	background-color: color(base, dimgrey);
 	&:hover {
-		color: color(light, dimgrey);
+		background-color: color(light, dimgrey);
 	}
 }
 .dodgerblue {
-	color: color(base, dodgerblue);
+	background-color: color(base, dodgerblue);
 	&:hover {
-		color: color(light, dodgerblue);
+		background-color: color(light, dodgerblue);
 	}
 }
 .firebrick {
-	color: color(base, firebrick);
+	background-color: color(base, firebrick);
 	&:hover {
-		color: color(light, firebrick);
+		background-color: color(light, firebrick);
 	}
 }
 .floralwhite {
-	color: color(base, floralwhite);
+	background-color: color(base, floralwhite);
 	&:hover {
-		color: color(light, floralwhite);
+		background-color: color(light, floralwhite);
 	}
 }
 .forestgreen {
-	color: color(base, forestgreen);
+	background-color: color(base, forestgreen);
 	&:hover {
-		color: color(light, forestgreen);
+		background-color: color(light, forestgreen);
 	}
 }
 .fuchsia {
-	color: color(base, fuchsia);
+	background-color: color(base, fuchsia);
 	&:hover {
-		color: color(light, fuchsia);
+		background-color: color(light, fuchsia);
 	}
 }
 .gainsboro {
-	color: color(base, gainsboro);
+	background-color: color(base, gainsboro);
 	&:hover {
-		color: color(light, gainsboro);
+		background-color: color(light, gainsboro);
 	}
 }
 .ghostwhite {
-	color: color(base, ghostwhite);
+	background-color: color(base, ghostwhite);
 	&:hover {
-		color: color(light, ghostwhite);
+		background-color: color(light, ghostwhite);
 	}
 }
 .gold {
-	color: color(base, gold);
+	background-color: color(base, gold);
 	&:hover {
-		color: color(light, gold);
+		background-color: color(light, gold);
 	}
 }
 .goldenrod {
-	color: color(base, goldenrod);
+	background-color: color(base, goldenrod);
 	&:hover {
-		color: color(light, goldenrod);
+		background-color: color(light, goldenrod);
 	}
 }
 .gray {
-	color: color(base, gray);
+	background-color: color(base, gray);
 	&:hover {
-		color: color(light, gray);
+		background-color: color(light, gray);
 	}
 }
 .grey {
-	color: color(base, grey);
+	background-color: color(base, grey);
 	&:hover {
-		color: color(light, grey);
+		background-color: color(light, grey);
 	}
 }
 .green {
-	color: color(base, green);
+	background-color: color(base, green);
 	&:hover {
-		color: color(light, green);
+		background-color: color(light, green);
 	}
 }
 .greenyellow {
-	color: color(base, greenyellow);
+	background-color: color(base, greenyellow);
 	&:hover {
-		color: color(light, greenyellow);
+		background-color: color(light, greenyellow);
 	}
 }
 .honeydew {
-	color: color(base, honeydew);
+	background-color: color(base, honeydew);
 	&:hover {
-		color: color(light, honeydew);
+		background-color: color(light, honeydew);
 	}
 }
 .hotpink {
-	color: color(base, hotpink);
+	background-color: color(base, hotpink);
 	&:hover {
-		color: color(light, hotpink);
+		background-color: color(light, hotpink);
 	}
 }
 .indianred {
-	color: color(base, indianred);
+	background-color: color(base, indianred);
 	&:hover {
-		color: color(light, indianred);
+		background-color: color(light, indianred);
 	}
 }
 .indigo {
-	color: color(base, indigo);
+	background-color: color(base, indigo);
 	&:hover {
-		color: color(light, indigo);
+		background-color: color(light, indigo);
 	}
 }
 .ivory  {
-	color: color(base, ivory);
+	background-color: color(base, ivory);
 	&:hover {
-		color: color(light, ivory);
+		background-color: color(light, ivory);
 	}
 }
 .khaki {
-	color: color(base, khaki);
+	background-color: color(base, khaki);
 	&:hover {
-		color: color(light, khaki);
+		background-color: color(light, khaki);
 	}
 }
 .lavender {
-	color: color(base, lavender);
+	background-color: color(base, lavender);
 	&:hover {
-		color: color(light, lavender);
+		background-color: color(light, lavender);
 	}
 }
 .lavenderblush {
-	color: color(base, lavenderblush);
+	background-color: color(base, lavenderblush);
 	&:hover {
-		color: color(light, lavenderblush);
+		background-color: color(light, lavenderblush);
 	}
 }
 .lawngreen {
-	color: color(base, lawngreen);
+	background-color: color(base, lawngreen);
 	&:hover {
-		color: color(light, lawngreen);
+		background-color: color(light, lawngreen);
 	}
 }
 .lemonchiffon {
-	color: color(base, lemonchiffon);
+	background-color: color(base, lemonchiffon);
 	&:hover {
-		color: color(light, lemonchiffon);
+		background-color: color(light, lemonchiffon);
 	}
 }
 .lightblue {
-	color: color(base, lightblue);
+	background-color: color(base, lightblue);
 	&:hover {
-		color: color(light, lightblue);
+		background-color: color(light, lightblue);
 	}
 }
 .lightcoral {
-	color: color(base, lightcoral);
+	background-color: color(base, lightcoral);
 	&:hover {
-		color: color(light, lightcoral);
+		background-color: color(light, lightcoral);
 	}
 }
 .lightcyan {
-	color: color(base, lightcyan);
+	background-color: color(base, lightcyan);
 	&:hover {
-		color: color(light, lightcyan);
+		background-color: color(light, lightcyan);
 	}
 }
 .lightgoldenrodyellow {
-	color: color(base, lightgoldenrodyellow);
+	background-color: color(base, lightgoldenrodyellow);
 	&:hover {
-		color: color(light, lightgoldenrodyellow);
+		background-color: color(light, lightgoldenrodyellow);
 	}
 }
 .lightgreen {
-	color: color(base, lightgreen);
+	background-color: color(base, lightgreen);
 	&:hover {
-		color: color(light, lightgreen);
+		background-color: color(light, lightgreen);
 	}
 }
 .lightgrey {
-	color: color(base, lightgrey);
+	background-color: color(base, lightgrey);
 	&:hover {
-		color: color(light, lightgrey);
+		background-color: color(light, lightgrey);
 	}
 }
 .lightpink {
-	color: color(base, lightpink);
+	background-color: color(base, lightpink);
 	&:hover {
-		color: color(light, lightpink);
+		background-color: color(light, lightpink);
 	}
 }
 .lightsalmon {
-	color: color(base, lightsalmon);
+	background-color: color(base, lightsalmon);
 	&:hover {
-		color: color(light, lightsalmon);
+		background-color: color(light, lightsalmon);
 	}
 }
 .lightseagreen {
-	color: color(base, lightseagreen);
+	background-color: color(base, lightseagreen);
 	&:hover {
-		color: color(light, lightseagreen);
+		background-color: color(light, lightseagreen);
 	}
 }
 .lightskyblue {
-	color: color(base, lightskyblue);
+	background-color: color(base, lightskyblue);
 	&:hover {
-		color: color(light, lightskyblue);
+		background-color: color(light, lightskyblue);
 	}
 }
 .lightslategray {
-	color: color(base, lightslategray);
+	background-color: color(base, lightslategray);
 	&:hover {
-		color: color(light, lightslategray);
+		background-color: color(light, lightslategray);
 	}
 }
 .lightgray {
-	color: color(base, lightgray);
+	background-color: color(base, lightgray);
 	&:hover {
-		color: color(light, lightgray);
+		background-color: color(light, lightgray);
 	}
 }
 .lightsteelblue {
-	color: color(base, lightsteelblue);
+	background-color: color(base, lightsteelblue);
 	&:hover {
-		color: color(light, lightsteelblue);
+		background-color: color(light, lightsteelblue);
 	}
 }
 .lightyellow {
-	color: color(base, lightyellow);
+	background-color: color(base, lightyellow);
 	&:hover {
-		color: color(light, lightyellow);
+		background-color: color(light, lightyellow);
 	}
 }
 .lime {
-	color: color(base, lime);
+	background-color: color(base, lime);
 	&:hover {
-		color: color(light, lime);
+		background-color: color(light, lime);
 	}
 }
 .limegreen {
-	color: color(base, limegreen);
+	background-color: color(base, limegreen);
 	&:hover {
-		color: color(light, limegreen);
+		background-color: color(light, limegreen);
 	}
 }
 .linen {
-	color: color(base, linen);
+	background-color: color(base, linen);
 	&:hover {
-		color: color(light, linen);
+		background-color: color(light, linen);
 	}
 }
 .magenta {
-	color: color(base, magenta);
+	background-color: color(base, magenta);
 	&:hover {
-		color: color(light, magenta);
+		background-color: color(light, magenta);
 	}
 }
 .maroon {
-	color: color(base, maroon);
+	background-color: color(base, maroon);
 	&:hover {
-		color: color(light, maroon);
+		background-color: color(light, maroon);
 	}
 }
 .mediumaquamarine {
-	color: color(base, mediumaquamarine);
+	background-color: color(base, mediumaquamarine);
 	&:hover {
-		color: color(light, mediumaquamarine);
+		background-color: color(light, mediumaquamarine);
 	}
 }
 .mediumblue {
-	color: color(base, mediumblue);
+	background-color: color(base, mediumblue);
 	&:hover {
-		color: color(light, mediumblue);
+		background-color: color(light, mediumblue);
 	}
 }
 .mediumorchid {
-	color: color(base, mediumorchid);
+	background-color: color(base, mediumorchid);
 	&:hover {
-		color: color(light, mediumorchid);
+		background-color: color(light, mediumorchid);
 	}
 }
 .mediumpurple {
-	color: color(base, mediumpurple);
+	background-color: color(base, mediumpurple);
 	&:hover {
-		color: color(light, mediumpurple);
+		background-color: color(light, mediumpurple);
 	}
 }
 .mediumseagreen {
-	color: color(base, mediumseagreen);
+	background-color: color(base, mediumseagreen);
 	&:hover {
-		color: color(light, mediumseagreen);
+		background-color: color(light, mediumseagreen);
 	}
 }
 .mediumslateblue {
-	color: color(base, mediumslateblue);
+	background-color: color(base, mediumslateblue);
 	&:hover {
-		color: color(light, mediumslateblue);
+		background-color: color(light, mediumslateblue);
 	}
 }
 .mediumspringgreen {
-	color: color(base, mediumspringgreen);
+	background-color: color(base, mediumspringgreen);
 	&:hover {
-		color: color(light, mediumspringgreen);
+		background-color: color(light, mediumspringgreen);
 	}
 }
 .mediumturquoise {
-	color: color(base, mediumturquoise);
+	background-color: color(base, mediumturquoise);
 	&:hover {
-		color: color(light, mediumturquoise);
+		background-color: color(light, mediumturquoise);
 	}
 }
 .mediumvioletred {
-	color: color(base, mediumvioletred);
+	background-color: color(base, mediumvioletred);
 	&:hover {
-		color: color(light, mediumvioletred);
+		background-color: color(light, mediumvioletred);
 	}
 }
 .midnightblue {
-	color: color(base, midnightblue);
+	background-color: color(base, midnightblue);
 	&:hover {
-		color: color(light, midnightblue);
+		background-color: color(light, midnightblue);
 	}
 }
 .mintcream {
-	color: color(base, mintcream);
+	background-color: color(base, mintcream);
 	&:hover {
-		color: color(light, mintcream);
+		background-color: color(light, mintcream);
 	}
 }
 .mistyrose {
-	color: color(base, mistyrose);
+	background-color: color(base, mistyrose);
 	&:hover {
-		color: color(light, mistyrose);
+		background-color: color(light, mistyrose);
 	}
 }
 .moccasin {
-	color: color(base, moccasin);
+	background-color: color(base, moccasin);
 	&:hover {
-		color: color(light, moccasin);
+		background-color: color(light, moccasin);
 	}
 }
 .navajowhite {
-	color: color(base, navajowhite);
+	background-color: color(base, navajowhite);
 	&:hover {
-		color: color(light, navajowhite);
+		background-color: color(light, navajowhite);
 	}
 }
 .navy {
-	color: color(base, navy);
+	background-color: color(base, navy);
 	&:hover {
-		color: color(light, navy);
+		background-color: color(light, navy);
 	}
 }
 .oldlace {
-	color: color(base, oldlace);
+	background-color: color(base, oldlace);
 	&:hover {
-		color: color(light, oldlace);
+		background-color: color(light, oldlace);
 	}
 }
 .olive {
-	color: color(base, olive);
+	background-color: color(base, olive);
 	&:hover {
-		color: color(light, olive);
+		background-color: color(light, olive);
 	}
 }
 .olivedrab {
-	color: color(base, olivedrab);
+	background-color: color(base, olivedrab);
 	&:hover {
-		color: color(light, olivedrab);
+		background-color: color(light, olivedrab);
 	}
 }
 .orange {
-	color: color(base, orange);
+	background-color: color(base, orange);
 	&:hover {
-		color: color(light, orange);
+		background-color: color(light, orange);
 	}
 }
 .orangered {
-	color: color(base, orangered);
+	background-color: color(base, orangered);
 	&:hover {
-		color: color(light, orangered);
+		background-color: color(light, orangered);
 	}
 }
 .orchid {
-	color: color(base, orchid);
+	background-color: color(base, orchid);
 	&:hover {
-		color: color(light, orchid);
+		background-color: color(light, orchid);
 	}
 }
 .palegoldenrod {
-	color: color(base, palegoldenrod);
+	background-color: color(base, palegoldenrod);
 	&:hover {
-		color: color(light, palegoldenrod);
+		background-color: color(light, palegoldenrod);
 	}
 }
 .palegreen {
-	color: color(base, palegreen);
+	background-color: color(base, palegreen);
 	&:hover {
-		color: color(light, palegreen);
+		background-color: color(light, palegreen);
 	}
 }
 .paleturquoise {
-	color: color(base, paleturquoise);
+	background-color: color(base, paleturquoise);
 	&:hover {
-		color: color(light, paleturquoise);
+		background-color: color(light, paleturquoise);
 	}
 }
 .palevioletred {
-	color: color(base, palevioletred);
+	background-color: color(base, palevioletred);
 	&:hover {
-		color: color(light, palevioletred);
+		background-color: color(light, palevioletred);
 	}
 }
 .papayawhip {
-	color: color(base, papayawhip);
+	background-color: color(base, papayawhip);
 	&:hover {
-		color: color(light, papayawhip);
+		background-color: color(light, papayawhip);
 	}
 }
 .peachpuff {
-	color: color(base, peachpuff);
+	background-color: color(base, peachpuff);
 	&:hover {
-		color: color(light, peachpuff);
+		background-color: color(light, peachpuff);
 	}
 }
 .peru {
-	color: color(base, peru);
+	background-color: color(base, peru);
 	&:hover {
-		color: color(light, peru);
+		background-color: color(light, peru);
 	}
 }
 .pink {
-	color: color(base, pink);
+	background-color: color(base, pink);
 	&:hover {
-		color: color(light, pink);
+		background-color: color(light, pink);
 	}
 }
 .plum {
-	color: color(base, plum);
+	background-color: color(base, plum);
 	&:hover {
-		color: color(light, plum);
+		background-color: color(light, plum);
 	}
 }
 .powderblue {
-	color: color(base, powderblue);
+	background-color: color(base, powderblue);
 	&:hover {
-		color: color(light, powderblue);
+		background-color: color(light, powderblue);
 	}
 }
 .purple {
-	color: color(base, purple);
+	background-color: color(base, purple);
 	&:hover {
-		color: color(light, purple);
+		background-color: color(light, purple);
 	}
 }
 .red {
-	color: color(base, red);
+	background-color: color(base, red);
 	&:hover {
-		color: color(light, red);
+		background-color: color(light, red);
 	}
 }
 .rosybrown {
-	color: color(base, rosybrown);
+	background-color: color(base, rosybrown);
 	&:hover {
-		color: color(light, rosybrown);
+		background-color: color(light, rosybrown);
 	}
 }
 .royalblue {
-	color: color(base, royalblue);
+	background-color: color(base, royalblue);
 	&:hover {
-		color: color(light, royalblue);
+		background-color: color(light, royalblue);
 	}
 }
 .saddlebrown {
-	color: color(base, saddlebrown);
+	background-color: color(base, saddlebrown);
 	&:hover {
-		color: color(light, saddlebrown);
+		background-color: color(light, saddlebrown);
 	}
 }
 .salmon {
-	color: color(base, salmon);
+	background-color: color(base, salmon);
 	&:hover {
-		color: color(light, salmon);
+		background-color: color(light, salmon);
 	}
 }
 .sandybrown {
-	color: color(base, sandybrown);
+	background-color: color(base, sandybrown);
 	&:hover {
-		color: color(light, sandybrown);
+		background-color: color(light, sandybrown);
 	}
 }
 .seagreen {
-	color: color(base, seagreen);
+	background-color: color(base, seagreen);
 	&:hover {
-		color: color(light, seagreen);
+		background-color: color(light, seagreen);
 	}
 }
 .seashell {
-	color: color(base, seashell);
+	background-color: color(base, seashell);
 	&:hover {
-		color: color(light, seashell);
+		background-color: color(light, seashell);
 	}
 }
 .sienna {
-	color: color(base, sienna);
+	background-color: color(base, sienna);
 	&:hover {
-		color: color(light, sienna);
+		background-color: color(light, sienna);
 	}
 }
 .silver {
-	color: color(base, silver);
+	background-color: color(base, silver);
 	&:hover {
-		color: color(light, silver);
+		background-color: color(light, silver);
 	}
 }
 .skyblue {
-	color: color(base, skyblue);
+	background-color: color(base, skyblue);
 	&:hover {
-		color: color(light, skyblue);
+		background-color: color(light, skyblue);
 	}
 }
 .slateblue {
-	color: color(base, slateblue);
+	background-color: color(base, slateblue);
 	&:hover {
-		color: color(light, slateblue);
+		background-color: color(light, slateblue);
 	}
 }
 .slategray {
-	color: color(base, slategray);
+	background-color: color(base, slategray);
 	&:hover {
-		color: color(light, slategray);
+		background-color: color(light, slategray);
 	}
 }
 .slategrey {
-	color: color(base, slategrey);
+	background-color: color(base, slategrey);
 	&:hover {
-		color: color(light, slategrey);
+		background-color: color(light, slategrey);
 	}
 }
 .snow {
-	color: color(base, snow);
+	background-color: color(base, snow);
 	&:hover {
-		color: color(light, snow);
+		background-color: color(light, snow);
 	}
 }
 .springgreen {
-	color: color(base, springgreen);
+	background-color: color(base, springgreen);
 	&:hover {
-		color: color(light, springgreen);
+		background-color: color(light, springgreen);
 	}
 }
 .steelblue {
-	color: color(base, steelblue);
+	background-color: color(base, steelblue);
 	&:hover {
-		color: color(light, steelblue);
+		background-color: color(light, steelblue);
 	}
 }
 .tan {
-	color: color(base, tan);
+	background-color: color(base, tan);
 	&:hover {
-		color: color(light, tan);
+		background-color: color(light, tan);
 	}
 }
 .teal {
-	color: color(base, teal);
+	background-color: color(base, teal);
 	&:hover {
-		color: color(light, teal);
+		background-color: color(light, teal);
 	}
 }
 .thistle {
-	color: color(base, thistle);
+	background-color: color(base, thistle);
 	&:hover {
-		color: color(light, thistle);
+		background-color: color(light, thistle);
 	}
 }
 .tomato {
-	color: color(base, tomato);
+	background-color: color(base, tomato);
 	&:hover {
-		color: color(light, tomato);
+		background-color: color(light, tomato);
 	}
 }
 .turquoise {
-	color: color(base, turquoise);
+	background-color: color(base, turquoise);
 	&:hover {
-		color: color(light, turquoise);
+		background-color: color(light, turquoise);
 	}
 }
 .violet {
-	color: color(base, violet);
+	background-color: color(base, violet);
 	&:hover {
-		color: color(light, violet);
+		background-color: color(light, violet);
 	}
 }
 .wheat {
-	color: color(base, wheat);
+	background-color: color(base, wheat);
 	&:hover {
-		color: color(light, wheat);
+		background-color: color(light, wheat);
 	}
 }
 .white {
-	color: color(base, white);
+	background-color: color(base, white);
 	&:hover {
-		color: color(light, white);
+		background-color: color(light, white);
 	}
 }
 .whitesmoke {
-	color: color(base, whitesmoke);
+	background-color: color(base, whitesmoke);
 	&:hover {
-		color: color(light, whitesmoke);
+		background-color: color(light, whitesmoke);
 	}
 }
 .yellow {
-	color: color(base, yellow);
+	background-color: color(base, yellow);
 	&:hover {
-		color: color(light, yellow);
+		background-color: color(light, yellow);
 	}
 }
 .yellowgreen {
-	color: color(base, yellowgreen);
+	background-color: color(base, yellowgreen);
 	&:hover {
-		color: color(light, yellowgreen);
+		background-color: color(light, yellowgreen);
 	}
 }
