@@ -1,5 +1,5 @@
-@function color($color-name, $color-group) {
-  @return map-get(map-get($colores, $color-group), $color-name);
+@function color($nombre-color, $grupo-color) {
+  @return map-get(map-get($colores, $grupo-color), $nombre-color);
 }
 
 $colores: (
