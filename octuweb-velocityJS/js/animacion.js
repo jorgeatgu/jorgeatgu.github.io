@@ -63,7 +63,7 @@ $("#uno").delay(200)
                                                     .velocity({
                                                         strokeWidth: 1500,
                                                         complete: function() {
-                                                            $("#logo-octuweb")
+                                                            $("#contenedor-logo")
                                                                 .show(300)
                                                         }
                                                     });
