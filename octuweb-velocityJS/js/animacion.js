@@ -78,18 +78,11 @@ $("#uno").delay(200)
 
 $(".logo-boton").click(function() {
     $("#logo").velocity({
-        rotateZ: 360
-    }, {
-        loop: 2
-    });
-    $("#letras").hide();
-});
-
-$(".logo-boton").hover(function() {
-    $("#logo").velocity({
+        rotateZ: 360,
         scale: 1.5
     }, {
-        loop: 1
-    });
+        loop: 2
+    })
+    // $("#letras").hide();
+    $("rect").velocity({ height: 75, width: 100 });
 });
-
