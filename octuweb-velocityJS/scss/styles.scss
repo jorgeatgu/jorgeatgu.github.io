@@ -12,17 +12,21 @@ $btn-bgc: rgba(255, 255, 255, 0.5);
 	svg {
 		display: block;
 		margin: 0 auto;
+		#logo {
+		      transform-origin: 50% 50%;
+	    }
 	}
 	.logo-boton {
 		cursor: pointer;
 		border: 1px solid crimson;
 		padding: 20px;
-		background-color: $btn-bgc;
+		background-color: transparent;
 		display: block;
 		margin: 0 auto;
-		margin-top: 20px;
+		-webkit-transition: all .5s ease-in;
+		transition: all .5s ease-in;
 		&:hover {
-			background: darken($btn-bgc, 50%);
+			background: $btn-bgc;
 		}
 		.logo-boton-texto {
 			font-family: 'Work Sans', sans-serif;

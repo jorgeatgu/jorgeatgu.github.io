@@ -75,3 +75,21 @@ $("#uno").delay(200)
                 });
         }
     });
+
+$(".logo-boton").click(function() {
+    $("#logo").velocity({
+        rotateZ: 360
+    }, {
+        loop: 2
+    });
+    $("#letras").hide();
+});
+
+$(".logo-boton").hover(function() {
+    $("#logo").velocity({
+        scale: 1.5
+    }, {
+        loop: 1
+    });
+});
+

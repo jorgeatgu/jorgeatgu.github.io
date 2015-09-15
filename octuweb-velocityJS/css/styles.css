@@ -365,16 +365,19 @@ th {
   #contenedor-logo svg {
     display: block;
     margin: 0 auto; }
+    #contenedor-logo svg #logo {
+      transform-origin: 50% 50%; }
   #contenedor-logo .logo-boton {
     cursor: pointer;
     border: 1px solid crimson;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
     display: block;
     margin: 0 auto;
-    margin-top: 20px; }
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in; }
     #contenedor-logo .logo-boton:hover {
-      background: rgba(128, 128, 128, 0.5); }
+      background: rgba(255, 255, 255, 0.5); }
     #contenedor-logo .logo-boton .logo-boton-texto {
       font-family: 'Work Sans', sans-serif; }
 
