@@ -12,70 +12,66 @@ $("#uno").delay(200)
     .velocity({
         strokeWidth: 1500,
         complete: function() {
-            $(function() {
-                $("#dos")
-                    .delay(200)
-                    .velocity({
-                        x2: 0
-                    }, {
-                        duration: 1000,
-                        easing: "swing"
-                    })
-                    .delay(50)
-                    .velocity({
-                        strokeWidth: 1500,
-                        complete: function() {
-                            $(function() {
-                                $("#tres")
-                                    .delay(200)
-                                    .velocity({
-                                        x2: 1200,
-                                        y2: 600
-                                    }, {
-                                        duration: 1000,
-                                        easing: "spring"
-                                    })
-                                    .delay(50)
-                                    .velocity({
-                                        strokeWidth: 1500,
-                                        complete: function() {
-                                            $(function() {
-                                                $("#cuatro")
+            $("#dos")
+                .delay(200)
+                .velocity({
+                    x2: 0
+                }, {
+                    duration: 1000,
+                    easing: "swing"
+                })
+                .delay(50)
+                .velocity({
+                    strokeWidth: 1500,
+                    complete: function() {
+                        $("#tres")
+                            .delay(200)
+                            .velocity({
+                                x2: 1200,
+                                y2: 600
+                            }, {
+                                duration: 1000,
+                                easing: "spring"
+                            })
+                            .delay(50)
+                            .velocity({
+                                strokeWidth: 1500,
+                                complete: function() {
+                                    $("#cuatro")
+                                        .delay(200)
+                                        .velocity({
+                                            x2: 1200,
+                                            y2: 0
+                                        }, {
+                                            duration: 1000,
+                                            easing: "swing"
+                                        })
+                                        .delay(50)
+                                        .velocity({
+                                            strokeWidth: 1500,
+                                            complete: function() {
+                                                $("#cinco")
                                                     .delay(200)
                                                     .velocity({
-                                                        x2: 1200,
-                                                        y2: 0
+                                                        x2: 0,
+                                                        y2: 600
                                                     }, {
                                                         duration: 1000,
-                                                        easing: "swing"
+                                                        easing: "spring"
                                                     })
                                                     .delay(50)
                                                     .velocity({
                                                         strokeWidth: 1500,
                                                         complete: function() {
-                                                            $(function() {
-                                                                $("#cinco")
-                                                                    .delay(200)
-                                                                    .velocity({
-                                                                        x2: 0,
-                                                                        y2: 600
-                                                                    }, {
-                                                                        duration: 1000,
-                                                                        easing: "spring"
-                                                                    })
-                                                                    .delay(50)
-                                                                    .velocity({
-                                                                        strokeWidth: 1500,
-                                                                    });
-                                                            });
+                                                            $("#logo-octuweb")
+                                                                .show(300)
                                                         }
                                                     });
-                                            });
-                                        }
-                                    });
+                                            }
+                                        });
+                                }
                             });
-                        }
-                    });
-            });
+                    }
+                });
         }
     });

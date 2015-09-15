@@ -356,4 +356,14 @@ td,
 th {
   padding: 0; }
 
+#logo-octuweb {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 45%; }
+  #logo-octuweb .logo-octuweb-boton {
+    cursor: pointer;
+    border: 1px solid crimson;
+    padding: 20px; }
+
 /*# sourceMappingURL=styles.css.map */
