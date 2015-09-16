@@ -1,7 +1,20 @@
 /* Animacion para el artículo de "Animando SVG con VelocityJS" por Jorge Aznar :) http://jorgeatgu.com
 ========================================================================== */
 
-$("#primera").delay(200)
+
+//Lineas
+
+var primera = $("#primera");
+var segunda = $("#segunda");
+var tercera = $("#tercera");
+var cuarta = $("#cuarta");
+
+//DIVS
+
+var contenedor = $("#contenedor-logo");
+var botonLogo = $(".logo-boton");
+
+$(primera).delay(200)
     .velocity({
         y2: 600
     }, {
@@ -12,7 +25,7 @@ $("#primera").delay(200)
     .velocity({
         strokeWidth: 1500,
         complete: function() {
-            $("#segunda")
+            $(segunda)
                 .delay(200)
                 .velocity({
                     x2: 0
@@ -24,7 +37,7 @@ $("#primera").delay(200)
                 .velocity({
                     strokeWidth: 1500,
                     complete: function() {
-                        $("#tercera")
+                        $(tercera)
                             .delay(200)
                             .velocity({
                                 x2: 1200,
@@ -37,7 +50,7 @@ $("#primera").delay(200)
                             .velocity({
                                 strokeWidth: 1500,
                                 complete: function() {
-                                    $("#cuarta")
+                                    $(cuarta)
                                         .delay(200)
                                         .velocity({
                                             x2: 1200,
@@ -61,7 +74,7 @@ $("#primera").delay(200)
         }
     });
 
-$(".logo-boton").hover(function() {
+$(botonLogo).hover(function() {
     $("#logo").velocity({
         rotateZ: 360,
         scale: 1.5
@@ -70,7 +83,7 @@ $(".logo-boton").hover(function() {
     })
 });
 
-$(".logo-boton").click(function(){
+$(botonLogo).click(function(){
     $("#cuarta, #tercera, #segunda, #primera").velocity({
         strokeWidth: 1,
         x2: 0
@@ -84,7 +97,7 @@ $(".logo-boton").click(function(){
     }, {
         duration: 500
     });
-    $("#contenedor-logo").delay(1500)
+    $(contenedor).delay(1500)
     .velocity({
         scale: 0
     }, {
