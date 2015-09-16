@@ -121,8 +121,8 @@ function botonClick() {
                 duration: 500,
                 easing: "spring",
                 complete: function() {
-                       redirect();
-                    }
+                    redirect();
+                }
             });
     });
 }
