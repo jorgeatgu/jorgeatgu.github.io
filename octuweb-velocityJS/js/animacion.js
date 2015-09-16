@@ -15,6 +15,7 @@ var grupoLineas = primera.add(segunda).add(tercera).add(cuarta);
 
 var contenedor = $("#contenedor-logo");
 var botonLogo = $(".logo-boton");
+var logo = $("#logo");
 
 //Funciones
 
@@ -68,7 +69,7 @@ function animancionLineas(){
                                             .velocity({
                                                 strokeWidth: 1500,
                                                 complete: function() {
-                                                    $("#contenedor-logo")
+                                                    $(contenedor)
                                                         .show(300)
                                                 }
                                             });
@@ -83,10 +84,11 @@ function animancionLineas(){
 
 function botonHover() {
     $(botonLogo).hover(function() {
-        $("#logo").velocity({
+        $(logo).velocity({
             rotateZ: 360,
             scale: 1.5
         }, {
+            duration: 1000,
             loop: 1
         })
     });
