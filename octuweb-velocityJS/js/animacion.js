@@ -1,7 +1,7 @@
 /* Animacion para el artículo de "Animando SVG con VelocityJS" por Jorge Aznar :) http://jorgeatgu.com
 ========================================================================== */
 
-$("#uno").delay(200)
+$("#primera").delay(200)
     .velocity({
         y2: 600
     }, {
@@ -12,7 +12,7 @@ $("#uno").delay(200)
     .velocity({
         strokeWidth: 1500,
         complete: function() {
-            $("#dos")
+            $("#segunda")
                 .delay(200)
                 .velocity({
                     x2: 0
@@ -24,7 +24,7 @@ $("#uno").delay(200)
                 .velocity({
                     strokeWidth: 1500,
                     complete: function() {
-                        $("#tres")
+                        $("#tercera")
                             .delay(200)
                             .velocity({
                                 x2: 1200,
@@ -37,7 +37,7 @@ $("#uno").delay(200)
                             .velocity({
                                 strokeWidth: 1500,
                                 complete: function() {
-                                    $("#cuatro")
+                                    $("#cuarta")
                                         .delay(200)
                                         .velocity({
                                             x2: 1200,
@@ -71,7 +71,7 @@ $(".logo-boton").hover(function() {
 });
 
 $(".logo-boton").click(function(){
-    $("#cuatro, #tres, #dos, #uno").velocity({
+    $("#cuarta, #tercera, #segunda, #primera").velocity({
         strokeWidth: 1,
         x2: 0
     }, {
