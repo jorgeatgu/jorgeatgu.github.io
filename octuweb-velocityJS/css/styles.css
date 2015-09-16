@@ -366,6 +366,8 @@ th {
     display: block;
     margin: 0 auto; }
     #contenedor-logo svg #logo {
+      -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
       transform-origin: 50% 50%; }
   #contenedor-logo .logo-boton {
     cursor: pointer;
@@ -383,5 +385,11 @@ th {
 
 *:focus {
   outline: 0; }
+
+.fff {
+  -moz-transform: translate(50px, 50px); }
+
+.fff logo {
+  -moz-transform: translate(-50px, -50px); }
 
 /*# sourceMappingURL=styles.css.map */

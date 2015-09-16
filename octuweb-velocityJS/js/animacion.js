@@ -19,7 +19,7 @@ var logo = $("#logo");
 
 //Funciones
 
-function animancionLineas(){
+function animancionLineas() {
     $(primera).delay(200)
         .velocity({
             y2: 600
@@ -94,28 +94,36 @@ function botonHover() {
     });
 }
 
+
+function redirect() {
+    window.location.href = "http://octuweb.com"
+}
+
 function botonClick() {
-    $(botonLogo).click(function(){
+    $(botonLogo).click(function() {
         $(grupoLineas).velocity({
-            strokeWidth: 1,
-            x2: 0
-        }, {
-            duration: 750
-        })
-        .delay(25)
-        .velocity({
-            y2:0,
-            x1:0
-        }, {
-            duration: 500
-        });
+                strokeWidth: 1,
+                x2: 0
+            }, {
+                duration: 750
+            })
+            .delay(25)
+            .velocity({
+                y2: 0,
+                x1: 0
+            }, {
+                duration: 500
+            });
         $(contenedor).delay(1500)
-        .velocity({
-            scale: 0
-        }, {
-            duration: 500,
-            easing: "spring"
-        });
+            .velocity({
+                scale: 0
+            }, {
+                duration: 500,
+                easing: "spring",
+                complete: function() {
+                       redirect();
+                    }
+            });
     });
 }
 
@@ -126,9 +134,3 @@ $(document).ready(function() {
     botonHover();
     botonClick();
 });
-
-
-
-
-
-

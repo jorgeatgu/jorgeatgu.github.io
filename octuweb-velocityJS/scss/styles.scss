@@ -1,5 +1,6 @@
 @import 'reset';
 
+//Variables
 $btn-bgc: rgba(255, 255, 255, 0.5);
 
 
@@ -13,7 +14,9 @@ $btn-bgc: rgba(255, 255, 255, 0.5);
 		display: block;
 		margin: 0 auto;
 		#logo {
-		      transform-origin: 50% 50%;
+		      -webkit-transform-origin: 50% 50%;
+		            -ms-transform-origin: 50% 50%;
+		                transform-origin: 50% 50%;
 	    }
 	}
 	.logo-boton {
@@ -36,4 +39,13 @@ $btn-bgc: rgba(255, 255, 255, 0.5);
 
 *:focus {
     outline: 0;
+}
+
+//Fix rotacion firefox
+
+.fff {
+-moz-transform: translate(50px,50px);
+}
+.fff logo {
+-moz-transform: translate(-50px,-50px);
 }
