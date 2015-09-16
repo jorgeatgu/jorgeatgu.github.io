@@ -14,9 +14,10 @@ $btn-bgc: rgba(255, 255, 255, 0.5);
 		display: block;
 		margin: 0 auto;
 		#logo {
-		      -webkit-transform-origin: 50% 50%;
-		            -ms-transform-origin: 50% 50%;
-		                transform-origin: 50% 50%;
+			-webkit-transform-origin: 50% 50%;
+			-ms-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-moz-transform-origin: 86px 80px;
 	    }
 	}
 	.logo-boton {

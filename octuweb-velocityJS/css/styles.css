@@ -368,7 +368,8 @@ th {
     #contenedor-logo svg #logo {
       -webkit-transform-origin: 50% 50%;
       -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
+      transform-origin: 50% 50%;
+      -moz-transform-origin: 86px 80px; }
   #contenedor-logo .logo-boton {
     cursor: pointer;
     border: 1px solid crimson;
