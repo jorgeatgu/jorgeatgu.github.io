@@ -90,5 +90,5 @@ $(".logo-boton").click(function(){
     }, {
         duration: 500,
         easing: "spring"
-    })
+    });
 });
