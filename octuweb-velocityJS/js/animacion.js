@@ -88,7 +88,7 @@ function botonHover() {
             rotateZ: 360,
             scale: 1.5
         }, {
-            duration: 1000,
+            duration: 500,
             loop: 1
         })
     });

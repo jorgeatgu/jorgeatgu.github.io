@@ -381,4 +381,7 @@ th {
     #contenedor-logo .logo-boton .logo-boton-texto {
       font-family: 'Work Sans', sans-serif; }
 
+*:focus {
+  outline: 0; }
+
 /*# sourceMappingURL=styles.css.map */
