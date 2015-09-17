@@ -1,4 +1,4 @@
-/* Animacion para el artículo de "Animando SVG con VelocityJS" por Jorge Aznar :) http://jorgeatgu.com
+/* Animacion para el artículo de "Animando SVG con VelocityJS" para Octuweb 2015 por Jorge Aznar :) http://jorgeatgu.com
 ========================================================================== */
 
 
