@@ -41,12 +41,3 @@ $btn-bgc: rgba(255, 255, 255, 0.5);
 *:focus {
     outline: 0;
 }
-
-//Fix rotacion firefox
-
-.fff {
--moz-transform: translate(50px,50px);
-}
-.fff logo {
--moz-transform: translate(-50px,-50px);
-}

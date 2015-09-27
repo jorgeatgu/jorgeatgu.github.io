@@ -387,10 +387,4 @@ th {
 *:focus {
   outline: 0; }
 
-.fff {
-  -moz-transform: translate(50px, 50px); }
-
-.fff logo {
-  -moz-transform: translate(-50px, -50px); }
-
 /*# sourceMappingURL=styles.css.map */
