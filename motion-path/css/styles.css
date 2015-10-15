@@ -1,0 +1,19 @@
+svg {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.sol {
+  motion-path: path('M0.4,96.1c107.8-139.8,210-114.6,309.2,0');
+  animation-name: sweep;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes sweep {
+  from { motion-offset: 0%; }
+  to { motion-offset: 100%; }
+}
