@@ -4,13 +4,13 @@ svg {
   width: 100%;
 }
 
-.sol {
+/*.sol {
   motion-path: path('M0.4,96.1c107.8-139.8,210-114.6,309.2,0');
   animation-name: sweep;
   animation-duration: 10s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-}
+}*/
 
 
 @keyframes sweep {
