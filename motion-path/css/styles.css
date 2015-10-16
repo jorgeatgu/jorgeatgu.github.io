@@ -7,6 +7,31 @@
   transform-origin: 50% 50%;
 }
 
+
+.llamas {
+-webkit-transform-origin: 50% 50%;
+   -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+     -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+-webkit-animation: llamas 20s linear 5 forwards;
+   -moz-animation: llamas 20s linear 5 forwards;
+     -o-animation: llamas 20s linear 5 forwards;
+        animation: llamas 20s linear 5 forwards;
+}
+
+.llamas-reverso {
+-webkit-transform-origin: 50% 50%;
+   -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+     -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+-webkit-animation: llamas2 20s linear 5 forwards;
+   -moz-animation: llamas2 20s linear 5 forwards;
+     -o-animation: llamas2 20s linear 5 forwards;
+        animation: llamas2 20s linear 5 forwards;
+}
+
 @keyframes sweep {
   from { motion-offset: 0%; }
   to { motion-offset: 100%; }
@@ -119,28 +144,4 @@
            -o-transform: rotate(-360deg);
               transform: rotate(-360deg);
     }
-}
-
-.llamas {
--webkit-transform-origin: 50% 50%;
-   -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-     -o-transform-origin: 50% 50%;
-        transform-origin: 50% 50%;
--webkit-animation: llamas 20s linear 5 forwards;
-   -moz-animation: llamas 20s linear 5 forwards;
-     -o-animation: llamas 20s linear 5 forwards;
-        animation: llamas 20s linear 5 forwards;
-}
-
-.llamas-reverso {
--webkit-transform-origin: 50% 50%;
-   -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-     -o-transform-origin: 50% 50%;
-        transform-origin: 50% 50%;
--webkit-animation: llamas2 20s linear 5 forwards;
-   -moz-animation: llamas2 20s linear 5 forwards;
-     -o-animation: llamas2 20s linear 5 forwards;
-        animation: llamas2 20s linear 5 forwards;
 }
