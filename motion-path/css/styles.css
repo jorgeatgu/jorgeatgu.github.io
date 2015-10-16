@@ -4,10 +4,7 @@
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
   transform-origin: 50% 50%;
-  motion-rotation: reverse;
 }
 
 .nube-alta {
@@ -16,8 +13,6 @@
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
   transform-origin: 50% 50%;
   motion-rotation: reverse;
 }
@@ -29,14 +24,14 @@
   animation-delay: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
   transform-origin: 50% 50%;
   motion-rotation: 4deg;
 }
 
 svg {
   background-color: #9DBBC3;
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -68,17 +63,14 @@ svg {
 
   0% {
     motion-offset: 0%;
-    motion-rotation: 0deg;
   }
 
   50% {
     motion-offset: 100%;
-    motion-rotation: 180deg;
   }
 
   100% {
     motion-offset: 0%;
-    motion-rotation: 0deg;
   }
 
 }
