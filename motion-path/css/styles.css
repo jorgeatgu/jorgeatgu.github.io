@@ -2,7 +2,7 @@
   motion-path: path('M-43,389c192.8-230.5,382.2-177.7,570,0');
   animation-name: rotando;
   animation-duration: 20s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
 }
@@ -11,7 +11,7 @@
   motion-path: path('M-42,238l310-9h268');
   animation-name: rotando;
   animation-duration: 20s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   motion-rotation: reverse;
@@ -22,7 +22,7 @@
   animation-name: rotando;
   animation-duration: 20s;
   animation-delay: 2s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   motion-rotation: 4deg;
