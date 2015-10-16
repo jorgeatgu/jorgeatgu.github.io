@@ -1,10 +1,39 @@
 .sol {
   motion-path: path('M-43,389c192.8-230.5,382.2-177.7,570,0');
-  animation-name: sweep;
+  animation-name: rotando;
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
   transform-origin: 50% 50%;
+}
+
+.nube-alta {
+  motion-path: path('M-42,238l310-9h268');
+  animation-name: rotando;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  transform-origin: 50% 50%;
+}
+
+.nube-baja {
+  motion-path: path('M-34,283h292h262');
+  animation-name: rotando;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  transform-origin: 50% 50%;
+}
+
+svg {
+  background-color: #9DBBC3;
 }
 
 
@@ -32,9 +61,20 @@
         animation: llamas2 20s linear 5 forwards;
 }
 
-@keyframes sweep {
-  from { motion-offset: 0%; }
-  to { motion-offset: 100%; }
+@keyframes rotando {
+
+  0% {
+    motion-offset: 0%;
+  }
+
+  50% {
+      motion-offset: 100%;
+  }
+
+  100% {
+      motion-offset: 0%;
+  }
+
 }
 
 
