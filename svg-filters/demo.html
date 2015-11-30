@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FILDROP - SVG FILTERS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="dist/css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Hind:500|Work+Sans:500||Montserrat:700' rel='stylesheet' type='text/css'>
+        <style type="text/css">
+        .saturate {
+            filter: url("#saturate");
+        }
+
+        .saturotate {
+            filter: url("#saturotate");
+        }
+
+        .rotamatrix {
+            filter: url("#rotamatrix");
+        }
+
+        .multitable {
+            filter: url("#multitable");
+        }
+
+        .tablen {
+            filter: url("#tablen");
+        }
+
+        .dishue {
+            filter: url("#dishue");
+        }
+
+        .matrix {
+            filter: url("#matrix");
+        }
+
+        .matrix-dos {
+            filter: url("#matrixDos");
+        }
+
+        .huerotate {
+            filter: url("#hueRotate");
+        }
+
+        .luminance {
+            filter: url("#luminanceToAlpha");
+        }
+
+        .discrete {
+            filter: url("#discrete");
+        }
+
+        .discrete-dos {
+            filter: url("#discrete-dos");
+        }
+
+        .table {
+            filter: url("#table");
+        }
+
+        .table-dos {
+            filter: url("#tableDos");
+        }
+
+        .identity {
+            filter: url("#identity");
+        }
+
+        .linear {
+            filter: url("#linear");
+        }
+
+        .gamma {
+            filter: url("#gamma");
+        }
+
+        .turbulence {
+            filter: url("#turbulence");
+        }
+
+        .sepia {
+            filter: url("#sepiatone");
+        }
+
+        .fematrix-uno {
+            filter: url("#fematrixUno");
+        }
+
+        .fematrix-dos {
+            filter: url("#fematrixDos");
+        }
+
+        .turbu-map {
+            filter: url("#turbuMap");
+        }
+
+        .map-uno {
+            filter: url("#mapUno");
+        }
+
+        .map-dos {
+            filter: url("#mapDos");
+        }
+
+        .blur-uno {
+            filter: url("#blurUno");
+        }
+
+        .blur-dos {
+            filter: url("#blurDos");
+        }
+
+        .morpho-uno {
+            filter: url("#morphoUno");
+        }
+
+        .morpho-dos {
+            filter: url("#morphoDos");
+        }</style>
+    </head>
+<body>
+  <nav class="icons">
+    <section class="icons-texto">
+      <a href="http://jorgeatgu.github.io/svg-filters/" class="icons-texto-principal">FILDROP</a>
+      <p class="icons-texto-secundario">A set of custom SVG filter effects</p>
+    </section>
+    <section class="icons-social">
+      <a href="https://github.com/jorgeatgu/SVG-FILTERS/archive/master.zip" target="_blank">Download</a>
+      <a href="https://github.com/jorgeatgu/SVG-FILTERS" target="_blank">GitHub</a>
+      <a href="https://twitter.com/intent/tweet?text=Fildrop+a+set+of+custom+SVG+filter+effects.&amp;url=http://jorgeatgu.github.io/svg-filters/&amp;via=jorgeatgu&amp;hashtags=SVG" target="_blank">Tweet</a>
+    </section>
+  </nav>
+
+  <section class="section-demo">
+    <article>
+      <p>saturate</p>
+      <img class="saturate" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>saturotate</p>
+      <img class="saturotate" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>rotamatrix</p>
+      <img class="rotamatrix" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>multitable</p>
+      <img class="multitable" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>tablen</p>
+      <img class="tablen" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>dishue</p>
+      <img class="dishue" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>matrix</p>
+      <img class="matrix" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>matrix-dos</p>
+      <img class="matrix-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>huerotate</p>
+      <img class="huerotate" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>luminance</p>
+      <img class="luminance" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>discrete</p>
+      <img class="discrete" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>discrete-dos</p>
+      <img class="discrete-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>table</p>
+      <img class="table" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>table-dos</p>
+      <img class="table-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>identity</p>
+      <img class="identity" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>linear</p>
+      <img class="linear" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>gamma</p>
+      <img class="gamma" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>turbulence</p>
+      <img class="turbulence" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>sepia</p>
+      <img class="sepia" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>fematrix-uno</p>
+      <img class="fematrix-uno" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>fematrix-dos</p>
+      <img class="fematrix-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>turbu-map</p>
+      <img class="turbu-map" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>map-uno</p>
+      <img class="map-uno" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>map-dos</p>
+      <img class="map-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>blur-uno</p>
+      <img class="blur-uno" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>blur-dos</p>
+      <img class="blur-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>morpho-uno</p>
+      <img class="morpho-uno" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+    <article>
+      <p>morpho-dos</p>
+      <img class="morpho-dos" src="dist/img/sunflower-strange-mazarete-300.png" alt="Campo de girasoles en Mazarete">
+    </article>
+  </section>
+
+
+
+
+
+
+
+        <svg viewBox="0 0 500 500" width="500" height="500" aria-labelledby="title desc">
+
+
+
+         <title id="title">Filters SVG</title>
+
+             <!-- feColorMatrix -->
+
+                  <filter id="saturate" filterUnits="objectBoundingBox">
+                    <feColorMatrix id="saturate-value" type="saturate" in="SourceGraphic" values="0.4"/>
+                  </filter>
+                  <filter id="matrix" filterUnits="objectBoundingBox">
+                    <feColorMatrix type="matrix" in="SourceGraphic"
+                    values="-1 2 -3 0 -.5
+                            0 1 0 0 0
+                            0 0 0 0 0
+                            0 0 0 1 0"/>
+                  </filter>
+                  <filter id="matrixDos" filterUnits="objectBoundingBox">
+                    <feColorMatrix type="matrix" in="SourceGraphic"
+                    values="-1 2 -3 0 -.5
+                            2 1 0 0 0
+                            0 3 0 0 0
+                            0 0 1 1 0"/>
+                  </filter>
+
+                  <filter id="hueRotate">
+                    <feColorMatrix id="hue-value" type="hueRotate" in="SourceGraphic" values="90"/>
+                  </filter>
+                  <filter id="luminanceToAlpha" filterUnits="objectBoundingBox">
+                    <feColorMatrix id="luminance-value" type="luminanceToAlpha" in="SourceGraphic"/>
+                  </filter>
+
+                  <filter id="saturotate" filterUnits="objectBoundingBox">
+                      <feColorMatrix id="saturotate-value" type="saturate" result="saturado" values="20"/>
+                      <feColorMatrix id="saturotate-hue-value" type="hueRotate" in="saturado" in2="SourceGraphic" values="291"/>
+                  </filter>
+
+                  <filter id="rotamatrix" filterUnits="objectBoundingBox">
+                      <feColorMatrix type="hueRotate" result="romatrix"  values="245"/>
+                      <feColorMatrix type="matrix" in="romatrix" in2="SourceGraphic"
+                      values="-1 2 -3 0 -.5
+                              2 1 0 0 0
+                              0 3 1 0 0
+                              0 0 1 1 0"/>
+                  </filter>
+
+                  <filter id="dishue" filterUnits="objectBoundingBox">
+                    <feComponentTransfer result="lsd">
+                      <feFuncR id="prueba-array" type="discrete" tableValues="0 .5 1 1"/>
+                      <feFuncG type="discrete" tableValues="0 .5 1"/>
+                      <feFuncB type="discrete" tableValues="0 .5"/>
+                    </feComponentTransfer>
+                    <feColorMatrix type="hueRotate" in="lsd" in2="SourceGraphic" values="-180"/>
+                  </filter>
+
+
+
+                  <!-- feComponentTransfer -->
+
+                  <filter id="discrete">
+                    <feComponentTransfer>
+                      <feFuncR id="r-discrete" type="discrete" tableValues="0 .5 1 1"/>
+                      <feFuncG id="g-discrete" type="discrete" tableValues="0 .5 1"/>
+                      <feFuncB id="b-discrete" type="discrete" tableValues="0 .5"/>
+                    </feComponentTransfer>
+                  </filter>
+                  <filter id="discrete-dos">
+                    <feComponentTransfer>
+                      <feFuncR type="discrete" tableValues="0 .5 1 1"/>
+                      <feFuncG type="discrete" tableValues="0  5 1"/>
+                      <feFuncB type="discrete" tableValues="0 .5 1 1"/>
+                    </feComponentTransfer>
+                  </filter>
+                  <filter id="table">
+                     <feComponentTransfer>
+                         <feFuncR type="table" tableValues="1 0 1" exponent="5"/>
+                         <feFuncG type="table" tableValues="1 0 1" exponent="2"/>
+                         <feFuncB type="table" tableValues="1 0 1" exponent="5"/>
+                     </feComponentTransfer>
+                  </filter>
+                  <filter id="tableDos">
+                     <feComponentTransfer>
+                         <feFuncR type="table" tableValues="1 0 1" exponent="5"/>
+                         <feFuncG type="table" tableValues="1 10 1" exponent="2"/>
+                         <feFuncB type="table" tableValues="1 5 1" exponent="5"/>
+                     </feComponentTransfer>
+                  </filter>
+                  <filter id="identity">
+                     <feComponentTransfer>
+                         <feFuncR type="identity"/>
+                         <feFuncG type="identity"/>
+                         <feFuncB type="identity"/>
+                         <feFuncA type="identity"/>
+                     </feComponentTransfer>
+                  </filter>
+                  <filter id="linear">
+                     <feComponentTransfer>
+                        <feFuncR id="r-linear" type="linear" slope=".5" intercept=".25"/>
+                        <feFuncG id="g-linear" type="linear" slope=".5" intercept="0"/>
+                        <feFuncB id="b-linear" type="linear" slope=".5" intercept=".5"/>
+                     </feComponentTransfer>
+                  </filter>
+                  <filter id="gamma">
+                     <feComponentTransfer>
+                          <feFuncR id="r-gamma" type="gamma" amplitude="1" exponent="1"/>
+                          <feFuncG id="g-gamma" type="gamma" amplitude="1" exponent="3"/>
+                          <feFuncB id="b-gamma" type="gamma" amplitude="1" exponent="1"/>
+                     </feComponentTransfer>
+                  </filter>
+
+                  <filter id="multitable">
+                     <feComponentTransfer result="tablas">
+                         <feFuncR type="table" tableValues="1 0 1" exponent="5"/>
+                         <feFuncG type="table" tableValues="1 0 1" exponent="2"/>
+                         <feFuncB type="table" tableValues="1 0 1" exponent="5"/>
+                     </feComponentTransfer>
+                         <feColorMatrix type="saturate" in="tablas" in2="SourceGraphic" values="-5"/>
+                  </filter>
+
+                  <filter id="tablen">
+                     <feComponentTransfer result="tablas">
+                         <feFuncR type="table" tableValues="1 0 1" exponent="5"/>
+                         <feFuncG type="table" tableValues="1 0 2" exponent="2"/>
+                         <feFuncB type="table" tableValues="1 0 0" exponent="1"/>
+                     </feComponentTransfer>
+                         <feColorMatrix type="saturate" in="tablas" in2="SourceGraphic" values="-50"/>
+                  </filter>
+
+                  <!-- feConvolveMatrix -->
+
+                  <filter id="fematrixUno">
+                     <feConvolveMatrix order="3"
+                     kernelMatrix="-1 -1 3
+                     -2 1 -1
+                     -1 1 -1"/>
+                  </filter>
+                  <filter id="fematrixDos">
+                      <feConvolveMatrix order="4"
+                             kernelMatrix="-2 2 1 -1
+                             -1 3 2 1
+                             -1 0 -1 -4
+                             -1 1 0 0"/>
+                  </filter>
+
+                  <filter id="sepiatone">
+                    <feColorMatrix type="matrix" values=".343 .669 .119 0 0 .249 .626 .130 0 0 .172 .334 .111 0 0 .000 .000 .000 1 0"/>
+                  </filter>
+
+                 <filter id='turbulence'>
+                     <feTurbulence id="turbulence-value" type='turbulence' baseFrequency='.7' result='fuzz' numOctaves='2' stitchTiles='stitch'/>
+                     <feComposite id="composite-value" in='SourceGraphic' in2='fuzz' operator='arithmetic' k1='0' k2='1' k3='-3' k4='.01'/>
+                 </filter>
+
+                  <filter id="turbuMap" >
+                    <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" result="turbulence" data-filterId="3"/>
+                    <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" in2="turbulence" scale="40"/>
+                  </filter>
+
+                 <!-- feGaussianBlur -->
+
+                  <filter id="blurUno">
+                    <feGaussianBlur id="blur-value" stdDeviation="3"/>
+                  </filter>
+                  <filter id="blurDos">
+                    <feGaussianBlur stdDeviation="9"/>
+                  </filter>
+
+                  <!-- feMorphology -->
+
+                  <filter id="morphoUno">
+                    <feMorphology id="morpho-value" operator="erode" in="SourceGraphic" radius="3"/>
+                  </filter>
+                  <filter id="morphoDos">
+                    <feMorphology id="morpho-dilate-value" operator="dilate" in="SourceGraphic" radius="6"/>
+                  </filter>
+
+    </svg>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="dist/js/clipboard.min.js"></script>
+  <script type="text/javascript" src="dist/js/dragdrop.js"></script>
+  <script type="text/javascript" src="dist/js/nouislider.min.js"></script>
+  <script type="text/javascript" src="dist/js/filters.js"></script>
+  <script type="text/javascript" src="dist/js/slider-filters.js"></script>
+  <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36222123-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+  </script>
+
+</body>
+</html>

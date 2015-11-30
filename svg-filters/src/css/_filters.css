@@ -1,0 +1,111 @@
+.saturate {
+    filter: url("#saturate");
+}
+
+.saturotate {
+    filter: url("#saturotate");
+}
+
+.rotamatrix {
+    filter: url("#rotamatrix");
+}
+
+.multitable {
+    filter: url("#multitable");
+}
+
+.tablen {
+    filter: url("#tablen");
+}
+
+.dishue {
+    filter: url("#dishue");
+}
+
+.matrix {
+    filter: url("#matrix");
+}
+
+.matrix-dos {
+    filter: url("#matrixDos");
+}
+
+.huerotate {
+    filter: url("#hueRotate");
+}
+
+.luminance {
+    filter: url("#luminanceToAlpha");
+}
+
+.discrete {
+    filter: url("#discrete");
+}
+
+.discrete-dos {
+    filter: url("#discrete-dos");
+}
+
+.table {
+    filter: url("#table");
+}
+
+.table-dos {
+    filter: url("#tableDos");
+}
+
+.identity {
+    filter: url("#identity");
+}
+
+.linear {
+    filter: url("#linear");
+}
+
+.gamma {
+    filter: url("#gamma");
+}
+
+.turbulence {
+    filter: url("#turbulence");
+}
+
+.sepia {
+    filter: url("#sepiatone");
+}
+
+.fematrix-uno {
+    filter: url("#fematrixUno");
+}
+
+.fematrix-dos {
+    filter: url("#fematrixDos");
+}
+
+.turbu-map {
+    filter: url("#turbuMap");
+}
+
+.map-uno {
+    filter: url("#mapUno");
+}
+
+.map-dos {
+    filter: url("#mapDos");
+}
+
+.blur-uno {
+    filter: url("#blurUno");
+}
+
+.blur-dos {
+    filter: url("#blurDos");
+}
+
+.morpho-uno {
+    filter: url("#morphoUno");
+}
+
+.morpho-dos {
+    filter: url("#morphoDos");
+}
