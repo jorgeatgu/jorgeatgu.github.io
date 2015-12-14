@@ -69,17 +69,6 @@ gulp.task('css', function() {
             replace: true,
             media_query: false
         }),
-        stylelint({
-            "rules": {
-                "indentation": [2, "tab", {
-                    except: ["_reset.css"],
-                }],
-                "no-eol-whitespace": [2],
-                "number-leading-zero": [2],
-                "number-max-precision": [2],
-                "number-zero-length-no-unit": [2]
-            }
-        }),
         reporter({
             clearMessages: true
         })
