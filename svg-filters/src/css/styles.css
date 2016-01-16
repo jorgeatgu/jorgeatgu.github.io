@@ -1,6 +1,7 @@
 @import "_reset.css";
 @import "_variables.css";
 @import "_filters.css";
+@import "_nouislider.min.css";
 
 
 html,
@@ -487,14 +488,16 @@ button {
 	.noUi-horizontal {
 		height: 10px;
 	}
-	.noUi-tooltip {
-		color: #fff;
-		font-size: 14px;
-		font-family: $work-sans;
-	    border: 0;
-	    background-color: transparent;
-	    left: -1px;
-	    top: -1px;
+	.noUi-handle-lower {
+		.noUi-tooltip {
+			color: #fff;
+			font-size: 14px;
+			font-family: $work-sans;
+		    border: 0;
+		    background-color: transparent;
+		    left: -1px;
+		    top: -1px;
+		}
 	}
 	.noUi-target,
 	.noUi-pips-horizontal {
@@ -606,5 +609,3 @@ button {
   	border-right: 0;
   }
 }
-
-@import "_nouislider.min.css";
