@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>postCSS Revolution - Jorge Aznar</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/league.css" id="theme">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section style="position: relative" data-background="http://45.media.tumblr.com/fb9f6c29e364c9126f15b5c6cd6f81e1/tumblr_o5zpqfVipI1v05rsfo1_500.gif">
+                <div style="position: absolute; top: -195px; right: 40px; border: 0;">
+                    <img class="image-inline" style="position: absolute; top: -180px; border: 0; background: transparent; box-shadow: none;" src="images/postcss-logo.svg" alt="Down arrow">
+                    <h1 style="display: inline-block">postCSS REVOLUTION</h1>
+                </div>
+            </section>
+            <section style="text-align: left;">
+                <h2>¡Buenas tardes!</h2>
+                <p>
+                    Me llamo <strong>Jorge Aznar</strong> y trabajo como front en Hiberus Internet.
+                </p>
+                <ul>
+                    <li><a href="http://jorgeatgu.com">http://jorgeatgu.com</a></li>
+                    <li><a href="http://github.com/jorgeatgu">http://github.com/jorgeatgu</a></li>
+                    <li><a href="http://codepen.io/jorgeatgu">http://codepen.io/jorgeatgu</a></li>
+                    <li><a href="http://twitter.com/jorgeatgu">http://twitter.com/jorgeatgu</a></li>
+                    <li><a href="https://leanpub.com/scalable/">Autor de SCALABLE, un libro sobre SVG.</a></li>
+                </ul>
+            </section>
+            <section data-background="http://cdn.myanimelist.net/s/common/uploaded_files/1449053191-723d8902aab0f1b366e37e5d6b02b14c.gif">
+                <h1>¿postCSS?</h1>
+            </section>
+            <section>
+                <blockquote cite="https://github.com/postcss/postcss">
+                    &ldquo;PostCSS is a tool for transforming CSS with JS plugins. These plugins can support variables and mixins, transpile future CSS syntax, inline images, and more.&rdquo;
+                </blockquote>
+            </section>
+            <section>
+                <h1>postCSS vs SASS</h1>
+                <aside class="notes">
+                    Me imagino que como la amplia mayoría de la gente al escuchar postCSS creeis que es una nuevo preprocesador que va a sustituir a SASS.
+                </aside>
+            </section>
+            <section data-background="http://i.giphy.com/OpvoAdhfHlVde.gif">
+                <h1 class="fragment">NOOOOOOO!!!</h1>
+            </section>
+            <section  data-background="images/osos.gif">
+                <h1 style="color: #000 !important;" class="fragment">postcss</h1>
+                <h1 style="color: #000 !important;" class="fragment">love</h1>
+                <h1 style="color: #000 !important;" class="fragment">SASS - LESS - STYLUS</h1>
+            </section>
+                                    <section style="text-align: left;">
+                                        <h2><a href="https://github.com/jonathantneal/precss">preCSS</a></h2>
+                                        <h6 class="fragment">Utilizando SASS con postCSS</h6>
+                                        <ul class="fragment">
+                                            <li>postcss-mixins</li>
+                                            <li>postcss-advanced-variables</li>
+                                            <li>postcss-partial-import</li>
+                                            <li>postcss-color-function</li>
+                                            <li>postcss-nesting</li>
+                                            <li>postcss-nested</li>
+                                            <li>postcss-extend</li>
+                                            <li>postcss-selector-not</li>
+                                        </ul>
+                                    </section>
+            <section>
+                <h3>postCSS NO es un preprocesador </h3>
+                <h3>puede convivir con tu preprocesador favorito como SASS & LESS</h3>
+            </section>
+            <section>
+                <h3 class="fragment">postCSS NO es un postprocesador</h3>
+                <a class="fragment" href="https://twitter.com/PostCSS/status/626046993006239744">It is time admit my mistakes. “Postprocessor” term was bad. PostCSS team stoped to use it.</a>
+            </section>
+            <section>
+                <h2>COMO TRABAJA POSTCSS</h2>
+                <img style="border: 0; background: transparent; box-shadow: none; width: 175px; margin-right: 10px;" src="../images/circurlo-css.svg" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 175px; margin-right: 10px;" src="../images/circurlo-parser.svg" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 175px; margin-right: 10px;" src="../images/circurlo-plugin.svg" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 175px; margin-right: 10px;" src="../images/circurlo-plugin.svg" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 175px; margin-right: 10px;" src="../images/circurlo-css.svg" alt="" class="image-inline fragment">
+            </section>
+            <section>
+                <h2>LANZANDO POSTCSS</h2>
+                <img style="border: 0; background: transparent; box-shadow: none; width: 205px; margin-right: 10px;" src="../images/gulp.png" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 205px; margin-right: 10px;" src="../images/grunt.png" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 205px; margin-right: 10px;" src="../images/npm.png" alt="" class="image-inline fragment">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 205px; margin-right: 10px;" src="../images/webpack.png" alt="" class="image-inline fragment">
+            </section>
+            <section>
+                <section class="present">
+                    <h1>VENTAJAS</h1>
+                </section>
+                <section class="future">
+                    <h2>Modular y flexible</h2>
+                    <p>Tenemos la oportunidad de crear nuestra propia herramienta de trabajo y adaptarla a cada proyecto.</p>
+                    <q class="fragment" cite="https://twitter.com/awat_17/status/726732622014111744">
+                                            &ldquo;Someone asked @andreysitnik why you make @PostCSS
+He answered becouse I pull request to compass CSS and they didn't ansewred me.&rdquo;</q>
+                    <q class="fragment" cite="https://twitter.com/awat_17/status/726732972234252288">
+                                            &ldquo;@andreysitnik @PostCSS so I decided to destroy them.&rdquo;</q>
+                                            <aside class="notes">
+                                                Proyecto con SASS heredado
+                                                Proyecto con soporte para IE8
+                                            </aside>
+                </section>
+                <section class="future">
+                    <h2>Rápidez</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Procesadores CSS</th>
+                                <th>Velocidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fragment">
+                                <td>postCSS</td>
+                                <td>39ms</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td>Rework</td>
+                                <td>79ms</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td>libsass</td>
+                                <td>179ms</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td>LESS</td>
+                                <td>179ms</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td>STYLUS</td>
+                                <td>269ms</td>
+                            </tr>
+                            <tr class="fragment">
+                                <td>Ruby SASS</td>
+                                <td>1101ms</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="future">
+                    <h2>Comunidad</h2>
+                    <p class="fragment">Más de 200 plugins</p>
+                    <p class="fragment">Utilizado por Google, Twitter, Alibaba y Shopify</p>
+                </section>
+                <section class="future">
+                    <h2>Popularidad</h2>
+                    <img style="border: 0; background: transparent; box-shadow: none; width: auto; margin-right: 10px;" src="images/postcss-stats.png">
+                    <p class="fragment">18.347.510 de descargas totales</p>
+                    <p class="fragment">Más de 2.000.000 de descargas mensuales</p>
+                </section>
+            </section>
+            <section>
+                <h1><a href="https://github.com/postcss/postcss/blob/master/docs/plugins.md">Plugins</a></h1>
+                <ul>
+                    <li>Packs</li>
+                    <li>Future CSS Syntax</li>
+                    <li>Fallbacks</li>
+                    <li>Images and Fonts</li>
+                    <li>Grids</li>
+                    <li>Optimizations</li>
+                </ul>
+            </section>
+            <section>
+                <q cite="http://shop.oreilly.com/product/0636920031123.do">
+                                        &ldquo;However, developers are generally no interest in trying out things they can't use in production.&rdquo;</q>
+                                        <p>Lea Verou in CSS Secrets</p>
+            </section>
+            <section style="display: block">
+            	<q>
+            	                        &ldquo;La vida es eso que pasa mientras los navegadores deciden dar soporte a las nuevas funcionalidades de CSS. &rdquo;</q>
+            	                        <p>Jorge Aznar antes de conocer CSSNEXT</p>
+            </section>
+
+            <section data-background="https://45.media.tumblr.com/0d48529ac6bb9428556a44713d9f7e55/tumblr_mzlbooK7D41rdjj9to1_500.gif">
+                <img style="border: 0; background: transparent; box-shadow: none; width: 805px; margin-right: 10px;" src="../images/cssnext.svg" alt="" class="image-inline fragment">
+                <h3 class="fragment">Use tomorrow’s CSS syntax,</h3>
+                <h1 class="fragment" style="display: inline-block;">TODAY.</h1>
+            </section>
+            <section>
+                <section class="present" style="text-align: left;">
+                    <h1>CSSNEXT</h1>
+                    <h3>custom properties</h3>
+                </section>
+                                        <section class="future">
+                                            <h2>¿Que son las custom-properties?</h2>
+                                            <h5>También mal llamadas CSS variables</h5>
+                                                <pre><code data-trim data-noescape>
+
+                :root {
+    --colorico: navajowhite;
+}
+
+h2 {
+    color: var(--colorico);
+}
+                                                                    </code></pre>
+                                        </section>
+                                        <section class="future">
+                                            <h3>Las custom properties pueden ser globales o 'locales'</h3>
+                                                <pre><code data-trim data-noescape>
+//Globales
+:root,
+html,
+body {
+    --colorico: navajowhite;
+}
+
+//Locales
+
+.foo {
+    --paddingCC: 20px;
+    padding: var(--paddingCC);
+}
+
+                                                                    </code></pre>
+                                        </section>
+                                        <section class="future">
+                                            <h2>Puedes ser modificadas con JavaScript</h2>
+
+                                                <a href="http://codepen.io/wesbos/full/adQjoY/">Update CSS Variables with JS</a>
+                                        </section>
+
+                                        <section class="future">
+                                            <h3>Puedes ser modificadas en los Media Queries</h3>
+
+                                                <a href="http://codepen.io/jorgeatgu/full/b702ed36443b3b06fc00c32dcad4c15e/">DEMO!</a>
+                                                                            <article class="fragment"><pre><code data-trim data-noescape>
+:root {
+  --size: 90%;
+  --fontSize: 20px;
+  --lineH: 26px;
+  --colorFT: #271764;
+  --colorBG: #E1DCE3;
+  --padding: 40px;
+  --margin: 50px;
+  --fontF: -apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+
+.foo {
+  display: block;
+  font-size: var(--fontSize);
+  font-family: var(--fontF);
+  line-height: var(--lineH);
+  margin: var(--margin) auto;
+  width: var(--size);
+  color: var(--colorFT);
+  background-color: var(--colorBG);
+  padding: var(--padding);
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 64em) {
+  .foo {
+    --size: 40%;
+  --fontSize: 30px;
+  --lineH: 36px;
+  --colorFT: #242424;
+  --colorBG: #E4A824;
+  }
+}
+                                                                                                    </code></pre></article>
+
+                                        </section>
+<section class="future">
+<h2>SOPORTE!</h2>
+    <img style="border: 0; background: transparent; box-shadow: none;" src="images/custom-properties-caniuse.png" alt="" class="image-inline">
+</section>
+
+            </section>
+                        <section style="text-align: left;">
+                            <h2>CSSNEXT</h2>
+                            <h6>custom media queries</h6>
+                            <pre><code data-trim data-noescape>
+//Definimos el custom media querie
+@custom-media --ipad (width => 48rem);
+
+//Declaramos el custom media querie
+@media (--ipad) {
+  body {
+  display: none;
+  }
+}
+                                                </code></pre>
+                        </section>
+                        <section style="text-align: left;">
+                            <h2>CSSNEXT</h2>
+                            <h6>custom selectors</h6>
+                            <pre><code data-trim data-noescape>
+//Definimos el selector
+@custom-selector --encabezados h1, h2, h3, h4, h5, h6;
+--encabezados { font-family: -apple-system,BlinkMacSystemFont,sans-serif; }
+                                                </code></pre>
+                        </section>
+                        <section style="text-align: left; font-size: 24px;">
+                            <p style="margin: 10px 0">automatic vendor prefixes fixes</p>
+                            <p style="margin: 10px 0">reduced calc()   </p>
+                            <p style="margin: 10px 0">nesting</p>
+                            <p style="margin: 10px 0">color()</p>
+                            <p style="margin: 10px 0">function hwb()</p>
+                            <p style="margin: 10px 0">function  gray()</p>
+                            <p style="margin: 10px 0">function #rrggbbaa colors</p>
+                            <p style="margin: 10px 0">rgba function (rgb fallback)</p>
+                            <p style="margin: 10px 0">rebeccapurple color</p>
+                            <p style="margin: 10px 0">font-variant property</p>
+                            <p style="margin: 10px 0">filter property (svg fallback)</p>
+                            <p style="margin: 10px 0">initial value</p>
+                            <p style="margin: 10px 0">rem unit (px fallback)</p>
+                            <p style="margin: 10px 0">:any-link pseudo-class</p>
+                            <p style="margin: 10px 0">:matches pseudo-class</p>
+                            <p style="margin: 10px 0">:not pseudo-class (to l.3)</p>
+                            <p style="margin: 10px 0">::pseudo syntax (: fallback)</p>
+                        </section>
+                        <section>
+                            <section class="present" style="text-align: left;">
+                                <h2><a href="https://github.com/hudochenkov/postcss-sorting">postCSS-sorting</a></h2>
+                                <p>Ordenando tus propiedades de CSS con <a href="https://github.com/hudochenkov/postcss-sorting/tree/master/configs">CSSCOMB, Yandex y Zen</a></p>
+
+                            </section>
+                            <section class="future">
+                                <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+                                                        &ldquo;Friendly reminder that CSS declaration sorting (no matter how) helps gzip perform better.&rdquo;</q>
+                                                        <a href="https://twitter.com/hugogiraudel/status/701750108778586112">Hugo Giraudel</a>
+                                                        <a style="display: block; margin-top: 30px;" href="http://jorgeatgu.com/blog/sorting-gzip-postcss/">Aumentando la compresión GZIP de CSS</a>
+                            </section>
+                            <section class="future">
+
+                                <h4>Bootstrap</h4>
+
+                                <p>CSS sin ordenar: 19.690 bytes</p>
+
+                                <p>CSS ordenado con csscomb: 19.429 bytes</p>
+
+                                <p>CSS ordenado con yandex: 19.427 bytes</p>
+
+                                <p>CSS ordenado con zen: 19.470 bytes</p>
+
+                                <p class="fragment">Así que simplemente por ordenar nuestros archivos con el método de Yandex hemos reducido un 1.34%(263 bytes) el archivo de CSS.</p>
+                            </section>
+                        </section>
+                        <section>
+                            <h2><a href="https://github.com/cssstats/postcss-cssstats">postCSS-cssstats</a></h2>
+
+                            <p>Controlando el tiempo que utiliza cada plugin para ejecutarse</p>
+                            <img style="border: 0; background: transparent; box-shadow: none; margin-right: 10px;" src="../images/postcss-stats2.png" alt="" class="image-inline">
+                        </section>
+                        <section style="text-align: left;">
+                            <h2>Plugis que utilizo</h2>
+							<ul>
+								<li>
+									<a href="https://github.com/MoOx/postcss-cssnext">postcss-cssnext</a>
+								</li>
+								<li>
+									<a href="https://github.com/postcss/postcss-import ">postcss-import</a>
+								</li>
+								<li>
+									<a href="https://github.com/postcss/postcss-nested">postcss-nested</a>
+								</li>
+								<li>
+									<a href="https://github.com/cuth/postcss-pxtorem">postcss-pxtorem</a>
+								</li>
+								<li>
+									<a href="https://github.com/hudochenkov/postcss-sorting">postcss-sorting</a>
+								</li>
+							</ul>
+                        </section>
+                        <section>
+                            <h2>MUCHOS PLUGINS MÁS EN: <a href="http://postcss.parts/">postcss.parts</a></h2>
+                            <img style="border: 0; background: transparent; box-shadow: none; width: 505px; margin-right: 10px;" src="../images/postcss-parts.png" alt="" class="image-inline">
+                        </section>
+                        <section style="position: relative" data-background="../images/a-picar.gif">
+                            <H1>¡A PRACTICAR!</H1>
+                        </section>
+                        <section>
+                            Vamos a la siguiente URL:<a style="display: block;" href="https://github.com/jorgeatgu/postcss-congresoweb/">https://github.com/jorgeatgu/postcss-congresoweb/</a>
+                        </section>
+                        <section>
+                            <section class="present">
+                                <h1>EJERCICIO 1</h1>
+                                <h3>NPM + postCSS + Gulp</h3>
+                            </section>
+                            <section class="future">
+<h2>Creando el package.json</h2>
+<pre><code data-trim data-noescape>
+npm init
+
+                    </code></pre>
+                            </section>
+                            <section class="future">
+                                <h2>Instalando dependencias</h2>
+                                <pre><code data-trim data-noescape>
+                                npm install gulp gulp-autoprefixer gulp-postcss gulp-sourcemaps postcss-import postcss-nested postcss-sorting --save-dev
+
+                                                    </code></pre>
+                            </section>
+                        </section>
+                        <section>
+                            <h2>Configurando Gulp</h2>
+                                                        <pre><code data-trim data-noescape>
+var gulp = require('gulp');
+postcss = require('gulp-postcss');
+autoprefixer = require('gulp-autoprefixer');
+sourcemaps = require('gulp-sourcemaps');
+atImport = require('postcss-import');
+cssnext = require('postcss-cssnext');
+sorting = require('postcss-sorting');
+nested = require('postcss-nested');
+
+                                                                            </code></pre>
+                        </section>
+                                                <section class="present">
+                                                    <section class="present">
+                                                        <h2>Configurando Gulp</h2>
+                                                                                    <pre><code data-trim data-noescape>
+gulp.task('css', function() {
+    var processors = [
+        atImport,
+        nested,
+        cssnext,
+        sorting({
+            "sort-order": "csscomb"
+        }),
+        autoprefixer
+    ];
+});
+                                                                                                        </code></pre>
+                                                    </section>
+                                                                                                    <section data-background="images/order.gif">
+                                                                                                    <h1 class="fragment">OJO CUIDAO!</h1>
+
+                                                                                                    </section>
+                                                                                                    <section class="future">
+                                                                                                        <h2>El orden de los plugins IMPORTA</h2>
+                                                                                                        <style type="text/css">
+                                                                                                            .present iframe {
+                                                                                                                margin: 10px auto;
+                                                                                                            }
+                                                                                                        </style>
+                                                                                                        <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">PostCSS the bad parts: plugins order.</p>&mdash; Maxime Thirouin (@MoOx) <a href="https://twitter.com/MoOx/status/710025824284635136">16 de marzo de 2016</a></blockquote>
+                                                                                                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                                                                        <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">PostCSS Reminder: 99% of issues are: autoprefixer is on top (should be last), postcss-import is not on top (should be first).</p>&mdash; Maxime Thirouin (@MoOx) <a href="https://twitter.com/MoOx/status/710026247963811841">16 de marzo de 2016</a></blockquote>
+                                                                                                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                                                                                                        <a href="https://github.com/postcss/postcss/issues/296">ISSUE - Event based API</a>
+                                                                                                        <aside class="notes">
+                                                                                                            Aplicar lógica
+                                                                                                        </aside>
+                                                                                                    </section>
+                                                </section>
+                                                                                                    <section>
+                                                                                                        <h2>Configurando Gulp</h2>
+                                                                                                                                    <pre><code data-trim data-noescape>
+gulp.task('default', function() {
+    gulp.watch('./src/css/*.css', ['css']);
+});
+                                                                                                                                                        </code></pre>
+                                                                                                    </section>
+                                                <section>
+                                                    <h2>Configurando Gulp</h2>
+                                                    <pre><code>
+return gulp.src('./src/css/styles.css')
+.pipe(sourcemaps.init())
+.pipe(postcss(processors))
+.pipe(sourcemaps.write('.'))
+.pipe(gulp.dest('./css'));
+                                                    </code></pre>
+
+                                                </section>
+                                                <section>
+                                                    <h1>EJERCICIO 2</h1>
+                                                    <p>Custom properties y custom selector</p>
+                                                </section>
+                                                <section>
+                                                    <h1>EJERCICIO 3</h1>
+                                                    <p>Modificando las custom properties en los Media-Queries</p>
+                                                </section>
+                                                <section data-background="images/questions.gif">
+                                                    <h1 style="color: #000;">¿PREGUNTAS?</h1>
+                                                </section>
+                                                <section data-background="images/the_end.gif">
+                                                    <h1>¡GRACIAS!</h1>
+                                                    <p></p>
+                                                </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [{
+            src: 'lib/js/classList.js',
+            condition: function() {
+                return !document.body.classList;
+            }
+        }, {
+            src: 'plugin/markdown/marked.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        }, {
+            src: 'plugin/markdown/markdown.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        }, {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+                hljs.initHighlightingOnLoad();
+            }
+        }, {
+            src: 'plugin/zoom-js/zoom.js',
+            async: true
+        }, {
+            src: 'plugin/notes/notes.js',
+            async: true
+        }]
+    });
+    </script>
+</body>
+
+</html>
