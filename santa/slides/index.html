@@ -221,6 +221,10 @@
                 </svg>
               </code>
             </pre>
+            <ul class="fragment">
+              <li>Nos ahorramos un request1</li>
+              <li>Animaciones con CSS</li>
+            </ul>
           </section>
           <section class="future">
             <p>Con etiqueta IMG</p>
@@ -229,6 +233,10 @@
                 <img src="logo-jorgeatgu.svg" alt="Logotipo de Jorge Aznar">
               </code>
             </pre>
+            <ul class="fragment">
+              <li>No podemos animar con CSS/JS</li>
+              <li>Una petición más</li>
+            </ul>
           </section>
           <section class="future">
             <p>A través de CSS</p>
@@ -239,6 +247,9 @@
                 }
               </code>
             </pre>
+            <ul class="fragment">
+              <li>No podemos animar con CSS/JS</li>
+            </ul>
           </section>
           <section class="future">
             <p>Con la etiqueta object</p>
@@ -248,6 +259,10 @@
                 </object>
               </code>
             </pre>
+            <ul class="fragment">
+              <li>Fallback!</li>
+              <li>No podemos animar con CSS/JS</li>
+            </ul>
           </section>
         </section>
         <section class="future">
@@ -302,6 +317,54 @@
             </section>
         </section>
         <section class="future">
+          <section class="present">
+            <h1>SPRITES!</h1>
+            <img src="images/sprite-google.png" alt="">
+          </section>
+          <section class="present">
+              <h1>Archivo</h1>
+              <p>sprites.svg</p>
+              <pre>
+              <code>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+  <g id="twitter">
+    <circle fill="#00ACEE" cx="16" cy="16" r="16"/>
+    <!-- Más código -->
+  </g>
+
+  <g id="facebook">
+    <circle fill="#3B5998" cx="16" cy="16" r="16"/>
+    <!-- Más código -->
+  </g>
+
+</svg>
+              </code>
+              </pre>
+          </section>
+          <section class="present">
+            <h1>usando el sprite</h1>
+            <pre>
+              <code>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+
+  <use xlink:href="images/sprite.svg#twitter"/>
+
+</svg>
+              </code>
+            </pre>
+          </section>
+          <section class="present">
+            <h1>Internet Explorer</h1>
+            <img src="images/internet.gif" alt="" class="fragment">
+          </section>
+          <section class="present">
+            <h1>librerías</h1>
+            <a style="display: block;" href="https://github.com/jonathantneal/svg4everybody" class="fragment">svg4everybody</a>
+            <a style="display: block;" href="https://github.com/Keyamoon/svgxuse" class="fragment">svgxuse</a>
+          </section>
+        </section>
+        <section class="future">
           <h1>PROGRAMAS</h1>
 
           <section class="present">
@@ -342,6 +405,7 @@
           <h1>Bibliografía</h1>
           <a style="display:block" href="http://richtabor.com/svg-inline-sprites-in-themes/">Using Inline SVG Sprites in WordPress Themes</a>
           <a style="display:block" href="http://octuweb.com/sprites-con-svg/">Sprites con SVG</a>
+          <a href="https://sarasoueidan.com/blog/svg-coordinate-systems/">Understanding SVG Coordinate Systems</a>
           <a style="display:block" href="http://jorgeatgu.com/blog/archivo/#svg">Múltiples artículos</a>
           <a style="display:block" href="http://jorgeatgu.github.io/svg-filters/">Fildrop, SVG Filters</a>
           <a style="display:block" href="http://octuweb.com/animando-svg-velocityjs/">Animando SVG con JS</a>
